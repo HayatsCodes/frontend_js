@@ -1,18 +1,18 @@
 .btn {
 
-    &:link, 
+    &:link,
     &:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    transition: all .2s;
-    position: relative;
-    font-size: $default-font-size;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: $default-font-size;
 
-    
-}
+
+    }
 
     &:hover {
         transform: translateY(-0.3rem);
@@ -23,12 +23,12 @@
             opacity: 0;
         }
     }
-    
+
     &:active {
         transform: translateY(-1px);
         box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
     }
-    
+
     &--white {
         background-color: $color-white;
         color: $color-grey-dark;
@@ -36,8 +36,8 @@
         &::after {
             background-color: $color-white;
         }
-    } 
-    
+    }
+
     &::after {
         content: "";
         display: inline-block;
@@ -58,6 +58,7 @@
 }
 
 .btn-text {
+
     &:link,
     &:visited {
         font-size: $default-font-size;
