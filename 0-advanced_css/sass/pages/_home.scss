@@ -34,6 +34,7 @@
 
 .book {
     background-image: linear-gradient(rgba(105deg, $color-white, .9) 0%,
+        (105deg, $color-white, .9) 0%
          orangered), url(../img/nat-10.jpg);
     background-size: cover;
     border-radius: 3px;
