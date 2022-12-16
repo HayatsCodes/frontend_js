@@ -348,7 +348,8 @@ body {
   border: none; }
 
 .form__input:focus {
-  outline: none; }
+  outline: none;
+  box-shadow: 0 1 rem 2rem rgba(255, 255, 255, 0.5); }
 
 .story {
   width: 75%;
