@@ -471,7 +471,7 @@ body {
   .book__grp {
     position: absolute;
     top: 40%;
-    left: 40%; }
+    left: 20%; }
   .book__form {
     width: 50%;
     padding: 6rem; }
