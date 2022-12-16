@@ -336,18 +336,17 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
-.form {
-  position: relative; }
-  .form__group {
-    position: absolute;
-    top: 10px; }
-  .form__input {
-    font-size: 1.5rem;
-    font-family: inherit;
-    padding: 1.5rem 2rem;
-    border-radius: 2px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none; }
+.form__group {
+  position: absolute;
+  top: 10px; }
+
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none; }
 
 .story {
   width: 75%;
