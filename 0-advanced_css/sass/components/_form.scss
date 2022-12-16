@@ -11,6 +11,8 @@
         border-radius: 2px;
         background-color: rgba($color: $color-white, $alpha: .5);
         border: none;
+        border-bottom: 3px solid $color-primary;
+        width: ;
     }
 
     &__input:focus {
