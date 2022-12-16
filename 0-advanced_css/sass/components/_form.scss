@@ -1,6 +1,6 @@
 .form {
 
-    &__group: {
+    &__group:not(:last-chi) {
     }
     
     &__input {
