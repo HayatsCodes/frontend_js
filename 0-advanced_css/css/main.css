@@ -339,7 +339,8 @@ body {
 .form {
   position: relative; }
   .form__group {
-    position: absolute; }
+    position: absolute;
+    top: 10px; }
   .form__input {
     font-size: 1.5rem;
     font-family: inherit;
