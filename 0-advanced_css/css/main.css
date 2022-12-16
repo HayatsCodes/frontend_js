@@ -349,7 +349,8 @@ body {
 
 .form__input:focus {
   outline: none;
-  box-shadow: 0 1 rem 2rem rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1 rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid; }
 
 .story {
   width: 75%;
