@@ -44,7 +44,9 @@
     height: 50rem;
     position: relative;
 
-    
+    &__grp {
+        position: absolute;
+    }
 
     &__form {
         width: 50%;
