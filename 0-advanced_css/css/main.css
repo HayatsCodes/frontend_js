@@ -342,8 +342,7 @@ body {
   padding: 1.5rem 2rem;
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.5);
-  border: none;
-  margin-top: 0; }
+  border: none; }
 
 .story {
   width: 75%;
