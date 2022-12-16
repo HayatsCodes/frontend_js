@@ -336,10 +336,6 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
-.form__group {
-  position: absolute;
-  top: 100%; }
-
 .form__input {
   font-size: 1.5rem;
   font-family: inherit;
