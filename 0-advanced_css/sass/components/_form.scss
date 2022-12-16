@@ -15,7 +15,7 @@
 
     &__input:focus {
         outline: none;
-        box-shadow: 0 1 rem 2rem rgba($color: $color-white, $alpha: .5);
+        box-shadow: 0 1 rem 2rem rgba($color: $color-black, $alpha: .1);
     }
 
     &__label {
