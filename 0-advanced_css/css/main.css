@@ -489,6 +489,8 @@ body {
   .footer__logo {
     margin-top: 10rem;
     translate: -50%, 0; }
+  .footer__nav {
+    display: inline-block; }
 
 .header {
   height: 95vh;
