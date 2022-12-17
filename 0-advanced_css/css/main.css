@@ -490,7 +490,8 @@ body {
     margin-top: 10rem;
     translate: -50%, 0; }
   .footer__nav {
-    display: inline-block; }
+    display: inline-block;
+    text-decoration: none; }
 
 .header {
   height: 95vh;
