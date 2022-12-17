@@ -391,7 +391,7 @@ body {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  left: 1rem;
+  left: 0;
   top: -1rem; }
   .form__radio-button::after {
     content: "";
