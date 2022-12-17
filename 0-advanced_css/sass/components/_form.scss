@@ -21,7 +21,9 @@
         border-bottom: 3px solid $color-primary;
     }
 
-    &::
+    &::-webkit-input-placeholder {
+        
+    }
 
     &__label {
 
