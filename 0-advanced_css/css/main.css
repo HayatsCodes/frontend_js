@@ -385,7 +385,8 @@ body {
   height: 3rem;
   width: 3rem;
   border: 5px sold #7ed56f;
-  border-radius: 50%; }
+  border-radius: 50%;
+  display: block; }
 
 .story {
   width: 75%;
