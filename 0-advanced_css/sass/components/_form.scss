@@ -62,7 +62,8 @@
         height: 3rem;
         width: 3rem;
         border: 5px sold $color-primary;
-        border-radius: ;
+        border-radius: 50%;
+        display: block;
 
         &::after {
 
