@@ -348,7 +348,7 @@ body {
   background-color: rgba(255, 255, 255, 0.85);
   border: none;
   border-bottom: 3px solid transparent;
-  width: 120%; }
+  width: 150%; }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
