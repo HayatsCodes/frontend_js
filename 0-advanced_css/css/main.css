@@ -385,9 +385,6 @@ body {
   padding-left: 7rem;
   white-space: nowrap; }
 
-.form__radio-text {
-  width: calc((100% - 6rem) / 2); }
-
 .form__radio-button {
   height: 3rem;
   width: 3rem;
