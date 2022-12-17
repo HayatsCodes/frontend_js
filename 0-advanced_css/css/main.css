@@ -382,7 +382,10 @@ body {
   font-family: inherit;
   cursor: pointer;
   position: relative;
-  padding-left: 5rem; }
+  padding-left: 5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip; }
 
 .form__radio-button {
   height: 3rem;

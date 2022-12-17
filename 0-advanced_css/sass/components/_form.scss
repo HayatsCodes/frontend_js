@@ -59,7 +59,9 @@
         cursor: pointer;
         position: relative;
         padding-left: 5rem;
-        
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
     }
 
     &__radio-button {
