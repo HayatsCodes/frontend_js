@@ -53,7 +53,9 @@
         display: inline-block;
     }
 
-    &
+    &__radio-input {
+        display: none;
+    }
 
     &__radio-label {
         font-size: 1.6rem;

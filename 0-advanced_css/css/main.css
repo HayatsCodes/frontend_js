@@ -377,7 +377,10 @@ body {
   width: 49%;
   display: inline-block; }
 
-.form .form__radio-label {
+.form__radio-input {
+  display: none; }
+
+.form__radio-label {
   font-size: 1.6rem;
   font-family: inherit;
   cursor: pointer;
