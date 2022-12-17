@@ -48,5 +48,7 @@
         transform: translateY(-4rem);
     }
 
-    &__radio
+    &__radio-group {
+        width: 50%;
+    }
 }
