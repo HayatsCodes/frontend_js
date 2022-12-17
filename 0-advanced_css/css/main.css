@@ -369,7 +369,7 @@ body {
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
   visibility: hidden;
-  transform: translate(); }
+  transform: translate(-4rem); }
 
 .story {
   width: 75%;
