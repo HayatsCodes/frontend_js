@@ -113,7 +113,8 @@ body {
   margin-top: 10rem; }
 
 .form-btn-position {
-  position: absolute; }
+  position: absolute;
+  top: 100px; }
 
 .bg-video {
   position: absolute;
