@@ -387,7 +387,7 @@ body {
 
 .form__radio-text {
   position: relative;
-  top: -3; }
+  top: -3rem; }
 
 .form__radio-button {
   height: 3rem;
