@@ -113,7 +113,7 @@ body {
   margin-top: 8rem !important; }
 
 .u-margin-top-huge {
-  margin-top: 10rem; }
+  margin-top: 10rem !important; }
 
 .form-btn-position {
   position: absolute;

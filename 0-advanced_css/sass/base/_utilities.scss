@@ -6,11 +6,12 @@
 
 .u-margin-top-neg {margin-top: -5rem !important;}
 .u-margin-top-big { margin-top: 8rem !important;}
-.u-margin-top-huge { margin-top: 10rem;}
+.u-margin-top-huge { margin-top: 10rem !important;}
 
 
 .form-btn-position {
     position: absolute;
     top: -1rem;
     left: 0;
+    !important
 }
