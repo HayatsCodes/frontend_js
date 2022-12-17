@@ -379,7 +379,7 @@ body {
 
 .form__radio-label {
   font-size: 1.6rem;
-  word-spacing: -2rem;
+  word-spacing: -1rem;
   cursor: pointer; }
 
 .form__radio-button {
