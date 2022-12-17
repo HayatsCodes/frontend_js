@@ -374,7 +374,7 @@ body {
   transform: translateY(-4rem); }
 
 .form__radio-group {
-  width: 30%;
+  width: 50%;
   color: red;
   display: inline-block; }
 
