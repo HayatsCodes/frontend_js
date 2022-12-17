@@ -498,6 +498,11 @@ body {
     .footer__nav a {
       text-decoration: none;
       color: #fff; }
+  .footer__paragraph {
+    border-top: 0.5px solid #777;
+    padding-top: 1rem;
+    font-size: 2rem;
+    margin-top: 10rem; }
 
 .header {
   height: 95vh;
