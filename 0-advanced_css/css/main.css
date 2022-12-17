@@ -374,7 +374,8 @@ body {
   transform: translateY(-4rem); }
 
 .form__radio-group {
-  width: 50%; }
+  width: 50%;
+  display: inline-block; }
 
 .story {
   width: 75%;
