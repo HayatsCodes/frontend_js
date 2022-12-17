@@ -491,7 +491,8 @@ body {
     translate: -50%, 0; }
   .footer__nav {
     display: inline-block;
-    border-top: 0.5px solid #eee; }
+    border-top: 0.5px solid #eee;
+    padding-top: 1rem; }
 
 .header {
   height: 95vh;
