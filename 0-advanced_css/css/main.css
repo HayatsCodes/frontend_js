@@ -381,6 +381,9 @@ body {
   font-size: 1.6rem;
   cursor: pointer; }
 
+.form__radio-button {
+  height: 3rem; }
+
 .story {
   width: 75%;
   margin: 0 auto;
