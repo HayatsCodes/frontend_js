@@ -485,7 +485,7 @@ body {
     height: 70rem;
     margin-top: -15rem; }
   .footer__logo-box {
-    margin: auto 0; }
+    text-align: center; }
 
 .header {
   height: 95vh;
