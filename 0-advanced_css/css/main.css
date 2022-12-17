@@ -365,6 +365,10 @@ body {
   margin-top: .7rem;
   display: block; }
 
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden; }
+
 .story {
   width: 75%;
   margin: 0 auto;
