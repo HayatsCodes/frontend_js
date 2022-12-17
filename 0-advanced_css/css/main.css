@@ -399,7 +399,9 @@ body {
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
-    position: absolute; }
+    position: absolute;
+    top: 50%;
+    left: 50%; }
 
 .story {
   width: 75%;
