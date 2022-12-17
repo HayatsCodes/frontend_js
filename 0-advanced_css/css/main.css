@@ -500,7 +500,7 @@ body {
       color: #fff; }
     .footer__nav a:hover {
       color: #28b485;
-      transform: scale(10); }
+      transform: scale(10rem); }
   .footer__paragraph {
     border-top: 0.5px solid #777;
     padding-top: 1rem;
