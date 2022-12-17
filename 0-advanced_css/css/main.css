@@ -502,7 +502,8 @@ body {
     border-top: 0.5px solid #777;
     padding-top: 1rem;
     font-size: 2rem;
-    margin-top: 10rem; }
+    margin-top: 10rem;
+    color: #fff; }
 
 .header {
   height: 95vh;
