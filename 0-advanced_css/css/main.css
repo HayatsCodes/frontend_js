@@ -386,7 +386,7 @@ body {
   width: 3rem;
   border: 5px solid #7ed56f;
   border-radius: 50%;
-  display: block; }
+  display: inline-block; }
 
 .story {
   width: 75%;
