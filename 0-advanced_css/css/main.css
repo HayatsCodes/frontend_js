@@ -340,7 +340,8 @@ body {
   margin-bottom: 2rem; }
 
 .form__group-margin {
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  position: relative; }
 
 .form__input {
   font-size: 1.5rem;
