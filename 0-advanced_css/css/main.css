@@ -377,6 +377,9 @@ body {
   width: 50%;
   display: inline-block; }
 
+.form__radio-label {
+  font-size: 1.6rem; }
+
 .story {
   width: 75%;
   margin: 0 auto;
