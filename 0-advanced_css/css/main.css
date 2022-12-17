@@ -393,6 +393,9 @@ body {
   position: absolute;
   left: 0;
   top: 0; }
+  .form__radio-button::after {
+    height: 1rem;
+    width: 1rem; }
 
 .story {
   width: 75%;
