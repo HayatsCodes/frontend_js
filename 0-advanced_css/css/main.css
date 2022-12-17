@@ -375,7 +375,8 @@ body {
 
 .form__radio-group {
   width: 49%;
-  display: inline-block; }
+  display: inline-block;
+  position: relative; }
 
 .form__radio-label {
   font-size: 1.6rem;
