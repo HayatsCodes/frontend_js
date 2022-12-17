@@ -397,7 +397,8 @@ body {
     content: "";
     display: block;
     height: 1rem;
-    width: 1rem; }
+    width: 1rem;
+    border-radius: 50%; }
 
 .story {
   width: 75%;
