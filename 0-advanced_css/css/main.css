@@ -500,7 +500,7 @@ body {
       color: #fff; }
     .footer__nav a:hover {
       color: #28b485;
-      transform: skewY(10deg); }
+      transform: skewY(100deg); }
   .footer__paragraph {
     border-top: 0.5px solid #777;
     padding-top: 1rem;
