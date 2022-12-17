@@ -393,7 +393,7 @@ body {
   display: inline-block;
   position: absolute;
   left: 16px;
-  top: -4rem; }
+  top: -.4rem; }
   .form__radio-button::after {
     content: "";
     display: block;
