@@ -361,7 +361,8 @@ body {
 .form__label {
   font-size: 1.2rem;
   font-weight: 700;
-  margin-left: 2rem; }
+  margin-left: 2rem;
+  margin-top: .7rem; }
 
 .story {
   width: 75%;
