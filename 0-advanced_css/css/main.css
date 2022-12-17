@@ -392,7 +392,7 @@ body {
   display: inline-block;
   position: absolute;
   left: 0;
-  top: -.1rem; }
+  top: 0; }
 
 .story {
   width: 75%;
