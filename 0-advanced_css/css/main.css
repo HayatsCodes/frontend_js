@@ -488,7 +488,7 @@ body {
     text-align: center; }
   .footer__logo {
     margin-top: 10rem;
-    translate: -50%; }
+    translate: -50%, 0; }
 
 .header {
   height: 95vh;
