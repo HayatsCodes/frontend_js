@@ -496,7 +496,8 @@ body {
     font-size: 2rem;
     margin-top: 10rem; }
     .footer__nav a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #fff; }
 
 .header {
   height: 95vh;
