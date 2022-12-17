@@ -385,7 +385,10 @@ body {
   padding-left: 7rem;
   white-space: nowrap; }
 
-.form__radio-text .form__radio-button {
+.form__radio-text {
+  position: absolute; }
+
+.form__radio-button {
   height: 3rem;
   width: 3rem;
   border: 5px solid #7ed56f;
@@ -394,7 +397,7 @@ body {
   position: absolute;
   left: 1.6rem;
   top: -4rem; }
-  .form__radio-text .form__radio-button::after {
+  .form__radio-button::after {
     content: "";
     display: block;
     height: 1.3rem;
