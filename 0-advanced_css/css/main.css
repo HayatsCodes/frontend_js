@@ -486,6 +486,8 @@ body {
     margin-top: -15rem; }
   .footer__logo-box {
     text-align: center; }
+  .footer__logo {
+    margin-top: 2rem; }
 
 .header {
   height: 95vh;
