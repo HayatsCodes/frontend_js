@@ -498,6 +498,9 @@ body {
     .footer__nav a {
       text-decoration: none;
       color: #fff; }
+    .footer__nav a:hover {
+      text-decoration: none;
+      color: #fff; }
   .footer__paragraph {
     border-top: 0.5px solid #777;
     padding-top: 1rem;

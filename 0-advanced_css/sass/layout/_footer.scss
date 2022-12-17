@@ -29,7 +29,10 @@
             color: $color-white;
         }
 
-        
+        & a:hover {
+            text-decoration: none;
+            color: $color-white;
+        }
 
 
     }
