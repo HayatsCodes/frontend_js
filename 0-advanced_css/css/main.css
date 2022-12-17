@@ -492,9 +492,9 @@ body {
   .footer__nav {
     display: inline-block;
     border-top: 0.5px solid #777;
-    padding-top: 1rem; }
-    font
-.footer__nav a {
+    padding-top: 1rem;
+    font-size: 2rem; }
+    .footer__nav a {
       text-decoration: none; }
 
 .header {
