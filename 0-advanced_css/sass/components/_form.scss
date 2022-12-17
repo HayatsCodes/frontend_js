@@ -19,6 +19,11 @@
             box-shadow: 0 1rem 2rem rgba($color: $color-black, $alpha: .1);
             border-bottom: 3px solid $color-primary;
         }
+
+        &::-webkit-input-placeholder {
+            color: $color-grey-dark-2;
+        }
+    
     }
 
 
