@@ -341,7 +341,7 @@ body {
 
 .form__group-margin {
   margin-top: 5rem;
-  position: relative; }
+  position: ab; }
 
 .form__input {
   font-size: 1.5rem;
