@@ -348,7 +348,7 @@ body {
   background-color: rgba(255, 255, 255, 0.85);
   border: none;
   border-bottom: 3px solid transparent;
-  width: 150%;
+  width: 50%;
   display: block;
   transition: all .3s; }
   .form__input:focus {
