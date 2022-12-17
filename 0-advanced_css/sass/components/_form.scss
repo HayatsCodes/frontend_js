@@ -93,5 +93,7 @@
         }
     }
 
-    &__radio-input:checked ~ &__radio-label &__radio-button
+    &__radio-input:checked ~ &__radio-label &__radio-button::after {
+        
+    }
 }
