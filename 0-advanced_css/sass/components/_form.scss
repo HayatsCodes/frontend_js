@@ -63,7 +63,7 @@
     }
 
     &__radio-button {
-        
+        width: calc((100% - #{$gutter-horizontal}) / 2);
     }
 
     &__radio-button {
