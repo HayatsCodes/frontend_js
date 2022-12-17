@@ -385,6 +385,9 @@ body {
   padding-left: 7rem;
   white-space: nowrap; }
 
+.form__radio-text {
+  float: left; }
+
 .form__radio-button {
   height: 3rem;
   width: 3rem;
