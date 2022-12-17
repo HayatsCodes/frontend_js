@@ -383,8 +383,7 @@ body {
   cursor: pointer;
   position: relative;
   padding-left: 5rem;
-  overflow: hidden;
-  text-overflow: clip; }
+  white-space: nowrap; }
 
 .form__radio-button {
   height: 3rem;
