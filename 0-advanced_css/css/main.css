@@ -388,7 +388,9 @@ body {
   border: 5px solid #7ed56f;
   border-radius: 50%;
   display: inline-block;
-  position: absolute; }
+  position: absolute;
+  left: 0;
+  top: 0; }
 
 .story {
   width: 75%;
