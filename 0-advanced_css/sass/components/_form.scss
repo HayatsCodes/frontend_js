@@ -13,6 +13,12 @@
         border: none;
         border-bottom: 3px solid transparent;
         width: 90%;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 1 rem 2rem rgba($color: $color-black, $alpha: .1);
+            border-bottom: 3px solid $color-primary;
+        }
     }
 
     
