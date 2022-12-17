@@ -106,7 +106,9 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
-.u-marg
+.u-margin-top-none {
+  margin-top: no; }
+
 .u-margin-top-big {
   margin-top: 8rem; }
 
