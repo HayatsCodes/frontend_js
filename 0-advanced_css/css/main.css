@@ -112,6 +112,9 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem; }
 
+.form-button-position {
+  position: absolute; }
+
 .bg-video {
   position: absolute;
   top: 0;
