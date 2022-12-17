@@ -22,7 +22,7 @@
         }
 
         &:focus:invalid {
-            
+            border-bottom: $col;
         }
 
         &::-webkit-input-placeholder {
