@@ -13,7 +13,7 @@
         background-color: rgba($color: $color-white, $alpha: .85);
         border: none;
         border-bottom: 3px solid transparent;
-        width: 120%;
+        width: 150%;
 
         &:focus {
             outline: none;
@@ -43,6 +43,6 @@
     &__input:placeholder-shown + &__label {
         opacity: 0;
         visibility: hidden;
-        transform: translate(-4rem);
+        transform: translateY(-4rem);
     }
 }
