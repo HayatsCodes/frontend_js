@@ -482,7 +482,8 @@ body {
   .footer__container {
     width: 100%;
     background-color: #000;
-    height: 70rem; }
+    height: 70rem;
+    margin-top: -20rem; }
 
 .header {
   height: 95vh;
