@@ -565,7 +565,8 @@ body {
 .navigation__button {
   background-color: #fff;
   height: 7rem;
-  width: 7rem; }
+  width: 7rem;
+  border-radius: 50%; }
 
 .navigation__background {
   height: 6rem;
