@@ -611,7 +611,7 @@ body {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 100%; }
 
 .navigation__link:hover, .navigation__link:active {
