@@ -498,6 +498,9 @@ body {
     .footer__nav a {
       text-decoration: none;
       color: #fff; }
+  .footer__link-style a:hover {
+    color: #28b485;
+    transform: skewY(2deg) skewX(15deg) scale(1.1); }
   .footer__paragraph {
     border-top: 0.5px solid #777;
     padding-top: 1rem;
