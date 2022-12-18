@@ -608,7 +608,8 @@ body {
   font-size: 3rem;
   font-weight: 300;
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }
 
 .section-about {
   background-color: #f7f7f7;
