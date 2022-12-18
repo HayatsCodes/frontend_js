@@ -35,10 +35,6 @@
         display: inline-block;
     }
 
-    &__link-style:first-child {
-        padding-left: -10rem;
-    }
-
 
     &__link-style:hover {
             color: $color-primary-dark;
