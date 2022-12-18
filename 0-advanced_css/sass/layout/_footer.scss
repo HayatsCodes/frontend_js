@@ -31,10 +31,9 @@
 
     }
 
-    &__link-style {
+    &__link-style:hover {
             color: $color-primary-dark;
-            transform: skewY(2deg) skewX(15deg) scale(1.1); 
-        }
+            transform: skewY(2deg) skewX(15deg) scale(1.1);
     }
 
     &__paragraph {
