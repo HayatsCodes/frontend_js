@@ -562,6 +562,10 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * calc((100% - (3 * 6rem)) / 4) + 2 * 6rem); }
 
+.navigation__button {
+  background-color: #fff;
+  height: 7rem; }
+
 .navigation__background {
   height: 6rem;
   width: 6rem;
