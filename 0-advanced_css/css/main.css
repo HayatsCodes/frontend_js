@@ -499,8 +499,7 @@ body {
       text-decoration: none;
       color: #fff; }
     .footer__nav a:hover {
-      color: #28b485;
-      transform: scale(10rem); }
+      color: #28b485; }
   .footer__paragraph {
     border-top: 0.5px solid #777;
     padding-top: 1rem;
