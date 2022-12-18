@@ -495,7 +495,8 @@ body {
     padding-top: 1rem;
     padding-left: 0;
     font-size: 2rem;
-    margin-top: 10rem; }
+    margin-top: 10rem;
+    animation: name duration timing-function delay iteration-count direction fill-mode; }
     .footer__nav a {
       text-decoration: none;
       color: #fff; }
