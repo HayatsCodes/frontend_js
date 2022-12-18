@@ -30,7 +30,11 @@
         }
 
     }
-    
+
+    &__link-style {
+        float: left;
+    }
+
 
     &__link-style:hover {
             color: $color-primary-dark;
