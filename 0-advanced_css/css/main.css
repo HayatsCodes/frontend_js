@@ -587,7 +587,8 @@ body {
 
 .navigation__nav {
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: fixed; }
 
 .section-about {
   background-color: #f7f7f7;
