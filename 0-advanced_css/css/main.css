@@ -499,6 +499,7 @@ body {
       text-decoration: none;
       color: #fff; }
   .footer__link-style {
+    display: in;
     float: left; }
   .footer__link-style:hover {
     color: #28b485;
