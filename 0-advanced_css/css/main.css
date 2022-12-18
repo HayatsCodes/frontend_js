@@ -584,7 +584,7 @@ body {
   right: 6.5rem;
   background-image: radial-gradient(#55c57a, #28b485);
   z-index: 1000;
-  transform: scale(50); }
+  transform: scale(80); }
 
 .navigation__nav {
   height: 100vh;
