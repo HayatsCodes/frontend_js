@@ -496,7 +496,7 @@ body {
     padding-left: 0;
     font-size: 2rem;
     margin-top: 10rem;
-    animation: hover 10s; }
+    animation: hover 1s; }
     .footer__nav a {
       text-decoration: none;
       color: #fff; }
