@@ -46,7 +46,7 @@
 
     &__link-style:hover {
             transform: skewY(2deg) skewX(15deg) scale(1.1);
-            box-shadow: 0 1.5rem 2rem rgba($color: $color-grey-dark, $alpha: .2);
+            box-shadow: 0 1.5rem 1rem rgba($color: $color-grey-dark, $alpha: .2);
     }
 
     &__paragraph {
