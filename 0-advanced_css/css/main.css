@@ -596,7 +596,8 @@ body {
 .navigation__list {
   position: absolute;
   top: 50%;
-  left: 50%; }
+  left: 50%;
+  transform: translate(); }
 
 .section-about {
   background-color: #f7f7f7;
