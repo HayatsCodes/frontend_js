@@ -605,7 +605,8 @@ body {
   margin: 1rem; }
 
 .navigation__link {
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-weight: 300; }
 
 .section-about {
   background-color: #f7f7f7;
