@@ -32,7 +32,6 @@
     }
 
     &__link-style {
-        & a:hover {
             color: $color-primary-dark;
             transform: skewY(2deg) skewX(15deg) scale(1.1); 
         }
