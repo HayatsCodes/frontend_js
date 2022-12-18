@@ -498,7 +498,7 @@ body {
     .footer__nav a {
       text-decoration: none;
       color: #fff; }
-  .footer__link-style:ho {
+  .footer__link-style:hover {
     color: #28b485;
     transform: skewY(2deg) skewX(15deg) scale(1.1); }
   .footer__paragraph {
