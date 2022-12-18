@@ -495,9 +495,9 @@ body {
     padding-top: 1rem;
     padding-left: 0;
     font-size: 2rem;
-    margin-top: 10rem; }
-    animation
-.footer__nav a {
+    margin-top: 10rem;
+    animation: all; }
+    .footer__nav a {
       text-decoration: none;
       color: #fff; }
     .footer__nav a:hover {
