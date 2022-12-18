@@ -618,7 +618,7 @@ body {
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
   color: #7ed56f;
-  transform: translateX(); }
+  transform: translateX(1rem); }
 
 .section-about {
   background-color: #f7f7f7;
