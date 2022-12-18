@@ -610,7 +610,8 @@ body {
   padding: 1rem 2rem;
   color: #fff;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background-size: 100%; }
 
 .section-about {
   background-color: #f7f7f7;
