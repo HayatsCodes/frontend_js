@@ -499,6 +499,9 @@ body {
     .footer__nav a {
       text-decoration: none;
       color: #fff; }
+    .footer__nav a:hover {
+      text-decoration: none;
+      color: #fff; }
   .footer__link-style {
     display: inline-block; }
   .footer__link-style:hover {
