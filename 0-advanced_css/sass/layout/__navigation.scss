@@ -73,5 +73,5 @@
         }
     }
 
-    &__checkbox:checked ~
+    &__checkbox:checked ~ &__back
 }
