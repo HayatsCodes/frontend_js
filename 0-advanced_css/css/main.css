@@ -594,7 +594,8 @@ body {
   right: 0;
   z-index: 1500;
   opacity: 0;
-  width: 0; }
+  width: 0;
+  transition: transform .8s; }
 
 .navigation__list {
   position: absolute;
