@@ -573,7 +573,8 @@ body {
   position: fixed;
   top: 6rem;
   right: 6rem;
-  z-index: 2000; }
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem rgba; }
 
 .navigation__background {
   height: 6rem;
