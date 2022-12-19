@@ -73,5 +73,7 @@
         }
     }
 
-    &__checkbox:checked ~ &__back
+    &__checkbox:checked ~ &__background {
+        transform: scale(80);
+    }
 }
