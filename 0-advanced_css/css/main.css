@@ -593,7 +593,7 @@ body {
   right: 0;
   z-index: 1500;
   opacity: 0;
-  width: 100%; }
+  width: 0; }
 
 .navigation__list {
   position: absolute;
