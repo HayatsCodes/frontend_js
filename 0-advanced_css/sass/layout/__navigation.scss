@@ -77,5 +77,8 @@
         transform: scale(80);
     }
 
-    &__checkbox:checked ~ &__
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%;
+    }
 }
