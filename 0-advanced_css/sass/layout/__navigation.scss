@@ -93,8 +93,10 @@
     
     &__icon {
         &,
-        &::before
-        &::after
+        &::before,
+        &::after {
+            
+        }
     }
 
 }
