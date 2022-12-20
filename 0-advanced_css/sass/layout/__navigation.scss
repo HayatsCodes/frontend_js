@@ -103,7 +103,9 @@
         }
 
         &::before,
-        &::after
+        &::after {
+            content: "";
+        }
     }
 
 }
