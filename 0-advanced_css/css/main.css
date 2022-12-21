@@ -520,6 +520,7 @@ body {
     filter: blur(3px) brightness(80%); }
 
 .footer {
+  height: 100vh;
   padding: 15rem 0; }
   .footer__container {
     width: 100%;
