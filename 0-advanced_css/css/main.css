@@ -448,7 +448,8 @@ body {
     transform: translate(-50%, -50%);
     width: 75%;
     height: 50rem;
-    background-color: #fff; }
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem; }
 
 .story {
   width: 75%;
