@@ -660,7 +660,8 @@ body {
   background-color: transparent; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
-  top: 0; }
+  top: 0;
+  transform: rotate(45deg); }
 
 .section-about {
   background-color: #f7f7f7;
