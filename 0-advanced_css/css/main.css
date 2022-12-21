@@ -444,6 +444,7 @@ body {
   z-index: 9999; }
   .popup__content {
     width: 75%;
+    height: 50rem;
     background-color: #fff;
     margin: 0 auto; }
 
