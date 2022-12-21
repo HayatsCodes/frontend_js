@@ -116,7 +116,8 @@
         &::before {top: -.8rem;}
         &::after {top: .8rem;}
 
-        &__button:hover &__icon::before, &__button:hover &__ {
+        &__button:hover &__icon::before,
+        &__button:hover &__icon::after {
             top: -1rem;
         }
     }
