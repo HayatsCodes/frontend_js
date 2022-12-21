@@ -442,6 +442,8 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
   z-index: 9999; }
+  .popup__content {
+    margin: auto 0; }
 
 .story {
   width: 75%;
