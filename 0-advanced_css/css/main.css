@@ -436,6 +436,8 @@ body {
 .popup {
   background-color: #000;
   padding: 25rem 0; }
+  .popup__content {
+    margin: auto 0; }
 
 .story {
   width: 75%;
