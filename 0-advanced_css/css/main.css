@@ -449,7 +449,8 @@ body {
     width: 75%;
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
-    border-radius: 3px; }
+    border-radius: 3px;
+    display: table; }
 
 .story {
   width: 75%;

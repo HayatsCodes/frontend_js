@@ -13,10 +13,11 @@
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color: $color-black, $alpha: .2);
         border-radius: 3px;
+        display: table;
     }
 
     &__left {
-
+        
     }
 
     &__right {
@@ -24,7 +25,7 @@
     }
 
     &__img  {
-        
+
     }
 
     &__text {
