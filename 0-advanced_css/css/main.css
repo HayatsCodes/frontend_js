@@ -435,9 +435,9 @@ body {
 
 .popup {
   background-color: #000;
-  padding: 25rem 0; }
-  tex
-.popup__content {
+  padding: 25rem 0;
+  text-align: center; }
+  .popup__content {
     margin: auto 0; }
 
 .story {
