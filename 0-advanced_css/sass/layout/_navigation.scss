@@ -114,8 +114,8 @@
             left: 0;
         }
 
-        &::before { top: -.8rem;}
-        &::after {top: .8rem;}
+        &::before { top: -.8rem; }
+        &::after { top: .8rem; }
     }
 
     &__button:hover  &__icon::before {
