@@ -454,6 +454,9 @@ body {
   .popup__left {
     width: 33.33%;
     display: table-cell; }
+  .popup__right {
+    width: 66.67%;
+    display: table-cell; }
 
 .story {
   width: 75%;
