@@ -469,6 +469,7 @@ body {
     column-count: 2;
     column-gap: 4rem;
     column-rule: 1px solid #eee;
+    -moz-hyphens: auto;
     hyphens: auto; }
 
 .story {
