@@ -452,7 +452,8 @@ body {
     border-radius: 3px;
     display: table; }
   .popup__left {
-    width: 33.33%; }
+    width: 33.33%;
+    display: table-cell; }
 
 .story {
   width: 75%;
