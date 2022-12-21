@@ -649,7 +649,8 @@ body {
     top: -.8rem; }
   .navigation__icon::after {
     top: .8rem; }
-  .navigation__icon__button:hover .navigation__icon__icon::before, .navigation__icon__button:hover .navigation__icon__icon::after {
+  .navigation__icon__button:hover .navigation__icon__icon::before,
+  .navigation__icon__button:hover .navigation__icon__icon::after {
     top: -1rem; }
 
 .section-about {
