@@ -521,8 +521,7 @@ body {
 
 .footer {
   padding: 15rem 0; }
-  marg
-.footer__container {
+  .footer__container {
     width: 100%;
     background-color: #000;
     height: 70rem;
