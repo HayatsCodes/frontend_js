@@ -434,7 +434,8 @@ body {
   opacity: 1; }
 
 .popup {
-  background-color: #000; }
+  background-color: #000;
+  padding: 15rem 0; }
 
 .story {
   width: 75%;
