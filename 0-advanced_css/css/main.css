@@ -466,7 +466,8 @@ body {
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-    column-count: 2; }
+    column-count: 2;
+    column-gap: 4rem; }
 
 .story {
   width: 75%;
