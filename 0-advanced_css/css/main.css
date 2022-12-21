@@ -434,6 +434,7 @@ body {
   opacity: 1; }
 
 .popup {
+  height: 100vh;
   background-color: #000;
   padding: 25rem 0;
   text-align: center; }
