@@ -640,7 +640,8 @@ body {
     width: 3rem;
     height: 2px;
     background-color: #999;
-    display: inline-block; }
+    display: inline-block;
+    transition: all; }
   .navigation__icon::before, .navigation__icon::after {
     content: "";
     position: absolute;
