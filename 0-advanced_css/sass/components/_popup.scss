@@ -9,7 +9,7 @@
 
     &__content {
         @include absCenter;
-        
+
         width: 75%;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color: $color-black, $alpha: .2);
@@ -27,6 +27,7 @@
         width: 66.67%;
         display: table-cell;
         vertical-align: middle;
+        padding: 3rem ;
     }
 
     &__img  {
