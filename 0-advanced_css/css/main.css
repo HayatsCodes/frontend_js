@@ -443,6 +443,7 @@ body {
   text-align: center;
   z-index: 9999; }
   .popup__content {
+    width: 75%;
     margin: 0 auto; }
 
 .story {
