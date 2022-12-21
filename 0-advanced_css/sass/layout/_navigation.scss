@@ -130,11 +130,9 @@
     }
 
     &__checkbox:checked + &__button &__icon::before {
-        background-color: transparent;
     }
 
-    &__checkbox:checked + &__button &__icon {
-        background-color: transparent;
+    &__checkbox:checked + &__button &__icon::after {
     }
 
 }
