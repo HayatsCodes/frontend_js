@@ -7,5 +7,6 @@
 }
 
 @mixin absCenter {
-    pos
+    position: absolute;
+    top: 50%;
 }
