@@ -467,7 +467,8 @@ body {
     font-size: 1.4rem;
     margin-bottom: 4rem;
     column-count: 2;
-    column-gap: 4rem; }
+    column-gap: 4rem;
+    column-rule: 1px solid; }
 
 .story {
   width: 75%;
