@@ -650,7 +650,7 @@ body {
   .navigation__icon::after {
     top: .8rem; }
 
-.navigation__button:hover ~ .navigation__icon::before {
+.navigation__button:hover .navigation__icon::before {
   top: -1rem; }
 
 .navigation__button:hover ~ .navigation__icon::after {
