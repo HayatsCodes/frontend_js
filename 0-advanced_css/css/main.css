@@ -659,7 +659,7 @@ body {
 .navigation__checkbox:checked + .navigation__button .navigation__icon {
   background-color: transparent; }
 
-.navigation__checkbox:checked + .navigation__button .navigation__icon {
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
   background-color: transparent; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon {
