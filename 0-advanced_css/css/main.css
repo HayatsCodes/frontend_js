@@ -468,7 +468,8 @@ body {
     margin-bottom: 4rem;
     column-count: 2;
     column-gap: 4rem;
-    column-rule: 1px solid #eee; }
+    column-rule: 1px solid #eee;
+    hyphens: auto; }
 
 .story {
   width: 75%;
