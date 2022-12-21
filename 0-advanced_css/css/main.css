@@ -650,6 +650,12 @@ body {
   .navigation__icon::after {
     top: .8rem; }
 
+.navigation__button:hover ~ .navigation__icon::before {
+  top: -1rem; }
+
+.navigation__button:hover ~ .navigation__icon::after {
+  top: 1rem; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
