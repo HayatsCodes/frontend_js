@@ -456,7 +456,8 @@ body {
     display: table-cell; }
   .popup__right {
     width: 66.67%;
-    display: table-cell; }
+    display: table-cell;
+    vertical-align: middle; }
 
 .story {
   width: 75%;
