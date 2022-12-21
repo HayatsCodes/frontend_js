@@ -130,6 +130,8 @@
     }
 
     &__checkbox:checked + &__button &__icon::before {
+        top: 0;
+        transform: ;
     }
 
     &__checkbox:checked + &__button &__icon::after {
