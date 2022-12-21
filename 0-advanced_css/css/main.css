@@ -439,7 +439,8 @@ body {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  text-align: center; }
+  text-align: center;
+  z-index: inherit 99; }
 
 .story {
   width: 75%;

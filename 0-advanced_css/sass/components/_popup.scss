@@ -5,6 +5,7 @@
     left: 0;
     background-color: rgba($color-black, .8);
     text-align: center;
+    z-index: inherit 99;
 
     &__content {
         // margin: auto 0;
