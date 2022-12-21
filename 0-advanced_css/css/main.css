@@ -459,7 +459,8 @@ body {
     display: table-cell;
     vertical-align: middle; }
   .popup__img {
-    display: block; }
+    display: block;
+    width: 100%; }
 
 .story {
   width: 75%;
