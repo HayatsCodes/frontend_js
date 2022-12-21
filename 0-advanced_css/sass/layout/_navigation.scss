@@ -135,7 +135,8 @@
     }
 
     &__checkbox:checked + &__button &__icon::after {
-        top: ;
+        top: 0;
+        rotate: -45;
     }
 
 }
