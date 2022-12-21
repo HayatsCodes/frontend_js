@@ -443,6 +443,10 @@ body {
   text-align: center;
   z-index: 9999; }
   .popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 75%;
     height: 50rem;
     background-color: #fff;
