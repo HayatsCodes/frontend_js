@@ -448,7 +448,8 @@ body {
     opacity: 1;
     visibility: visible; }
   .popup__close:link, .popup__close:visited {
-    color: #777; }
+    color: #777;
+    position: absolute; }
   .popup__content {
     position: absolute;
     top: 50%;
