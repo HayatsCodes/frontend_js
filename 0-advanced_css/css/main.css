@@ -456,6 +456,8 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: all .2s; }
+  .popup__close:hover {
+    color: #7ed56f; }
   .popup__content {
     position: absolute;
     top: 50%;
