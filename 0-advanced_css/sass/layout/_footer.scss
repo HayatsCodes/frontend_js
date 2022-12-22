@@ -35,8 +35,9 @@
 
         @include respond(tab-port) {
             position: absolute;
-            top: 40%;
-            left: 30%;
+            top: 50%;
+            left: 50%;
+            translate: ;
         }
 
         & a {
