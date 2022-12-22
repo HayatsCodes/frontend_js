@@ -578,7 +578,8 @@ body {
 .footer__container {
   width: 100%;
   background-color: #000;
-  height: 70rem; }
+  height: 70rem;
+  position: relative; }
 
 .footer__logo-box {
   text-align: center; }
