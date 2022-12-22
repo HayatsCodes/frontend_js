@@ -601,7 +601,8 @@ body {
 
 .footer__logo {
   width: 20rem;
-  translate: -50%, 0; }
+  translate: -50%, 0;
+  margin-top: 10rem; }
   @media (max-width: 56.25em) {
     .footer__logo {
       margin-top: 5rem; } }
