@@ -13,7 +13,7 @@
 
     &__row {
 
-        
+        top: 50%;
 
         @include respond(tab-land) {
             max-width: 90%;
