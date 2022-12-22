@@ -598,11 +598,9 @@ body {
   @media (max-width: 75em) {
     .footer__nav {
       margin-left: 2rem; } }
-
-@in & a {
-  .footer__nav {
+  .footer__nav a {
     text-decoration: none;
-    color: #fff; } }
+    color: #fff; }
   .footer__nav a:hover {
     text-decoration: none;
     color: #28b485; }

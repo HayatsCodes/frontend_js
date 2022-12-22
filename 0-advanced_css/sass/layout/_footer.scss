@@ -32,7 +32,9 @@
             margin-left: 2rem;
         }
 
-        @include respond
+        @include respond(tab-port) {
+            
+        }
 
         & a {
             text-decoration: none;
