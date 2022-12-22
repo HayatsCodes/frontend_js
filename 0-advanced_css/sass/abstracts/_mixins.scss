@@ -27,6 +27,6 @@ $breakpoint argument choices:
         @media (max-width: 37.5em) { @content }; //600px
     }
     @if $breakpoint == tab-port {
-        @media ()
+        @media (max-width)
     }
 }
