@@ -59,7 +59,7 @@ body {
     letter-spacing: .2rem;
     transition: all .2s;
 
-    
+    @include respond(tab-port)
 
     &:hover {
         transform: skewY(2deg) skewX(15deg) scale(1.1);
