@@ -32,6 +32,8 @@
             margin-left: 2rem;
         }
 
+        @include respond
+
         & a {
             text-decoration: none;
             color: $color-white;
