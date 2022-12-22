@@ -32,6 +32,5 @@ $breakpoint argument choices:
     @if $breakpoint ==tab-land {
         @media (max-width: 75em) { @content }; // 1200px
     }
-
-    
+    @if $break
 }
