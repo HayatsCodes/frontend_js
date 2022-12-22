@@ -47,6 +47,9 @@ html {
   @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
 
 body {
   box-sizing: border-box; }
