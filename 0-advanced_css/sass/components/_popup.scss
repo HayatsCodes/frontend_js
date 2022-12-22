@@ -24,32 +24,7 @@
         transition: all .5s .2s;
     }
 
-    &:target {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    &__close {
-
-        &:link,
-        &:visited {
-            color: $color-grey-dark;
-            position: absolute;
-            top: 2.5rem;
-            right: 2.5rem;
-            font-size: 3rem;
-            line-height: 1;
-            text-decoration: none;
-            display: inline-block;
-            transition: all .2s;
-        }
-
-        &:hover {
-            color: $color-primary;
-        }
-    }
-
-
+    
     &__left {
         width: 33.33%;
         display: table-cell;
@@ -79,4 +54,31 @@
         -moz-hyphens: auto;
         hyphens: auto;
     }
+
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__close {
+
+        &:link,
+        &:visited {
+            color: $color-grey-dark;
+            position: absolute;
+            top: 2.5rem;
+            right: 2.5rem;
+            font-size: 3rem;
+            line-height: 1;
+            text-decoration: none;
+            display: inline-block;
+            transition: all .2s;
+        }
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+
 }
