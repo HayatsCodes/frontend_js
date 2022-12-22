@@ -48,6 +48,13 @@
         margin-top: 10rem;
         transition: all .3s;
 
+        // @include respond(tab-port) {
+        //     margin-top: 1rem;
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 50%;
+        //     transform: translate(-50%, -50%);
+        // }
 
         & a {
             text-decoration: none;
