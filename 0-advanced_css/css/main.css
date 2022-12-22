@@ -578,9 +578,7 @@ body {
 .footer__container {
   width: 100%;
   background-color: #000;
-  height: 70rem; }
-
-.footer__row {
+  height: 70rem;
   position: relative; }
 
 .footer__logo-box {
