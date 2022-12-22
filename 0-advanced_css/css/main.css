@@ -692,10 +692,10 @@ body {
     .navigation__button {
       top: 4rem;
       right: 4rem; } }
-  @media (max-width: 56.25em) {
+  @media (max-width: 37.5em) {
     .navigation__button {
-      top: 4rem;
-      right: 4rem; } }
+      top: 3rem;
+      right: 3rem; } }
 
 .navigation__background {
   height: 6rem;
