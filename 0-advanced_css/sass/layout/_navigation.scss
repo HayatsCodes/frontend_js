@@ -38,7 +38,7 @@
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
         
-        
+        @include res
 
     }
 
