@@ -29,5 +29,7 @@ $breakpoint argument choices:
     @if $breakpoint == tab-port {
         @media (max-width: 56.25em) { @content }; //900px
     }
-    @if $breakpoint ==
+    @if $breakpoint ==tab-land {
+        @media (max-width)
+    }
 }
