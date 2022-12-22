@@ -60,7 +60,9 @@
         visibility: visible;
     }
 
-    &:target &__
+    &:target &__content {
+        
+    }
 
     &__close {
 
