@@ -40,9 +40,7 @@
         margin-top: 10rem;
         transition: all .3s;
 
-        @include respond(tab-land) {
-            
-        }
+        
 
         // @include respond(tab-port) {
         //     margin-top: 1rem;
@@ -55,6 +53,10 @@
         & a {
             text-decoration: none;
             color: $color-white;
+
+            @include respond(tab-land) {
+                di
+            }
         }
 
         & a:hover {
