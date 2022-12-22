@@ -33,7 +33,7 @@
         }
 
         @include respond(tab-port) {
-            text
+            text-align: center;
         }
 
         & a {

@@ -598,6 +598,9 @@ body {
   @media (max-width: 75em) {
     .footer__nav {
       margin-left: 2rem; } }
+  @media (max-width: 56.25em) {
+    .footer__nav {
+      text-align: center; } }
   .footer__nav a {
     text-decoration: none;
     color: #fff; }
