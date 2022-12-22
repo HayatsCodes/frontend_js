@@ -645,8 +645,7 @@ body {
       margin-top: 0; } }
   @media (max-width: 56.25em) {
     .footer__paragraph {
-      width: 70%;
-      margin-top: 20rem; } }
+      margin-top: 20; } }
 
 .header {
   height: 95vh;
