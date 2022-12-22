@@ -633,6 +633,7 @@ body {
   @media (max-width: 56.25em) {
     .footer__paragraph {
       width: 70%;
+      margin-top: 5rem;
       position: absolute;
       position: absolute;
       top: 50%;
