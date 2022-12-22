@@ -580,13 +580,6 @@ body {
   background-color: #000;
   height: 70rem; }
 
-@media (max-width: 75em) {
-  .footer__row {
-    max-width: 90%;
-    position: absolute;
-    top: 20rem;
-    left: 7rem; } }
-
 @media (max-width: 56.25em) {
   .footer__row {
     margin-top: 1rem;
