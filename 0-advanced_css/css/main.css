@@ -632,7 +632,8 @@ body {
       margin-right: 2rem; } }
   @media (max-width: 56.25em) {
     .footer__paragraph {
-      width: 70%; } }
+      width: 70%;
+      text-align: center; } }
 
 .header {
   height: 95vh;
