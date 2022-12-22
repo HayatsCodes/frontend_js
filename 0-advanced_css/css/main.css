@@ -605,7 +605,7 @@ body {
   transition: all .3s; }
   @media (max-width: 75em) {
     .footer__nav {
-      white-space: nowrap; } }
+      display: block; } }
   .footer__nav a {
     text-decoration: none;
     color: #fff; }
