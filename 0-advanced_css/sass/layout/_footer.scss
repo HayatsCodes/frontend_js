@@ -55,7 +55,8 @@
             color: $color-white;
 
             @include respond(tab-land) {
-                di
+                display: block;
+                
             }
         }
 
