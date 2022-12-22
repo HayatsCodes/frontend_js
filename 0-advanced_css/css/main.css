@@ -584,7 +584,8 @@ body {
 @media (max-width: 75em) {
   .footer__row {
     max-width: 70%;
-    position: absolute; } }
+    position: absolute;
+    top: 50%; } }
 
 .footer__logo-box {
   text-align: center; }
