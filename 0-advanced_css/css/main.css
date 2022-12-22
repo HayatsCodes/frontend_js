@@ -582,6 +582,7 @@ body {
   position: relative; }
 
 .footer__row {
+  position: absolute;
   top: 50%; }
   @media (max-width: 75em) {
     .footer__row {
