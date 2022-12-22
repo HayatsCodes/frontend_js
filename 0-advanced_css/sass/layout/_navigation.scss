@@ -39,7 +39,7 @@
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
         
         @include respond(tab-port) {
-            top: 4rem;
+            top: 4.5rem;
             right: 4rem;
         }
 
