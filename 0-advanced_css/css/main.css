@@ -621,7 +621,7 @@ body {
   color: #fff; }
   @media (max-width: 75em) {
     .footer__paragraph {
-      margin-left: 2rem; } }
+      margin-right: 2rem; } }
 
 .header {
   height: 95vh;
