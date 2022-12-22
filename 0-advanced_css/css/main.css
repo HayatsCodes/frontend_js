@@ -580,23 +580,12 @@ body {
   background-color: #000;
   height: 70rem; }
 
-@media (max-width: 56.25em) {
-  .footer__row {
-    margin-top: 1rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); } }
-
 .footer__logo-box {
   text-align: center; }
 
 .footer__logo {
   margin-top: 10rem;
   translate: -50%, 0; }
-  @media (max-width: 56.25em) {
-    .footer__logo {
-      margin-top: 5rem; } }
 
 .footer__nav {
   display: inline-block;
@@ -606,11 +595,6 @@ body {
   font-size: 2rem;
   margin-top: 10rem;
   transition: all .3s; }
-  @media (max-width: 56.25em) {
-    .footer__nav {
-      margin-top: 20rem;
-      margin-bottom: 0;
-      white-space: nowrap; } }
   .footer__nav a {
     text-decoration: none;
     color: #fff; }
@@ -632,13 +616,6 @@ body {
   font-size: 2rem;
   margin-top: 10rem;
   color: #fff; }
-  @media (max-width: 75em) {
-    .footer__paragraph {
-      margin-top: 0; } }
-  @media (max-width: 56.25em) {
-    .footer__paragraph {
-      margin-top: 0;
-      margin-bottom: 0; } }
 
 .header {
   height: 95vh;
