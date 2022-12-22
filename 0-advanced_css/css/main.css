@@ -481,7 +481,7 @@ body {
   .popup:target {
     opacity: 1;
     visibility: visible; }
-  .popup .popup__close:link, .popup .popup__close:visited {
+  .popup:target .popup__ .popup__close:link, .popup:target .popup__ .popup__close:visited {
     color: #777;
     position: absolute;
     top: 2.5rem;
@@ -491,7 +491,7 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: all .2s; }
-  .popup .popup__close:hover {
+  .popup:target .popup__ .popup__close:hover {
     color: #7ed56f; }
 
 .story {
