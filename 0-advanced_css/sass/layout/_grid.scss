@@ -19,6 +19,7 @@
             margin-right: $gutter-horizontal;
 
             @include respond(tab-port) {
+                margin-right: 0;
                 
             }
         }
