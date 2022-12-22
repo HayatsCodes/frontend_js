@@ -443,7 +443,8 @@ body {
   z-index: 9999;
   opacity: 0;
   visibility: hidden; }
-  .popup:target {
+  a
+.popup:target {
     opacity: 1;
     visibility: visible; }
   .popup__content {
