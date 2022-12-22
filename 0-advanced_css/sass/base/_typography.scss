@@ -24,7 +24,9 @@ body {
         animation-duration: 1s;
         animation-timing-function: ease-out;
 
-        @include respond(phone)
+        @include respond(phone) {
+            letter-spacing: 1rem;
+        }
         /* animation-iteration-count: 3; */
         /* animation-delay: 3s; */
     
