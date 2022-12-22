@@ -626,7 +626,7 @@ body {
   position: relative; }
   @media (max-width: 37.5em) {
     .header {
-      -webkit-clip-path: polygon(); } }
+      -webkit-clip-path: polygon(0 0, 100%); } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
