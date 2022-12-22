@@ -619,18 +619,6 @@ body {
   font-size: 2rem;
   margin-top: 10rem;
   color: #fff; }
-  @media (max-width: 75em) {
-    .footer__paragraph {
-      margin-right: 2rem; } }
-  @media (max-width: 56.25em) {
-    .footer__paragraph {
-      width: 70%;
-      margin-top: 20rem;
-      position: absolute;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); } }
 
 .header {
   height: 95vh;

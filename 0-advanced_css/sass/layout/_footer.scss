@@ -74,19 +74,19 @@
         margin-top: 10rem;
         color: $color-white;
 
-        @include respond(tab-land) {
-            margin-right: 2rem;
-        }
+        // @include respond(tab-land) {
+        //     margin-right: 2rem;
+        // }
 
-        @include respond(tab-port) {
-            width: 70%;
-            margin-top: 20rem;
-            position: absolute;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+        // @include respond(tab-port) {
+        //     width: 70%;
+        //     margin-top: 20rem;
+        //     position: absolute;
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 50%;
+        //     transform: translate(-50%, -50%);
+        // }
     }
 
 }
