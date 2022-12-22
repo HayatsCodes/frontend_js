@@ -10,6 +10,21 @@
     visibility: hidden;
     transition: all .3s;
 
+    
+    &__content {
+        @include absCenter;
+
+        width: 75%;
+        background-color: $color-white;
+        box-shadow: 0 2rem 4rem rgba($color: $color-black, $alpha: .2);
+        border-radius: 3px;
+        display: table;
+        overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all .5s .2s;
+    }
+
     &:target {
         opacity: 1;
         visibility: visible;
@@ -35,19 +50,6 @@
         }
     }
 
-    &__content {
-        @include absCenter;
-
-        width: 75%;
-        background-color: $color-white;
-        box-shadow: 0 2rem 4rem rgba($color: $color-black, $alpha: .2);
-        border-radius: 3px;
-        display: table;
-        overflow: hidden;
-        opacity: 0;
-        transform: translate(-50%, -50%) scale(0);
-        transition: all .5s .2s;
-    }
 
     &__left {
         width: 33.33%;
