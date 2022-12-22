@@ -581,10 +581,6 @@ body {
   height: 70rem;
   position: relative; }
 
-@media (max-width: 75em) {
-  .footer__row {
-    margin: 0 auto; } }
-
 .footer__logo-box {
   text-align: center; }
 
