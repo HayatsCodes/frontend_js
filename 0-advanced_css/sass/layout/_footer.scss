@@ -23,6 +23,15 @@
             top: 20rem;
             left: 7rem;
         }
+
+        @include respond(tab-port) {
+            margin-top: 1rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
     }
 
     &__logo-box {
@@ -32,6 +41,10 @@
     &__logo {
         margin-top: 10rem;
         translate: -50%, 0;
+
+        @include respond(tab-port) {
+            margin-top: 5rem;
+        }
     }
 
     &__nav {
@@ -42,6 +55,12 @@
         font-size: 2rem;
         margin-top: 10rem;
         transition: all .3s;
+
+        @include respond(tab-port) {
+            margin-top: 20rem;
+            margin-bottom: 0;
+            white-space: nowrap;
+        }
 
         & a {
             text-decoration: none;
@@ -72,6 +91,15 @@
         font-size: 2rem;
         margin-top: 10rem;
         color: $color-white;
+
+        @include respond(tab-land) {
+            margin-top: 0;
+        }
+
+        @include respond(tab-port) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
     }
 
 }
