@@ -471,7 +471,7 @@ body {
     display: table;
     overflow: hidden;
     opacity: 0;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%) scale(0); }
   .popup__left {
     width: 33.33%;
     display: table-cell; }
