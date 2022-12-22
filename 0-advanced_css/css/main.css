@@ -111,7 +111,7 @@ body {
   @media (max-width: 56.25em) {
     .heading-secondary {
       font-size: 3rem; } }
-  @media (max-width: 56.25em) {
+  @media (max-width: 37.5em) {
     .heading-secondary {
       font-size: 3rem; } }
   .heading-secondary:hover {
