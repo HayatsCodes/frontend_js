@@ -582,7 +582,8 @@ body {
   position: relative; }
 
 .footer__row {
-  position: absolute; }
+  position: absolute;
+  top: 50%; }
 
 .footer__logo-box {
   text-align: center; }
