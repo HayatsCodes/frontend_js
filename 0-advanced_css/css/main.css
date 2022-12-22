@@ -604,7 +604,7 @@ body {
   translate: -50%, 0; }
   @media (max-width: 56.25em) {
     .footer__logo {
-      translate: -50%, 0; } }
+      translate: -50%, -50%; } }
 
 .footer__nav {
   display: inline-block;
