@@ -62,6 +62,10 @@ body {
     @include respond(tab-port) {
         font-size: 3rem;
     }
+    
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
 
     &:hover {
         transform: skewY(2deg) skewX(15deg) scale(1.1);
