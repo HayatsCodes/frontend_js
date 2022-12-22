@@ -53,6 +53,7 @@
         transition: all .3s;
 
         @include respond(tab-port) {
+            marg
             margin-bottom: 0;
             white-space: nowrap;
         }
