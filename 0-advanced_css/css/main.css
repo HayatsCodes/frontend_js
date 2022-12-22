@@ -580,6 +580,13 @@ body {
   background-color: #000;
   height: 70rem; }
 
+@media (max-width: 75em) {
+  .footer__row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(50%); } }
+
 @media (max-width: 56.25em) {
   .footer__row {
     margin-top: 1rem;
