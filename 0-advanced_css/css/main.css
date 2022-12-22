@@ -587,7 +587,7 @@ body {
     position: absolute;
     top: 20rem;
     left: 7rem;
-    word-wrap: none; } }
+    white-space: nowrap; } }
 
 .footer__logo-box {
   text-align: center; }
