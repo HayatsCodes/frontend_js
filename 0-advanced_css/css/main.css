@@ -710,11 +710,11 @@ body {
   @media (max-width: 56.25em) {
     .navigation__background {
       top: 4.5rem;
-      right: 4rem; } }
+      right: 4.5rem; } }
   @media (max-width: 37.5em) {
     .navigation__background {
-      top: 3rem;
-      right: 3rem; } }
+      top: 3.5rem;
+      right: 3.5rem; } }
 
 .navigation__nav {
   height: 100vh;
