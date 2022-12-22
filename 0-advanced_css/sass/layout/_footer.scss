@@ -41,7 +41,7 @@
         transition: all .3s;
 
         @include respond(tab-land) {
-            display: block;
+            
         }
 
         // @include respond(tab-port) {
