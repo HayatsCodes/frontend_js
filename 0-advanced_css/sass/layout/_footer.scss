@@ -39,9 +39,7 @@
     }
 
     &__logo {
-        width: 20rem;
         translate: -50%, 0;
-        margin-top: 10rem;
 
         @include respond(tab-port) {
             margin-top: 5rem;
