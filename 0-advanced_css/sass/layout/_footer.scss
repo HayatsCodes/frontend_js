@@ -23,10 +23,12 @@
         display: inline-block;
         border-top: .5px solid $color-grey-dark;
         padding-top: 1rem;
-        padding-left: 2rem;
+        padding-left: 0;
         font-size: 2rem;
         margin-top: 10rem;
         transition: all .3s;
+
+        
 
         & a {
             text-decoration: none;
