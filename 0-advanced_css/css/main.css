@@ -453,7 +453,8 @@ body {
     top: 2.5rem;
     right: 2.5rem;
     font-size: 3rem;
-    text-decoration: none; }
+    text-decoration: none;
+    display: inline-block; }
   .popup__content {
     position: absolute;
     top: 50%;
