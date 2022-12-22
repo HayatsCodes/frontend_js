@@ -29,7 +29,7 @@
         transition: all .3s;
 
         @include respond(tab-land) {
-            
+            margin-left: 2rem;
         }
 
         & a {
