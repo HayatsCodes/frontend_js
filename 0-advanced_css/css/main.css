@@ -447,7 +447,7 @@ body {
   .popup:target {
     opacity: 1;
     visibility: visible; }
-  .popup__ .popup__content {
+  .popup__content {
     position: absolute;
     top: 50%;
     left: 50%;

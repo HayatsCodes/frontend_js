@@ -15,7 +15,9 @@
         visibility: visible;
     }
 
-    &__close
+    &__close {
+        &:link
+    }
 
     &__content {
         @include absCenter;
