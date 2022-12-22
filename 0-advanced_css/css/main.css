@@ -585,7 +585,8 @@ body {
   .footer__row {
     max-width: 70%;
     position: absolute;
-    top: 20rem; } }
+    top: 20rem;
+    left: 10rem; } }
 
 .footer__logo-box {
   text-align: center; }
