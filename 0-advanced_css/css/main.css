@@ -606,10 +606,6 @@ body {
   .footer__nav a {
     text-decoration: none;
     color: #fff; }
-    @media (max-width: 75em) {
-      .footer__nav a {
-        display: block;
-        width: 100%; } }
   .footer__nav a:hover {
     text-decoration: none;
     color: #28b485; }
