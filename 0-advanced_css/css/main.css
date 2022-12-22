@@ -616,7 +616,7 @@ body {
   transition: all .3s; }
   @media (max-width: 56.25em) {
     .footer__nav {
-      margin-top: 12rem;
+      margin-top: 15rem;
       margin-bottom: 0;
       white-space: nowrap; } }
   .footer__nav a {
