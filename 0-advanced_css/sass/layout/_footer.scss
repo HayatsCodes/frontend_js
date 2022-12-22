@@ -83,7 +83,7 @@
         color: $color-white;
 
         @include respond(tab-land) {
-            margin-right: 2rem;
+            margin-top: 2rem;
         }
 
         // @include respond(tab-port) {
