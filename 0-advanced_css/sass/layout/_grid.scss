@@ -24,7 +24,9 @@
             }
         }
 
-        
+        @include respond(tab-port) {
+            
+        }
     }
 
     .col-1-of-2 {
