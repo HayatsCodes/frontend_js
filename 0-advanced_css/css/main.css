@@ -454,7 +454,8 @@ body {
     right: 2.5rem;
     font-size: 3rem;
     text-decoration: none;
-    display: inline-block; }
+    display: inline-block;
+    transition: all .2s; }
   .popup__content {
     position: absolute;
     top: 50%;
