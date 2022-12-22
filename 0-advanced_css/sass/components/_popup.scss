@@ -16,7 +16,8 @@
     }
 
     &__close {
-        &:link
+        &:link,
+        &:visited
     }
 
     &__content {
