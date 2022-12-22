@@ -583,7 +583,7 @@ body {
 
 @media (max-width: 75em) {
   .footer__row {
-    max-width: 70%;
+    max-width: 90%;
     position: absolute;
     top: 20rem;
     left: 10rem; } }
