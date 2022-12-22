@@ -39,7 +39,7 @@
         translate: -50%, 0;
 
         @include respond(tab-port) {
-            translate: -50%, -50%;
+            margin-top: 2rem;
         }
     }
 
