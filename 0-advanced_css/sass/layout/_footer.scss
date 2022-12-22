@@ -28,7 +28,9 @@
         margin-top: 10rem;
         transition: all .3s;
 
-        
+        @include respond(tab-land) {
+            
+        }
 
         & a {
             text-decoration: none;
