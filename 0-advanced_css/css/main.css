@@ -619,6 +619,9 @@ body {
   font-size: 2rem;
   margin-top: 10rem;
   color: #fff; }
+  @media (max-width: 75em) {
+    .footer__paragraph {
+      margin-left: 2rem; } }
 
 .header {
   height: 95vh;

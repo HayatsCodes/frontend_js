@@ -61,6 +61,10 @@
         font-size: 2rem;
         margin-top: 10rem;
         color: $color-white;
+
+        @include respond(tab-land) {
+            margin-left: 2rem;
+        }
     }
 
 }
