@@ -643,6 +643,10 @@ body {
   @media (max-width: 75em) {
     .footer__paragraph {
       margin-top: 0; } }
+  @media (max-width: 56.25em) {
+    .footer__paragraph {
+      width: 70%;
+      margin-top: 20rem; } }
 
 .header {
   height: 95vh;
