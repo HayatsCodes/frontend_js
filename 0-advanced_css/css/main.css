@@ -580,6 +580,9 @@ body {
   background-color: #000;
   height: 70rem; }
 
+.footer__row {
+  position: relative; }
+
 .footer__logo-box {
   text-align: center; }
 
