@@ -617,7 +617,7 @@ body {
   padding-top: 1rem;
   padding-left: 0;
   font-size: 2rem;
-  margin-top: 0;
+  margin-top: 10rem;
   transition: all .3s; }
   @media (max-width: 56.25em) {
     .footer__nav {
