@@ -584,7 +584,8 @@ body {
 .footer__row {
   position: absolute;
   top: 50%;
-  left: 50%; }
+  left: 50%;
+  transform: translate(); }
 
 .footer__logo-box {
   text-align: center; }
