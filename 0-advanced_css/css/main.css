@@ -451,7 +451,8 @@ body {
     color: #777;
     position: absolute;
     top: 2.5rem;
-    right: 2.5rem; }
+    right: 2.5rem;
+    font-size: 3rem; }
   .popup__content {
     position: absolute;
     top: 50%;
