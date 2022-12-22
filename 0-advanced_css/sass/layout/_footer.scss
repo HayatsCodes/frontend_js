@@ -38,7 +38,9 @@
         width: 20rem;
         translate: -50%, 0;
 
-        @include respond(tab-port) 
+        @include respond(tab-port) {
+            margin-top: 10rem;
+        }
     }
 
     &__nav {

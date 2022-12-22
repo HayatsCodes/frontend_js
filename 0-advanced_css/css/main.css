@@ -602,6 +602,9 @@ body {
 .footer__logo {
   width: 20rem;
   translate: -50%, 0; }
+  @media (max-width: 56.25em) {
+    .footer__logo {
+      margin-top: 10rem; } }
 
 .footer__nav {
   display: inline-block;
