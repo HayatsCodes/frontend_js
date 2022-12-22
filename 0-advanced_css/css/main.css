@@ -43,8 +43,7 @@ $breakpoint argument choices:
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%;
-  @incl; }
+  font-size: 62.5%; }
   @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
