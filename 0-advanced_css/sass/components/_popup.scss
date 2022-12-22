@@ -61,7 +61,8 @@
     }
 
     &:target &__content {
-        
+        opacity: 1;
+         
     }
 
     &__close {
