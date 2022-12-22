@@ -578,8 +578,7 @@ body {
 .footer__container {
   width: 100%;
   background-color: #000;
-  height: 70rem;
-  position: relative; }
+  height: 70rem; }
 
 .footer__row {
   position: absolute;
