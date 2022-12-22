@@ -603,9 +603,6 @@ body {
   font-size: 2rem;
   margin-top: 10rem;
   transition: all .3s; }
-  @media (max-width: 75em) {
-    .footer__nav {
-      margin-left: 2rem; } }
   .footer__nav a {
     text-decoration: none;
     color: #fff; }
