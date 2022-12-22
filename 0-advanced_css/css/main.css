@@ -613,11 +613,7 @@ body {
   transition: all .3s; }
   @media (max-width: 56.25em) {
     .footer__nav {
-      margin-top: 1rem;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); } }
+      margin-bottom: 0; } }
   .footer__nav a {
     text-decoration: none;
     color: #fff; }
