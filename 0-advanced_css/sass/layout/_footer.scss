@@ -41,7 +41,7 @@
         transition: all .3s;
 
         @include respond(tab-land) {
-            whi
+            white-space: nowrap;
         }
 
         // @include respond(tab-port) {
