@@ -592,6 +592,7 @@ body {
   border-top: 0.5px solid #777;
   padding-top: 1rem;
   padding-left: 2rem;
+  text-overflow: n;
   font-size: 2rem;
   margin-top: 10rem;
   transition: all .3s; }
