@@ -18,7 +18,9 @@
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
 
-            @include 
+            @include respond(tab-port) {
+                
+            }
         }
     }
 
