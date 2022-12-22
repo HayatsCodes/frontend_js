@@ -600,7 +600,7 @@ body {
       margin-left: 2rem; } }
   @media (max-width: 56.25em) {
     .footer__nav {
-      margin: auto 0; } }
+      position: absolute; } }
   .footer__nav a {
     text-decoration: none;
     color: #fff; }
