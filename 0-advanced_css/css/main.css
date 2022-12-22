@@ -442,9 +442,9 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 9999;
   opacity: 0;
-  visibility: hidden; }
-  tra
-.popup:target {
+  visibility: hidden;
+  transition: all .3s; }
+  .popup:target {
     opacity: 1;
     visibility: visible; }
   .popup__content {
