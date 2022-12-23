@@ -633,7 +633,7 @@ body {
     transform: skewX(-15deg) scale(1.2); }
   .footer__star:hover ~ p {
     transform: skewX(15deg) scale(1.05);
-    columns: #fff; }
+    color: #fff; }
 
 .header {
   height: 95vh;
