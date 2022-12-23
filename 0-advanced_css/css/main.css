@@ -620,7 +620,8 @@ body {
     left: 10%; }
     .footer__five-star p {
       margin-top: 0;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      transition: all 0.5s; }
   .footer__star {
     display: inline-block;
     width: 100px;
