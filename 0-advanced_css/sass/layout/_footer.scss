@@ -84,8 +84,8 @@
       &__star:hover {
         transform: skewX(-15deg) scale(1.2);
       }
-      
-      &__star:hover {
+
+      &__star:hover ~ p{
         transform: skewX(-15deg) scale(1.2);
       }
       
