@@ -617,7 +617,7 @@ body {
   margin-top: 10rem;
   color: #fff; }
 
-.footer .star {
+.footer__star {
   width: 200px;
   height: 200px;
   background-color: blue;
