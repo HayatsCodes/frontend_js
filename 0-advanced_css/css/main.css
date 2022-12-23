@@ -618,6 +618,7 @@ body {
   color: #fff; }
 
 .footer__star {
+  display: inline-block;
   width: 100px;
   height: 100px;
   background-color: #7ed56f;
