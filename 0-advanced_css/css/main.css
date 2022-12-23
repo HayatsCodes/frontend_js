@@ -612,6 +612,8 @@ body {
     font-size: 2rem;
     margin-top: 10rem;
     color: #fff; }
+  .footer__five-star {
+    position: absolute; }
   .footer__star {
     display: inline-block;
     width: 100px;
