@@ -613,7 +613,7 @@ body {
     margin-top: 10rem;
     color: #fff; }
   .footer__five-star {
-    position: absolute; }
+    margin-top: 5rem; }
   .footer__star {
     display: inline-block;
     width: 100px;
