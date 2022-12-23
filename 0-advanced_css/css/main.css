@@ -618,6 +618,8 @@ body {
     position: absolute;
     top: 70%;
     left: 10%; }
+    .footer__five-star p {
+      margin-top: 0; }
   .footer__star {
     display: inline-block;
     width: 100px;
