@@ -2,6 +2,8 @@
 
 // change the count-el in the HTML to reflect the new count
 
+let 
+
 let count = 0
 
 function increment() {
