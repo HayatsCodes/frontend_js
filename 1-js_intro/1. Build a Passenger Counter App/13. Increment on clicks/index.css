@@ -29,6 +29,8 @@ button {
     cursor: pointer;
 }
 
+button:
+
 #increment-btn {
     background: darkred;
 }
