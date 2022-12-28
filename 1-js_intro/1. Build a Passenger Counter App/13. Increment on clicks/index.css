@@ -27,7 +27,7 @@ button {
     margin-bottom: 5px;
     border-radius: 5px;
     cursor: pointer;
-    an
+    animation: width .2s;
 }
 
 button:active {
