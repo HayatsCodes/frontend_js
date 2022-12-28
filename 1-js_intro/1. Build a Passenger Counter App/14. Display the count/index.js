@@ -5,6 +5,7 @@
 // document.getElementById("count-el").innerText = count;
 
 let countEL = document.getElementById("count-el");
+console.log(countEL);
 
 let count = 0
 
