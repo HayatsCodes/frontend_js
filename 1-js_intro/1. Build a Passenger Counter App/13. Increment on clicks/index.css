@@ -31,7 +31,7 @@ button {
 }
 
 button:active {
-    transform: scale();
+    transform: scale(-.2);
 }
 
 #increment-btn {
