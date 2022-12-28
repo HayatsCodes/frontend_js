@@ -27,11 +27,11 @@ button {
     margin-bottom: 5px;
     border-radius: 5px;
     cursor: pointer;
-    animation: width .2s;
+    animation: transform .2s;
 }
 
 button:active {
-    width: 180px;
+    
 }
 
 #increment-btn {
