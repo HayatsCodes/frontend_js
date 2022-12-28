@@ -16,7 +16,7 @@ function increment() {
     console.log(count);
 }
 
-document.getElementById("count-el").inn
+document.getElementById("count-el").innerText = count;
 
 
 
