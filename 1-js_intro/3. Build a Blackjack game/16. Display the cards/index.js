@@ -7,7 +7,7 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 // 2. Store the cards paragraph in a variable called cardsEl
-
+cardsEl = 
 function startGame() {
     // 3. Render the cars on the page using this format -> "Cards: 10 4"
     sumEl.textContent = "Sum: " + sum
