@@ -11,5 +11,9 @@ if (age === 100) {
 }
 
 else if (age < 100) {
-    
+    "Not elegible"
+}
+
+else {
+    console.log("Not elegible, you have already gotten one")
 }
