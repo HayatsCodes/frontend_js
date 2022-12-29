@@ -9,6 +9,8 @@ function add() {
     result = num1 + num2;
 }
 
+add()
+
 function subtract() {
     result = num1 - num2;
 }
