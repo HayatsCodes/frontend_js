@@ -5,3 +5,5 @@ let greeting = "Hi there"
 function sayHi() {
     console.log(greeting + ", " + name);
 }
+
+sayHi()
