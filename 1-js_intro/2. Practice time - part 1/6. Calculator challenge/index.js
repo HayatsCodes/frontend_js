@@ -8,14 +8,16 @@ document.getElementById("num2-el").textContent = num2
 function add() {
     result = num1 + num2
 }
+
 function subtract() {
-    result = num1 + num2
+    result = num1 - num2
+}
+
+function divide() {
+    result = num1 / num2
 }
 function add() {
-    result = num1 + num2
-}
-function add() {
-    result = num1 + num2
+    result = num1 * num2
 }
 // Call the correct function when the user clicks on one of the buttons
 // Perform the given calculation using num1 and num2
