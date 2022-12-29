@@ -4,7 +4,7 @@
 let errorMsg = document.getElementById("error")
 
 function displayError() {
-    errorMsg.innerText = 
+    errorMsg.innerText = "Something went wrong, please try again";
 }
 
 
