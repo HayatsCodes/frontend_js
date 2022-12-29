@@ -18,5 +18,5 @@ function startGame() {
         isAlive = false
     }
     // 2. Display the message in the messageEl using messageEl.textContent
-    console.log(message)    
+    console.log(message)
 }
