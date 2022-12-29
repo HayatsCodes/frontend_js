@@ -6,4 +6,4 @@ let myName = "Hayatudeen Abdulrahman";
 let greeting = "Welcome back ";
 
 // Render the welcome message using welcomeEl.innerText
-  
+welcomeEl.innerText = greeting + myName
