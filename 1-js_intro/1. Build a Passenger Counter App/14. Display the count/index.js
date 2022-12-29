@@ -5,12 +5,13 @@
 // document.getElementById("count-el").innerText = count;
 
 let countEL = document.getElementById("count-el");
-console.log(countEL);
+// console.log(countEL);
 
 let count = 0
 
 function increment() {
     count = count + 1
+    countEL.innerText = count;
     console.log(count)
 }
 
