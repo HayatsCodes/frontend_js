@@ -3,5 +3,8 @@
 // that has the id="error".
 let errorMsg = document.getElementById("error")
 
-displayError
+function displayError() {
+    errorMsg.innerText = 
+}
+
 
