@@ -28,3 +28,6 @@ button {
     border-radius: 2px;
 }
 
+#sum-el + button {
+    /* margin-bottom: 2px; */
+}
