@@ -10,15 +10,21 @@ function add() {
 }
 
 add()
+console.log(result)
 
 function subtract() {
     result = num1 - num2;
 }
+subtract()
+console.log(result)
 
 function divide() {
     result = num1 / num2;
 }
-function add() {
+divide()
+console.log(result)
+
+function multiply() {
     result = num1 * num2;
 }
 // Call the correct function when the user clicks on one of the buttons
