@@ -10,7 +10,7 @@ let sumEL = document.getElementById("sum-el")
 
 function startGame() {
     // 3. Render the sum on the page using this format -> "Sum: 14"
-    sumEL.textContent += sum
+    sumEL.textContent += " " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
     } else if (sum === 21) {
