@@ -10,7 +10,7 @@ let sumEl = document.getElementById("sum-el")
 cardsEl = document.querySelector("#cards-el")
 function startGame() {
     // 3. Render the cars on the page using this format -> "Cards: 10 4"
-    cardsEl.textContent += " " + firstCard + "  " + secondCard
+    cardsEl.textContent += " " + firstCard + " " + secondCard
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
