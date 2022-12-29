@@ -10,7 +10,10 @@ if (sum <= 20) {
 }
 // else if exactly 21 -> "Wohoo! You've got Blackjack! 🥳"
 else if (sum === 21) {
-    
+    console.log("Wohoo! You've got Blackjack! 🥳")
 }
 // else -> "You're out of the game! 😭"
+else {
+    console.log("You're out of the game! 😭")
+}
 
