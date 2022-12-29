@@ -5,5 +5,10 @@ let age = 22
 
 // if less than 21 -> "You can not enter the club!"
 // else            -> "Welcome!"
-if (age )
+if (age < 22) {
+    console.log("You're not elligible for a driver license")
+}
+else {
+    console.log()
+}
 
