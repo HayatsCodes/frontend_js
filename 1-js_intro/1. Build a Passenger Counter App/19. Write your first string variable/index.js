@@ -1,5 +1,5 @@
 let username = "per"
 
-let message = "You have tree new notifications"
-console.log(username)
+let message = "You have three new notifications";
+console.log(message + ", " + username + "!")
 
