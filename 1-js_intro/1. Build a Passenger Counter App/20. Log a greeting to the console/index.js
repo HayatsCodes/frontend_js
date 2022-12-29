@@ -8,3 +8,4 @@
 let name = "Hayatudeen";
 let greeting = "Hi, my name is "
 
+let myGreeting = name + greeting;
