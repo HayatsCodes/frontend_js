@@ -1,5 +1,8 @@
 // 2. Create the player object. Give it two keys, name and chips, and set their values
-let player
+let player = {
+    name: 'player1',
+    
+}
 let cards = []
 let sum = 0
 let hasBlackJack = false
