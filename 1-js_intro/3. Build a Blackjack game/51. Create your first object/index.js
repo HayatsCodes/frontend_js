@@ -3,6 +3,7 @@
 // Log out at least two of the keys using the dot notation
 
 let castleListing = {
-    
+    rooms: 4,
+    Bath
 }
 
