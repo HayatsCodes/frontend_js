@@ -1,4 +1,7 @@
 // Create a person object that contains three keys: name, age, and county.
+let Person = {
+    name: ,
+}
 // Use yourself as an example to set the values for name, age, and country
 
 // Create a function, logData(), that uses the person object to create a
