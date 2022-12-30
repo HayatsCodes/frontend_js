@@ -1,7 +1,8 @@
 let firstCard = 10
 let secondCard = 4
 // 1. Create a new array - cards - that contains firstCard and secondCard
-let sum = firstCard + secondCard
+let cards = [firstCard, secondCard]
+let sum = cards[0] + cards[1]
 let hasBlackJack = false
 let isAlive = true
 let message = ""
