@@ -9,5 +9,8 @@ let Person = {
 // Create a function, logData(), that uses the person object to create a
 // string in the following format: 
 // "Per is 35 years old and lives in Norway"
+function logData() {
+    console.log(Person.name )
+}
 
 // Call the logData() function to verify that it works
