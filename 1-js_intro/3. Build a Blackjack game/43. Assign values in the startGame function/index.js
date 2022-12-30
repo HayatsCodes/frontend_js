@@ -27,7 +27,7 @@ function startGame() {
     secondCard = getRandomCard()
     // Re-assign the cards and sum variables so that the game can start
     cards.push(firstCard, secondCard)
-    sum = firstCard = secondCard
+    sum = firstCard + secondCard
     renderGame()
 }
 
