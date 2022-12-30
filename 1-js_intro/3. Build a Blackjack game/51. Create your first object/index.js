@@ -4,6 +4,7 @@
 
 let castleListing = {
     rooms: 4,
-    Bath
+    bathTub: true,
+    type: "family"
 }
 
