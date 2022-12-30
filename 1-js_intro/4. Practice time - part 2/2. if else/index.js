@@ -10,9 +10,13 @@ let age = 15
 // the passenger will get based upon the value of the age variable
 
 if (age < 6) {
-    console.log("free")
+    console.log("Free")
 } else if (age >= 6 && age <= 17) {
-    console.log("child discount")
+    console.log("Child discount")
 } else if (age >= 18 && age <= 26) {
-    console.log()
+    console.log("Student discount")
+} else if (age >= 27 && age <= 66) {
+    console.log("Married discount")
+} else {
+    console.log("Senior citizen discount")
 }
