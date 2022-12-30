@@ -1,5 +1,5 @@
 for (let i = 10; i <= 100; i += 10) {
-    console.log(i)
+    console.log(i);
 }
 
 // Create a for loop that counts from 10 to 100 in steps of 10
