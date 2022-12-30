@@ -10,6 +10,10 @@ inputBtn.addEventListener("click", function() {
 })
 
 // 1. Wrap the code below in a renderLeads() function
+
+function renderLeads() {
+    
+}
 let listItems = ""
 for (let i = 0; i < myLeads.length; i++) {
     listItems += "<li>" + myLeads[i] + "</li>"
