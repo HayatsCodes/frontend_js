@@ -2,7 +2,7 @@
 let Person = {
     name: "Hayatudeen",
     age: 20,
-    country: Nigeria
+    country: "Nigeria"
 }
 // Use yourself as an example to set the values for name, age, and country
 
@@ -10,7 +10,8 @@ let Person = {
 // string in the following format: 
 // "Per is 35 years old and lives in Norway"
 function logData() {
-    console.log(`${Person.name} is ${Person.age} years old and lives in `)
+    console.log(`${Person.name} is ${Person.age} years old and lives in ${Person.country}`)
 }
 
 // Call the logData() function to verify that it works
+logData()
