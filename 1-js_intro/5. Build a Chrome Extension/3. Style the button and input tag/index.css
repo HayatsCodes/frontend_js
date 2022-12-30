@@ -18,8 +18,9 @@ input {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px;
 }
+
+input:fo
 
 button {
     background-color: #5f9341;
