@@ -4,7 +4,7 @@ const container = document.getElementById("container")
 container.innerHTML = "<button onclick='buy()'>" + "Buy" + "</button>"
 
 function buy() {
-    container.innerHTML += "p"
+    container.innerHTML += "<p>Thank you for buying!</p>"
 }
 
 // When clicked, render a paragraph under the button (in the container)
