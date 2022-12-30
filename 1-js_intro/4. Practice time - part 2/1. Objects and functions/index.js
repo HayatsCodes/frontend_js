@@ -10,7 +10,7 @@ let Person = {
 // string in the following format: 
 // "Per is 35 years old and lives in Norway"
 function logData() {
-    console.log(Person.name )
+    console.log(`${Person.name} is ${Person.age} years old and lives in `)
 }
 
 // Call the logData() function to verify that it works
