@@ -5,5 +5,7 @@ let likesStartups = false
 
 
 function recommendMovie() {
-    console.log("Hey, check out this new film we think you will like!")
+    if (likesStartups || likesDocumentaries) {
+        console.log("Hey, check out this new film we think you will like!")
+    }
 }
