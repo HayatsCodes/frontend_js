@@ -1,6 +1,8 @@
 // Create a person object that contains three keys: name, age, and county.
 let Person = {
-    name: ,
+    name: "Hayatudeen",
+    age: 20,
+    country: Nigeria
 }
 // Use yourself as an example to set the values for name, age, and country
 
