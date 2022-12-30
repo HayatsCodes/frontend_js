@@ -42,7 +42,7 @@ function renderGame() {
 
 function newCard() {
     // 3. Use the getRandomCard() to set the value of card
-    let card = 6
+    let card = getRandomCard()
     sum += card
     cards.push(card)
     console.log(cards)
