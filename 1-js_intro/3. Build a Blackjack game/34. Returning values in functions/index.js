@@ -20,8 +20,9 @@ function getTotalRaceTime() {
     return player1Time + player2Time
 }
 // Call/invoke the function and store the returned value in a new variable
-let totalRaceTime = 
+let totalRaceTime = getTotalRaceTime()
 // Finally, log the variable out
+console.log(totalRaceTime)
 
 
 
