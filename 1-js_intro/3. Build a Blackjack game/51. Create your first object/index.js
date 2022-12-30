@@ -9,5 +9,5 @@ let castle = {
 }
 
 console.log(castle.rooms)
-console.log(castle.type)
+console.log(castle.bathTub)
 
