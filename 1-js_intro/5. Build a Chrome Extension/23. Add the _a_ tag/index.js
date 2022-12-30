@@ -16,6 +16,5 @@ function renderLeads() {
         // Can you make the link open in a new tab?
         listItems += "<li>" + "<a href='" + myLeads[i] +"' target='_blank'>" + myLeads[i]+ "</a>" +"</li>"
     }
-{/* <li><a href='www.something.com' target='_blank'></a></li> */}
     ulEl.innerHTML = listItems 
 }
