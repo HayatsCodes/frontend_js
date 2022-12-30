@@ -17,7 +17,7 @@ function getRandomCard() {
     if (randomNumber === 1) {
         return 11
     }
-    else if (randomNumber)
+    else if (randomNumber >= 11 && <= 13)
 }
 
 function startGame() {
