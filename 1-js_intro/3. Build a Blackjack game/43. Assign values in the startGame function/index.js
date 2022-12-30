@@ -23,8 +23,10 @@ function getRandomCard() {
 function startGame() {
     isAlive = true
     // Generate two random numbes
-    first
+    firstCard = getRandomCard()
+    secondCard = getRandomCard()
     // Re-assign the cards and sum variables so that the game can start
+    cards.
     renderGame()
 }
 
