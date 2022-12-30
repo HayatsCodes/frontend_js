@@ -23,8 +23,8 @@ function getRandomCard() {
 function startGame() {
     isAlive = true
     // Generate two random numbes
-    firstCard = getRandomCard()
-    secondCard = getRandomCard()
+    let firstCard = getRandomCard()
+    let secondCard = getRandomCard()
     // Re-assign the cards and sum variables so that the game can start
     cards.push(firstCard, secondCard)
     sum = firstCard + secondCard
