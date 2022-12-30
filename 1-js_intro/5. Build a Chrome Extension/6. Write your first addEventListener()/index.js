@@ -4,5 +4,5 @@
 
 grabBox = document.getElementById("box")
 grabBox.addEventListener("click", function() {
-    console.log
+    console.log("I want to open the box!")
 })
