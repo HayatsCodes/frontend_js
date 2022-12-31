@@ -3,6 +3,7 @@ let apiQuotes = []
 // Show New Quote
 function newQuote() {
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
+    console.log(quote);
 }
 // Get Quotes From API
 async function getQuotes() {
