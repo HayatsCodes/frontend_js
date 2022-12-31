@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-  filter: brightness(110%);
+  filter: brightness(120%);
 }
 
 /* Media Query: Tablet or smaller */
