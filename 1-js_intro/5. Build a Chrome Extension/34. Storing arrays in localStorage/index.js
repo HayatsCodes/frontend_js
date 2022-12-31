@@ -1,8 +1,9 @@
 let myLeads = ["www.awesomelead.com"]
 
-JSON.parse(myLeads)
+myLeads = JSON.parse(myLeads)
 myLeads.push("www.epiclead.com")
-JSON.stringify(myLeads)
+myLeads = JSON.stringify(myLeads)
+console.log(myLeads)
 console.log(typeof myLeads)
 
 
