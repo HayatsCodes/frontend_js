@@ -15,6 +15,7 @@ if (leadsFromLocalStorage) {
 deleteBtn.addEventListener("dblclick", function() {
     localStorage.clear()
     myLeads = []
+    
 })
 // 3. When clicked, clear localStorage, myLeads, and the DOM
 
