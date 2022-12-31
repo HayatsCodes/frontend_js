@@ -51,5 +51,7 @@ body {
     margin: auto 10px;
   }
 
-  .quo
+  .quote-text {
+    font-size: 2.5rem;
+  }
 }
