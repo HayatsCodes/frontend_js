@@ -5,4 +5,4 @@ function greetUser(greeting, name, emoji) {
     welcomeEl.textContent = `${greeting}, ${name} ${emoji}`
 }
 
-greetUser("Howdy", "James", 👨🏽)
+greetUser("Howdy", "James", "👨🏽")
