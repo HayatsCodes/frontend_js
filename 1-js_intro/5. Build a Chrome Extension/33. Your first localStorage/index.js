@@ -6,7 +6,7 @@ const ulEl = document.getElementById("ul-el")
 // 1. Save a key-value pair in localStorage
 localStorage.setItem("Hayats", "github.com/HayatsCodes")
 // 2. Refresh the page. Get the value and log it to the console
-
+console.loflocalStorage.getItem("Hayats")
 // 3. Clear localStorage
 
 
