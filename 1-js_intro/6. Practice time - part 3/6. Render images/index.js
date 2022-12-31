@@ -7,3 +7,4 @@ const imgs = [
     "images/hip2.jpg",
     "images/hip3.jpg"
 ]
+
