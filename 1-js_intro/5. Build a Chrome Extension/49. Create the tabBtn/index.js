@@ -17,7 +17,7 @@ const tabs = [
 ]
 
 tabBtn.addEventListener("click", function() {
-    console.log(tabs.url)
+    console.log(tabs[0].url)
 })
 
 function render(leads) {
