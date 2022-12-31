@@ -8,3 +8,4 @@ function logArray(array) {
     }
 }
 // Call the function while passing in myCourses as an argument
+logArray(myCourses)
