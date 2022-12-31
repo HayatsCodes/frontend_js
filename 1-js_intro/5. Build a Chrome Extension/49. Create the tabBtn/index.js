@@ -12,7 +12,9 @@ if (leadsFromLocalStorage) {
 }
 
 // 2. Listen for clicks on tabBtn. Log Per's LinkedIn URL to the console
-
+const tabs = [
+    {url: "https://www.linkedin.com/in/HayatsCodes"}
+]
 
 function render(leads) {
     let listItems = ""
