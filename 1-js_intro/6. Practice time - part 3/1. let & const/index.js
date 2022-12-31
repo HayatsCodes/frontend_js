@@ -3,7 +3,7 @@ const player = "Per"
 const opponent = "Nick"
 const game = "AmazingFighter"
 let points = 0
-const hasWon = false
+let hasWon = false
 
 // PLAYING THE GAME
 points += 100
