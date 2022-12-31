@@ -12,5 +12,7 @@ function generateSentence(desc, arr) {
     // for (let i = 0; i < arr.length; i++) {
 
     // }
-    let sentence = `The ${arr.length} ${desc} are ${}`
+    let sentence = `The ${arr.length} ${desc} are 
+        ${}
+    `
 }
