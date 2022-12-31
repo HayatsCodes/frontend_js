@@ -13,6 +13,6 @@ let data = [
 scoreBtn = document.getElementById("score-btn")
 // Use addEventListener() to listen for button clicks
 scoreBtn.addEventListener("click", function() {
-    
+    console.log(data[0].score)
 })
 // Log Jane's score when the button is clicked (via data)
