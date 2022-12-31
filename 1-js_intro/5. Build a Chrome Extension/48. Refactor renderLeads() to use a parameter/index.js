@@ -14,7 +14,7 @@ if (leadsFromLocalStorage) {
 // instead of the global myLeads variable. Remember to update all invocations 
 // of the function as well.
 
-function renderLeads() {
+function render() {
     let listItems = ""
     for (let i = 0; i < myLeads.length; i++) {
         listItems += `
