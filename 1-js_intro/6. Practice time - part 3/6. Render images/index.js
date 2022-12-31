@@ -8,6 +8,7 @@ const imgs = [
     "images/hip3.jpg"
 ]
 
+container = document.getElementById("container")
 function renderImage() {
-    
+    for (let i)
 }
