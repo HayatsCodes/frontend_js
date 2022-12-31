@@ -8,3 +8,6 @@ const imgs = [
     "images/hip3.jpg"
 ]
 
+function renderImage() {
+    
+}
