@@ -1,5 +1,7 @@
 let myLeads = ["www.awesomelead.com"]
 
+JSON.parse(myLeads)
+myLeads.push()
 
 
 const inputEl = document.getElementById("input-el")
