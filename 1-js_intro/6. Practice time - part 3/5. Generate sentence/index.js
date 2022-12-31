@@ -9,7 +9,8 @@
 
 // Use both a for loop and a template string to solve the challenge
 function generateSentence(desc, arr) {
-    for (let i = 0; i < arr.length; i++) {
-        
-    }
+    // for (let i = 0; i < arr.length; i++) {
+
+    // }
+    let sentence = ``
 }
