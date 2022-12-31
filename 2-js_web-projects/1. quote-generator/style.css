@@ -44,3 +44,8 @@ body {
   font-weight: 400;
   font-style: italic;
 }
+
+/* Media Query: Tablet or smaller */
+@media screen {
+  
+}
