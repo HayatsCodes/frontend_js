@@ -16,6 +16,10 @@ const tabs = [
     {url: "https://www.linkedin.com/in/HayatsCodes"}
 ]
 
+tabBtn.addEventListener("click", function() {
+    console.log(tabs.url)
+})
+
 function render(leads) {
     let listItems = ""
     for (let i = 0; i < leads.length; i++) {
