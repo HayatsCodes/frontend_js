@@ -14,3 +14,5 @@ function renderImage() {
         container.innerHtml += `<img class="team-img" src="${imgs[i]}">`
     }
 }
+
+renderImage()
