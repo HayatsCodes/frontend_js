@@ -10,5 +10,7 @@ const imgs = [
 
 container = document.getElementById("container")
 function renderImage() {
-    for (let i)
+    for (let i = 0; i < imgs.length; i++) {
+        container.innerHtml += ``
+    }
 }
