@@ -4,6 +4,7 @@ const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
 // Get the leads from the localStorage
+localStorage.getItem("")
 // Store it in a variable, leadsFromLocalStorage
 // Log out the variable
 
