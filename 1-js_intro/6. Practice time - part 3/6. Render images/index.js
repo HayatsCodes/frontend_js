@@ -12,9 +12,9 @@ const container = document.getElementById("container")
 function renderImages() {
     let imgsDom = ""
     for (let i = 0; i < imgs.length; i++) {
-        container.innerHTML += `<img class="team-img" src="${imgs[i]}">`
+        imgsDom += `<img class="team-img" src="${imgs[i]}">`
     }
-    // container.innerHTML = imgsDom
+    container.innerHTML = imgsDom
 }
 
 renderImages()
