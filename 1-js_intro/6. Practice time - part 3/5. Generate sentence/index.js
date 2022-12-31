@@ -18,7 +18,7 @@ function generateSentence(desc, arr) {
             sentence += arr[i] + ", "
         }
         else {
-            sentence += arr[i]
+            sentence += "and " + arr[i]
         }
         
     }
