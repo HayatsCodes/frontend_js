@@ -64,7 +64,9 @@ button {
   box-shadow: 0 0.3rem rgba(121, 121, 121, .65);
 }
 
-
+button:hover {
+  filter: brightness(110%);
+}
 
 /* Media Query: Tablet or smaller */
 @media screen and (max-width: 1000px) {
