@@ -2,7 +2,7 @@ let apiQuotes = []
 
 // Show New Quote
 function newQuote() {
-    const quote = apiQuotes[Math]
+    const quote = apiQuotes[Math.floor(Math.random() )]
 }
 // Get Quotes From API
 async function getQuotes() {
