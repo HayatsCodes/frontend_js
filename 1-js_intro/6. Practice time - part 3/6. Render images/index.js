@@ -9,10 +9,10 @@ const imgs = [
 ]
 
 const container = document.getElementById("container")
-function renderImage() {
+function renderImages() {
     for (let i = 0; i < imgs.length; i++) {
         container.innerHtml += `<img class="team-img" src="${imgs[i]}">`
     }
 }
 
-renderImage()
+renderImages()
