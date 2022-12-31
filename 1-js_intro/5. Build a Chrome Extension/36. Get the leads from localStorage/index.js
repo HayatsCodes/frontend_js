@@ -7,7 +7,7 @@ const ulEl = document.getElementById("ul-el")
 let leadsFromLocalStorage = localStorage.getItem("myLeads")
 // Store it in a variable, leadsFromLocalStorage
 // Log out the variable
-console.log
+console.log(leadsFromLocalStorage)
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
