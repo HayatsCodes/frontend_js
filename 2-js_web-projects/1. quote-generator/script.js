@@ -6,7 +6,7 @@ async function getQuotes() {
     try {
         const response = await fetch(apiUrl);
         apiQuotes = await response.json();
-        console.log(apiQuotes);
+        console.log(apiQuotes[12]);
     } catch (error) {
         // Catch Error Here
     }
