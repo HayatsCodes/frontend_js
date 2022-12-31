@@ -17,7 +17,7 @@ const tabs = [
 
 tabBtn.addEventListener("click", function(){
     // Save the url instead of logging it out
-    render(tabs)
+    
 })
 
 function render(leads) {
