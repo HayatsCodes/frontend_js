@@ -8,6 +8,7 @@ let apiQuotes = []
 // Show New Quote
 function newQuote() {
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
+    // Check if Author field is blank and replace it
     authorText.textContent = quote.author;
     quoteText.textContent = quote.text;
 }
