@@ -1,7 +1,7 @@
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
-const new = document.getElementById('quote-container');
+const newQuoteBtn = document.getElementById('new-quote');
 
 let apiQuotes = []
 
