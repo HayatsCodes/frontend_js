@@ -20,6 +20,7 @@ function Complete() {
 }
 // Show New Quote
 function newQuote() {
+    loading();
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
     // Check if Author field is blank and replace it with 'Unknown'
     if (quote.author) {
@@ -35,6 +36,7 @@ function newQuote() {
         quoteText.classList.remove('long-quote');
     }
     quoteText.textContent = quote.text;
+    co
 }
 // Get Quotes From API
 async function getQuotes() {
