@@ -14,7 +14,7 @@ function loading() {
 }
 
 // Show Complete
-function Complete() {
+function complete() {
     loader.hidden = true;
     quoteContainer.hidden = false;
 }
@@ -36,7 +36,7 @@ function newQuote() {
         quoteText.classList.remove('long-quote');
     }
     quoteText.textContent = quote.text;
-    co
+    Complete();
 }
 // Get Quotes From API
 async function getQuotes() {
