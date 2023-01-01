@@ -13,6 +13,10 @@ function newQuote() {
         authorText.textContent = quote.author;
         quoteText.textContent = quote.text;
     }
+    else {
+        authorText.textContent = "";
+        quoteText.textContent = quote.text;
+    }
    
 }
 // Get Quotes From API
