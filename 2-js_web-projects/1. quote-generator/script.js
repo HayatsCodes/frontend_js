@@ -18,7 +18,9 @@ function newQuote() {
     // Check Quote length to determine styling
     if (quote.text.length > 50) {
         quoteText.classList.add('long-quote');
-    } else 
+    } else {
+        quoteText.classList.remove('long-quote');
+    }
     quoteText.textContent = quote.text;
 }
 // Get Quotes From API
