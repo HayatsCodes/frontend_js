@@ -16,7 +16,9 @@ function newQuote() {
         authorText.textContent = 'Unknown';
     }
     // Check Quote length to determine styling
-    if (quote.text.l)
+    if (quote.text.length > 50) {
+        quoteText.classList.add('long-quote')
+    }
     quoteText.textContent = quote.text;
 }
 // Get Quotes From API
