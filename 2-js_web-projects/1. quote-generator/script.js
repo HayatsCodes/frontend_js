@@ -9,7 +9,7 @@ let apiQuotes = []
 
 // Show Loading
 function loading() {
-    
+    loading.hidden 
 }
 // Show New Quote
 function newQuote() {
