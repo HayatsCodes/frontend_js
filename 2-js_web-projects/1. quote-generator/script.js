@@ -36,7 +36,8 @@ function newQuote() {
         quoteText.classList.remove('long-quote');
     }
     quoteText.textContent = quote.text;
-    Complete();
+    // Set Quote, Hide Loader
+    complete();
 }
 // Get Quotes From API
 async function getQuotes() {
