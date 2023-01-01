@@ -1,4 +1,4 @@
-
+const quoteContainer = document.getElementById('')
 
 let apiQuotes = []
 
