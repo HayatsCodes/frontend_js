@@ -41,5 +41,7 @@ function tweetQuote() {
     window.open(twitterUrl, '_blank');
 }
 
+
+
 // On Load
 getQuotes()
