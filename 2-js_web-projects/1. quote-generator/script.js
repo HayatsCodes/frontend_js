@@ -10,10 +10,10 @@ function newQuote() {
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
     // Check if Author field is blank and replace it with 'Unknown'
     if (quote.author) {
-        
+        authorText.textContent = quote.author;
+        quoteText.textContent = quote.text;
     }
-    authorText.textContent = quote.author;
-    quoteText.textContent = quote.text;
+   
 }
 // Get Quotes From API
 async function getQuotes() {
