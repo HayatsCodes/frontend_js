@@ -13,9 +13,10 @@ function loading() {
     quoteContainer.hidden = true;
 }
 
-function loading() {
-    loader.hidden = false;
-    quoteContainer.hidden = true;
+// Show Complete
+function Complete() {
+    loader.hidden = true;
+    quoteContainer.hidden = fa;
 }
 // Show New Quote
 function newQuote() {
