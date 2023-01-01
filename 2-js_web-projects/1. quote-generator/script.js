@@ -14,7 +14,7 @@ function newQuote() {
         quoteText.textContent = quote.text;
     }
     else {
-        authorText.textContent = "";
+        authorText.textContent = 'Unknown';
         quoteText.textContent = quote.text;
     }
    
