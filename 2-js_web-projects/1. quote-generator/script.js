@@ -11,7 +11,7 @@ function newQuote() {
     // Check if Author field is blank and replace it with 'Unknown'
     if (quote.author) {
         authorText.textContent = quote.author;
-        quoteText.textContent = quote.text;
+        quoteText.textContent = quote.text; 
     }
     else {
         authorText.textContent = 'Unknown';
