@@ -9,7 +9,7 @@ let apiQuotes = []
 function newQuote() {
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
     authorText.textContent = quote.author;
-    u
+    quoteText.textContent = quote.text;
 }
 // Get Quotes From API
 async function getQuotes() {
