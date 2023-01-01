@@ -16,7 +16,7 @@ function loading() {
 // Show Complete
 function Complete() {
     loader.hidden = true;
-    quoteContainer.hidden = fa;
+    quoteContainer.hidden = false;
 }
 // Show New Quote
 function newQuote() {
