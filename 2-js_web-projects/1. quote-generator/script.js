@@ -35,5 +35,7 @@ async function getQuotes() {
     }
 }
 
+// T
+
 // On Load
 getQuotes()
