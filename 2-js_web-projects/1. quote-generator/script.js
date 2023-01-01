@@ -1,3 +1,5 @@
+
+
 let apiQuotes = []
 
 // Show New Quote
