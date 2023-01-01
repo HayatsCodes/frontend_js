@@ -35,7 +35,10 @@ async function getQuotes() {
     }
 }
 
-// T
+// Tweet Quote
+function tweetQuote() {
+    
+}
 
 // On Load
 getQuotes()
