@@ -1,4 +1,7 @@
-const quoteContainer = document.getElementById('')
+const quoteContainer = document.getElementById('quote-container');
+const quoteText = document.getElementById('quote-container');
+const quoteContainer = document.getElementById('quote-container');
+const quoteContainer = document.getElementById('quote-container');
 
 let apiQuotes = []
 
