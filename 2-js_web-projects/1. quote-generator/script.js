@@ -37,7 +37,7 @@ async function getQuotes() {
 
 // Tweet Quote
 function tweetQuote() {
-    
+    const twitterUrl = `https:twitter.com/intent/tweet?`
 }
 
 // On Load
