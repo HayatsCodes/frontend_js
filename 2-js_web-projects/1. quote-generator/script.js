@@ -7,7 +7,10 @@ const loader = document.getElementById('loader')
 
 let apiQuotes = []
 
-// Show 
+// Show Loading
+function loading() {
+    
+}
 // Show New Quote
 function newQuote() {
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
