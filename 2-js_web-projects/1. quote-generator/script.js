@@ -1,7 +1,7 @@
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
-const authorText = document.getElementById('author');
+const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 
 let apiQuotes = []
@@ -44,7 +44,7 @@ function tweetQuote() {
 
 // Event Listeners
 newQuoteBtn.addEventListener('click', newQuote)
-
+tw
 
 // On Load
 getQuotes()
