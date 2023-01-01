@@ -16,7 +16,7 @@ function newQuote() {
         authorText.textContent = 'Unknown';
     }
     // Check Quote length to determine styling
-    
+    if (quote.text.l)
     quoteText.textContent = quote.text;
 }
 // Get Quotes From API
