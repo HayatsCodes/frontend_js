@@ -12,7 +12,9 @@ const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count
 function displayPhotos() {
     // Run function for each object in PhotosArray
     photosArray.forEach((photo) => {
-        // Create <a> to link to
+        // Create <a> to link to Unsplash
+        const item = document.createElement('a');
+        item.setAttribute('href', photo.links.html)
     });
 }
 
