@@ -29,6 +29,8 @@ function setAttributes(element, attributes) {
 
 // Create Elements For Links & Photos, Add to DOM
 function displayPhotos() {
+    imagesLoaded = 0;
+    totalImages = photosArray.length;
     // Run function for each object in PhotosArray
     photosArray.forEach((photo) => {
         // Create <a> to link to Unsplash
