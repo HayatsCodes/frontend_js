@@ -14,7 +14,8 @@ function displayPhotos() {
     photosArray.forEach((photo) => {
         // Create <a> to link to Unsplash
         const item = document.createElement('a');
-        item.setAttribute('href', photo.links.html)
+        item.setAttribute('href', photo.links.html);
+        item.setAttribute('target', '_blank')
     });
 }
 
