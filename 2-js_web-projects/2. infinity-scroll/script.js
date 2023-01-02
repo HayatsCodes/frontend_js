@@ -33,12 +33,11 @@ function displayPhotos() {
             alt: photo.alt_description,
             title: photo.alt_description,
         });
-
+        // Event Listener, check when each has finished loading
+        img.addEventListener
         // Put <img> inside <a>, then put both inside imageContainer Element
         item.appendChild(img);
         imageContainer.appendChild(item);
-
-        
     });
 }
 
