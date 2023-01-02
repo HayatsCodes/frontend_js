@@ -52,5 +52,9 @@ async function getPhotos() {
     }
 }
 
+window.addEventListener('scroll', () => {
+    
+})
+
 // On Load
 getPhotos();
