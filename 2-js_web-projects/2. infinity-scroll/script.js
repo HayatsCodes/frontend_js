@@ -28,7 +28,10 @@ function displayPhotos() {
         
         // Create <img> for photo
         const img = document.createElement('img');
-        setAttributes(img, )
+        setAttributes(img, {
+            src: photo.urls.regular,
+            alt: 
+        })
         // img.setAttribute('src', photo.urls.regular);
         // img.setAttribute('alt', photo.alt_description);
         // img.setAttribute('title', photo.alt_description);
