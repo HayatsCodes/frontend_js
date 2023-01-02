@@ -17,7 +17,9 @@ function displayPhotos() {
         item.setAttribute('href', photo.links.html);
         item.setAttribute('target', '_blank');
 
-        // Create <imag
+        // Create <img> for photo
+        const img = document.createElement('img');
+        img.setAttribute('src', photo.urls.regular);
     });
 }
 
