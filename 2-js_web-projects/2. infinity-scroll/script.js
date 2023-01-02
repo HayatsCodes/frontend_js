@@ -32,7 +32,7 @@ function displayPhotos() {
             src: photo.urls.regular,
             alt: photo.alt_description,
             title: photo.alt_description,
-        })
+        });
         // img.setAttribute('src', photo.urls.regular);
         // img.setAttribute('alt', photo.alt_description);
         // img.setAttribute('title', photo.alt_description);
