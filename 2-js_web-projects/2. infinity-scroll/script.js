@@ -12,11 +12,18 @@ const apiKey = 't1xmwF0zz36suQJzokWgwBbVh7K4ACX19HGCFtzKL9w';
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 
+function imageLoaded() {
+    imagesLoaded++;
+    if (imagesLoaded === totalImages) {
+      ready = true;
+      loader.hidden = true;
+    }
+  }
 
 // Function to set attributes
 function setAttributes(element, attributes) {
     for (const key in attributes) {
-        element.setAttribute(key, attributes.key)
+        element.setAttribute(key, attributes[key])
     }
 }
 
