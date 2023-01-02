@@ -11,7 +11,9 @@ const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count
 // Create Elements For Links & Photos, Add to DOM
 function displayPhotos() {
     // Run function for each object in PhotosArray
-    photosArray.forEach((photo))
+    photosArray.forEach((photo) => {
+        
+    });
 }
 
 
