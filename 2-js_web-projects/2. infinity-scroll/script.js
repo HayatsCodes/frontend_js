@@ -8,7 +8,10 @@ const count = 10;
 const apiKey = 't1xmwF0zz36suQJzokWgwBbVh7K4ACX19HGCFtzKL9w';
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
-// 
+// Create Elements For Links & Photos, Add to DOM
+function displayPhotos() {
+    // Run function for each object in PhotosArray
+}
 
 
 // Get Photos from Unsplah API
