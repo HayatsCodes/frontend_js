@@ -8,6 +8,8 @@ const count = 10;
 const apiKey = 't1xmwF0zz36suQJzokWgwBbVh7K4ACX19HGCFtzKL9w';
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
+
+
 // Function to set attributes
 function setAttributes(element, attributes) {
     for (const key in attributes) {
@@ -34,7 +36,7 @@ function displayPhotos() {
             title: photo.alt_description,
         });
         // Event Listener, check when each has finished loading
-        img.addEventListener
+        img.addEventListener('load', imageLoaded);
         // Put <img> inside <a>, then put both inside imageContainer Element
         item.appendChild(img);
         imageContainer.appendChild(item);
