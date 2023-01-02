@@ -33,13 +33,11 @@ function displayPhotos() {
             alt: photo.alt_description,
             title: photo.alt_description,
         });
-        // img.setAttribute('src', photo.urls.regular);
-        // img.setAttribute('alt', photo.alt_description);
-        // img.setAttribute('title', photo.alt_description);
 
         // Put <img> inside <a>, then put both inside imageContainer Element
         item.appendChild(img);
         imageContainer.appendChild(item);
+        console.log(p)
     });
 }
 
