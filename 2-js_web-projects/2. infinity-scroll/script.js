@@ -11,7 +11,7 @@ const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count
 // Function to set attributes
 function setAttributes(element, attributes) {
     for (const key in attributes) {
-        element.setAttribute = attributes.key
+        element.setAttribute(key, attributes[key])
     }
 }
 
