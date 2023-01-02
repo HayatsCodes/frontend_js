@@ -8,12 +8,15 @@ const count = 10;
 const apiKey = 't1xmwF0zz36suQJzokWgwBbVh7K4ACX19HGCFtzKL9w';
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
+// 
+
+
 // Get Photos from Unsplah API
 async function getPhotos() {
     try {
         const response = await fetch(apiUrl);
         photosArray = await response.json();
-        console.log(photosArray);
+        displayPhotos();
     } catch (error) {
         // Catch Error Here
     }
