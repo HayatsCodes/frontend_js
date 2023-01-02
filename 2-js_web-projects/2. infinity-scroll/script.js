@@ -30,7 +30,8 @@ function displayPhotos() {
         const img = document.createElement('img');
         setAttributes(img, {
             src: photo.urls.regular,
-            alt: 
+            alt: photo.alt_description,
+            title: photo.alt_description,
         })
         // img.setAttribute('src', photo.urls.regular);
         // img.setAttribute('alt', photo.alt_description);
