@@ -37,7 +37,7 @@ button {
 }
 
 button:hover {
-  filter: blur(.2px);
+  filter: blur(1px);
 }
 
 @media screen and (max-width: 1000px) {
