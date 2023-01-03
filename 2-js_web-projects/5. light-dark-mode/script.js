@@ -5,8 +5,8 @@ function switchTheme(event) {
     if (event.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
     } else {
-        
+        document.documentElement.setAttribute('datatheme', 'light');
     }
 }
 
-toggleSwitch.addEventListener('change', switchTheme)
+toggleSwitch.addEventListener('change', switchTheme);
