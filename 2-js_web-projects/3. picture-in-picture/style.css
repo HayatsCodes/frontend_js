@@ -39,5 +39,5 @@ button:hover {
 }
 
 button:active {
-  transform: trans;
+  transform: translateY(3px);
 }
