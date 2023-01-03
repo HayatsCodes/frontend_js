@@ -9,5 +9,6 @@ body {
   min-height: 100vh;
   font-family: 'Barlow', sans-serif;
   display: flex;
-  justify-content: ;
+  justify-content: center;
+  
 }
