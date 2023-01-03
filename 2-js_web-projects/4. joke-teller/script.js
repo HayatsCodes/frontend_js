@@ -28,9 +28,9 @@ async function getJokes() {
         } else {
             joke = data.joke;
         }
+    tellMeJoke();
     } catch (error) {
         // Catch Errors Here
     }
 }
 
-getJokes();
