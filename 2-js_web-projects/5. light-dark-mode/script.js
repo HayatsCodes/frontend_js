@@ -15,6 +15,11 @@ function darkMode() {
     toggleIcon.children[1].classList.add('fa-moon');
 }
 
+// Light Mode Styles
+function lightMode() {
+    toggleIcon.children.classList.remove
+}
+
 // Switch Theme Dynamically
 function switchTheme(event) {
     if (event.target.checked) {
