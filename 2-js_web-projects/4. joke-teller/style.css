@@ -22,6 +22,6 @@ body {
   background-repeat: no-repeat;
 }
 
-@media screen {
+@media screen and ({
   
 }
