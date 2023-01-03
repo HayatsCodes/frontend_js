@@ -22,7 +22,9 @@ body {
   background-repeat: no-repeat;
 }
 
-
+button {
+  
+}
 
 @media screen and (max-width: 1000px) {
   .container {
