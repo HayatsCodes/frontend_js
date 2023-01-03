@@ -33,3 +33,5 @@ async function getJokes() {
         // Catch Errors Here
     }
 }
+
+button.addEventListener('click', getJokes)
