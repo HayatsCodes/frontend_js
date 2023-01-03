@@ -34,10 +34,11 @@ function lightMode() {
 function switchTheme(event) {
     if (event.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme')
+        localStorage.setItem('theme', 'dark');
         darkMode();
     } else {
         document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
         lightMode();
     }
 }
