@@ -44,6 +44,8 @@ button:active {
   transform: scale(98%);
 }
 
+button:dis
+
 @media screen and (max-width: 1000px) {
   .container {
     background-position: center center;
