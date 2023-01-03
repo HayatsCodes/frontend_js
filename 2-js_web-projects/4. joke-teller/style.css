@@ -45,7 +45,7 @@ button:active {
 }
 
 button:disabled {
-  filter: ;
+  filter: brightness();
 }
 
 @media screen and (max-width: 1000px) {
