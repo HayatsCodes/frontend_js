@@ -33,5 +33,3 @@ async function getJokes() {
         // Catch Errors Here
     }
 }
-
-  
