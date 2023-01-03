@@ -1,4 +1,8 @@
 const toggleSwitch = document.querySelector('input[type="checkbox"]');
+const nav = document.getElementById('nav');
+const nav = document.getElementById('nav');
+const nav = document.getElementById('nav');
+const nav = document.getElementById('nav');
 
 // Switch Theme Dynamically
 function switchTheme(event) {
