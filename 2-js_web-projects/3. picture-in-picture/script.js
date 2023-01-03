@@ -14,5 +14,5 @@ async function selectMediaStream() {
         console.log(error)
     }
 }
-
+// On Load
 selectMediaStream();
