@@ -45,8 +45,9 @@ button:active {
 }
 
 button:disabled {
+  cursor: ;
   filter: brightness(30%);
-  
+
 }
 
 @media screen and (max-width: 1000px) {
