@@ -10,7 +10,9 @@ const textBox = document.getElementById('text-box');
 function darkMode() {
     nav.style.backgroundColor = 'rgb(0 0 0 / 50%)';
     textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
-    toggleIcon.children[0].textContent = 'Dar'
+    toggleIcon.children[0].textContent = 'Dark Mode';
+    toggleIcon.children[1].classList.remove('fa-sun');
+    toggleIcon.children[1].classList.add('fa-moon');
 }
 
 // Switch Theme Dynamically
