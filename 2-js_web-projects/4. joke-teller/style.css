@@ -27,7 +27,7 @@ button {
   outline: none;
   width: 200px;
   height: 50px;
-  background-color: ;
+  background-color: #ff3482;
 }
 
 @media screen and (max-width: 1000px) {
