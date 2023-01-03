@@ -18,8 +18,8 @@ function darkMode() {
 // Light Mode Styles
 function lightMode() {
     toggleIcon.children[0].textContent = 'Light Mode';
-    toggleIcon.children.classList.remove('fa-moon');
-    toggleIcon.children.classList.add('fa-sun');
+    toggleIcon.children[1].classList.remove('fa-moon');
+    toggleIcon.children[1].classList.add('fa-sun');
 }
 
 // Switch Theme Dynamically
