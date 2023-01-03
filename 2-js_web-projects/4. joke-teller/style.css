@@ -37,7 +37,7 @@ button {
 }
 
 button:hover {
-  filter: brightness()
+  filter: brightness(95%)
 }
 
 @media screen and (max-width: 1000px) {
