@@ -26,6 +26,7 @@ button {
   cursor: pointer;
   outline: none;
   width: 200px;
+  height: ;
 }
 
 @media screen and (max-width: 1000px) {
