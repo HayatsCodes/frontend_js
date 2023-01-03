@@ -6,12 +6,16 @@ const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
 const textBox = document.getElementById('text-box');
 
+// 
+
 // Switch Theme Dynamically
 function switchTheme(event) {
     if (event.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
+        darkMode();
     } else {
         document.documentElement.setAttribute('data-theme', 'light');
+        lightMode();
     }
 }
 
