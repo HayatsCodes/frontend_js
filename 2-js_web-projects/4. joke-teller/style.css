@@ -44,7 +44,9 @@ button:active {
   transform: scale(98%);
 }
 
-button:dis
+button:disabled {
+  
+}
 
 @media screen and (max-width: 1000px) {
   .container {
