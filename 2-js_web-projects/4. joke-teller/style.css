@@ -17,5 +17,6 @@ body {
   justify-content: center;
   align-items: center;
   background: url('./robot.gif');
-  background-size: ;
+  background-size: contain;
+  
 }
