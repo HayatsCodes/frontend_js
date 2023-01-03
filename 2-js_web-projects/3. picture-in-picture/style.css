@@ -40,5 +40,5 @@ button:hover {
 
 button:active {
   transform: translateY(3px);
-  box-shadow: 0 6px 6px rgb;
+  box-shadow: 0 6px 6px rgba(red, green, blue, alpha);
 }
