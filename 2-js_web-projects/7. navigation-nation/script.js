@@ -10,6 +10,7 @@ function toggleNav() {
     // Toggle: Menu Bars Open/Closed
     menuBars.classList.toggle('change')
     // Toggle: Menu Active
+    overlay.classList.toggle('over')
 }
 
 menuBars.addEventListener('click', toggleNav);
