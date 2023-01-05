@@ -6,7 +6,9 @@ const nav3 = document.getElementById('nav-3');
 const nav4 = document.getElementById('nav-4');
 const nav5 = document.getElementById('nav-5');
 
-
+function toggleNav() {
+    
+}
 
 menuBars.addEventListener('click', toggleNav);
 nav1.addEventListener('click', toggleNav);
