@@ -14,6 +14,9 @@ function toggleNav() {
     if (overlay.classList.contains('overlay-active')) {
         // Animate in - Overlay
         overlay.classList.add('overlay-slide-right');
+    } else {
+        // Animate out - Overlay
+        overlay.classList.add('overlay-slide-right');
     }
 }
 
