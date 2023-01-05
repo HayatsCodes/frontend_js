@@ -34,7 +34,13 @@ body {
   transform: translateX(-100vw);
 }
 
+.overlay-slide-right {
+  transition: all 0.4s ease-in-out;
+}
 
+.overlay-slide-left {
+  transition: all 0.4s ease-in-out;
+}
 
 /* Nav Menu Items */
 nav,
