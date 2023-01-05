@@ -31,6 +31,13 @@ body {
   left: 50px;
 }
 
+.img-container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, .3);
+}
 
 h2 {
   font-size: 35px;
