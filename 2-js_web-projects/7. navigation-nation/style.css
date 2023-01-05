@@ -80,8 +80,6 @@ nav li a::before {
 }
 
 nav li a:hover::before {
-  left: 50%;
-  
   opacity: 1;
 }
 
