@@ -34,7 +34,7 @@ function toggleNav() {
         nav1.classList.add('slide-out-1');
         nav1.classList.remove('slide-in-1');
         nav1.classList.add('slide-out-2');
-        nav1.classList.remove('slide-in-2');
+        nav1.classList.add('slide-in-2');
         nav1.classList.add('slide-out-3');
         nav1.classList.add('slide-in-3');
         nav1.classList.add('slide-out-4');
