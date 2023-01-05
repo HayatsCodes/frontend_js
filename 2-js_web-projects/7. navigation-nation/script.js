@@ -7,8 +7,9 @@ const nav4 = document.getElementById('nav-4');
 const nav5 = document.getElementById('nav-5');
 
 function toggleNav() {
-    // TOggle: Menu Bars OPen/Closed
+    // Toggle: Menu Bars Open/Closed
     menuBars.classList.toggle('change')
+    // Toggle: Menu Active
 }
 
 menuBars.addEventListener('click', toggleNav);
