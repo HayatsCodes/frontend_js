@@ -79,6 +79,10 @@ nav li a::before {
   /* opacity: 0; */
 }
 
+nav li a:hover a::before{
+  transform: scale(1.5);
+}
+
 nav li:nth-of-type(1) {
   background-color: var(--navColor1);
 }
