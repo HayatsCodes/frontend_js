@@ -10,7 +10,11 @@ function toggleNav() {
     // Toggle: Menu Bars Open/Closed
     menuBars.classList.toggle('change')
     // Toggle: Menu Active
-    overlay.classList.toggle('over')
+    overlay.classList.toggle('overlay-active');
+    if (overlay.classList.contains('overlay-active')) {
+        // Animate in - Overlay
+        overlay.classList.add('overlay-slide-right');
+    }
 }
 
 menuBars.addEventListener('click', toggleNav);
