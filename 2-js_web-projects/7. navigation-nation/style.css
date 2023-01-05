@@ -124,6 +124,22 @@ nav li:nth-of-type(5) {
   cursor: pointer;
 }
 
+.slide-in-1 {
+  animation: slide-in 0.4s linear 0.2s both;
+}
+.slide-in-2 {
+  animation: slide-in 0.4s linear 0.2s both;
+}
+.slide-in-1 {
+  animation: slide-in 0.4s linear 0.2s both;
+}
+.slide-in-1 {
+  animation: slide-in 0.4s linear 0.2s both;
+}
+.slide-in-1 {
+  animation: slide-in 0.4s linear 0.2s both;
+}
+
 .bar1,
 .bar2,
 .bar3 {
