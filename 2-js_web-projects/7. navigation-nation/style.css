@@ -53,6 +53,10 @@ nav ul li {
   overflow: hidden;
 }
 
+nav li a {
+  
+}
+
 nav li:nth-of-type(1) {
   background-color: var(--navColor1);
 }
