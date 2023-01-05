@@ -15,6 +15,9 @@ function toggleNav() {
         // Animate in - Overlay
         overlay.classList.add('overlay-slide-right');
         overlay.classList.remove('overlay-slide-left');
+        // Animate In -Nav Items
+        nav1.classList.remove('slide-out-1');
+        nav1.classList.add('slide-in-1');
     } else {
         // Animate out - Overlay
         overlay.classList.add('overlay-slide-left');
