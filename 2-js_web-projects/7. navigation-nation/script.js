@@ -16,7 +16,7 @@ function toggleNav() {
         overlay.classList.add('overlay-slide-right');
     } else {
         // Animate out - Overlay
-        overlay.classList.add('overlay-slide-right');
+        overlay.classList.add('overlay-slide-left');
     }
 }
 
