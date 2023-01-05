@@ -92,6 +92,8 @@ h3 {
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
 
+  
+
 
   .img-container {
     left: 29px;
