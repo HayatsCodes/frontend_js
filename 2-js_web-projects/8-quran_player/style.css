@@ -106,7 +106,12 @@ h3 {
 
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 600px){
-  pos
+  body {
+    position: relative;
+  }
+  .player-container {
+    position: absolute;
+  }
 }
 
 @media screen and (max-width: 376px) {
