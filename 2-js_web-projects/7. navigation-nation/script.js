@@ -18,10 +18,29 @@ function toggleNav() {
         // Animate In -Nav Items
         nav1.classList.remove('slide-out-1');
         nav1.classList.add('slide-in-1');
+        nav1.classList.remove('slide-out-2');
+        nav1.classList.add('slide-in-2');
+        nav1.classList.remove('slide-out-3');
+        nav1.classList.add('slide-in-3');
+        nav1.classList.remove('slide-out-4');
+        nav1.classList.add('slide-in-4');
+        nav1.classList.remove('slide-out-5');
+        nav1.classList.add('slide-in-5');
     } else {
         // Animate out - Overlay
         overlay.classList.add('overlay-slide-left');
         overlay.classList.remove('overlay-slide-right');
+        // Animate Out - Nav Items
+        nav1.classList.remove('slide-out-1');
+        nav1.classList.add('slide-in-1');
+        nav1.classList.remove('slide-out-2');
+        nav1.classList.add('slide-in-2');
+        nav1.classList.remove('slide-out-3');
+        nav1.classList.add('slide-in-3');
+        nav1.classList.remove('slide-out-4');
+        nav1.classList.add('slide-in-4');
+        nav1.classList.remove('slide-out-5');
+        nav1.classList.add('slide-in-5');
     }
 }
 
