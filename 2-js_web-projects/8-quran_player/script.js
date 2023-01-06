@@ -68,6 +68,13 @@ function loadQuran(quran_recitation) {
 let quranIndex = 0;
 
 // Next Recitation
+function prevRecitation() {
+    quranIndex--;
+    loadQuran(recitation[quranIndex]);
+    playQuran();
+}
+
+// Next Recitation
 function nextRecitation() {
     quranIndex++;
     loadQuran(recitation[quranIndex]);
@@ -78,5 +85,5 @@ function nextRecitation() {
 loadQuran(recitation[quranIndex]);
 
 // Event Listeners
-prevBtn.addEventListener('click', prevQuran);
-nextBtn.addEventListener('click', nextQuran);
+prevBtn.addEventListener('click', prevRecitation);
+nextBtn.addEventListener('click', nextRecitation);
