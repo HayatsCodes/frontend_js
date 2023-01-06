@@ -128,6 +128,7 @@ function setProgressBar(e) {
     const width = this.clientWidth;
     const clickX = e.offsetX;
     const { duration } = quran;
+    quran.currentTime = (clickX / width) * duration;
 }
 // Event Listeners
 prevBtn.addEventListener('click', prevRecitation);
