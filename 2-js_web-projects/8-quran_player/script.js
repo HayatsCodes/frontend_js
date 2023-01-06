@@ -97,7 +97,7 @@ loadQuran(recitation[quranIndex]);
 // Update Progress Bar & Time
 function updateProgressBar(event) {
     if (isPlaying) {
-        
+        const {duration, currentTime} = event.srcElement;
     }
 }
 
