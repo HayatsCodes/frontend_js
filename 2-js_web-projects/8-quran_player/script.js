@@ -66,4 +66,4 @@ function loadQuran(quran_recitation) {
 }
 
 // On Load - Select second Quran
-loadQuran(recitation[0]);
+// loadQuran(recitation[0]);

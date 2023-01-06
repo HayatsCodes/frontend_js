@@ -45,7 +45,15 @@ body {
 }
 
 .img-fit-2 {
-  
+  object-position: 60%;
+}
+
+.img-fit-3 {
+  object-position: 30%;
+}
+
+.img-fit-4 {
+  object-position: 40%;
 }
 
 h2 {
