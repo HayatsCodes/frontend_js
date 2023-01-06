@@ -64,5 +64,6 @@ function loadQuran(quran_recitation) {
     image.classList.add(`${quran_recitation.name}-fit`);
 }
 
-// On Load - Select second Quran
+// On Load - Select First Quran
 loadQuran(recitation[0]);
+
