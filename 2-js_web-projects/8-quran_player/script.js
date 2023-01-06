@@ -59,7 +59,7 @@ function loadQuran(quran_recitation) {
     title.textContent = quran_recitation.displayName;
     reciter.textContent = quran_recitation.reciter;
     quran.src = `quran/${quran_recitation.name}.mp3`;
-    image.src = `quran/${quran_recitation.name}.jpg`;
+    image.src = `img/${quran_recitation.name}.jpg`;
 }
 
 // On Load - Select second Quran
