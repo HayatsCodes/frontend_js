@@ -40,8 +40,12 @@ body {
   box-shadow: 0 5px 30px 5px rgba(0, 0, 0, .5);
 }
 
-.img-fit {
+.img-fit-1 {
   object-position: 10%;
+}
+
+.img-fit-2 {
+  
 }
 
 h2 {
