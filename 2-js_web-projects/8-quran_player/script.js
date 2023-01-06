@@ -104,7 +104,7 @@ function updateProgressBar(event) {
         const progressPercent = (currentTime / duration) * 100;
         progress.style.width = `${progressPercent}%`;
         //  Calculate display for duration
-        const durationMinutes = duration / 60;
+        const durationMinutes = Math.floor;
     }
 }
 
