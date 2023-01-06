@@ -1,3 +1,6 @@
+const image = document.querySelector('img');
+const title = document.getElementById('title');
+
 const quran = document.querySelector('audio');
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
