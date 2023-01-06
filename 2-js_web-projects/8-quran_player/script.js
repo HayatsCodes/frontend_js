@@ -53,3 +53,4 @@ function pauseQuran() {
 playBtn.addEventListener('click', () => {
     isPlaying ? pauseQuran(): playQuran()
 });
+
