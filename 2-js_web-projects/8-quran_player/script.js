@@ -113,6 +113,9 @@ function updateProgressBar(event) {
         if (durationSeconds) {
             durationEl.textContent = `${durationMinutes}:${durationSeconds}`;
         }
+        if (durationSeconds === "00") {
+            durationEl.textContent = "0:"
+        }
     }
 }
 
