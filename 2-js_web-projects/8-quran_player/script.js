@@ -56,5 +56,7 @@ playBtn.addEventListener('click', () => {
 
 // Update DOM
 function loadQuran(quran) {
-    title.textContent = song.artist;
+    title.textContent = quran.displayName;
+    reciter.src = `quran/${quran.name}.mp3`;
+    reciter.src = `quran/${quran.name}.mp3`;
 }
