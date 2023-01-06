@@ -12,7 +12,6 @@ const recitation = [
         name: 'quran-1',
         displayName: 'Al-Fatiha',
         reciter: 'Yasser Al-Dosari',
-        imgPos: '10%'
     },
     {
         name: 'quran-2',
