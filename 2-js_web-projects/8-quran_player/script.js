@@ -106,6 +106,9 @@ function updateProgressBar(event) {
         //  Calculate display for duration
         const durationMinutes = Math.floor(duration / 60);
         let durationSeconds = Math.floor((duration / 60) % 10);
+        if (durationSeconds < 10) {
+            durationSeconds = `0${durationSeconds}`;
+        }
     }
 }
 
