@@ -62,6 +62,7 @@ function loadQuran(quran_recitation) {
     quran.src = `quran/${quran_recitation.name}.mp3`;
     image.src = `img/${quran_recitation.name}.jpg`;
     
+
 }
 
 // On Load - Select second Quran
