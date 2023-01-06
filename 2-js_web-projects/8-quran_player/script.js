@@ -123,7 +123,11 @@ function updateProgressBar(event) {
         currentTimeEl.textContent = `${currentMinutes}:${currentSeconds}`
     }
 }
-
+// Set Progress Bar
+function setProgressBar(e) {
+    const width = this.clientWidth;
+    
+}
 // Event Listeners
 prevBtn.addEventListener('click', prevRecitation);
 nextBtn.addEventListener('click', nextRecitation);
