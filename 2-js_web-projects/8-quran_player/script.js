@@ -2,6 +2,8 @@ const image = document.querySelector('img');
 const title = document.getElementById('title');
 const reciter = document.getElementById('reciter');
 const quran = document.querySelector('audio');
+const progressContainer = document.getElementById('progress-container');
+
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
