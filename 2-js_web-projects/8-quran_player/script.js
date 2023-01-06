@@ -6,7 +6,14 @@ const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
 
-// 
+// Quran
+const recitation = [
+    {
+        name: 'quran-1',
+        displayName: 'Al-Fatiha',
+        reciter: ''
+    }
+]
 
 // Check If Playing
 let isPlaying = false;
