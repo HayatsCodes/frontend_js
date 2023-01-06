@@ -76,6 +76,7 @@ function prevRecitation() {
 
 // Next Recitation
 function nextRecitation() {
+    
     quranIndex++;
     loadQuran(recitation[quranIndex]);
     playQuran();
