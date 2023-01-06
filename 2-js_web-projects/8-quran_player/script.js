@@ -11,7 +11,7 @@ function playQuran() {
     isPlaying = true;
     quran.play();
     playBtn.classList.replace('fa-play', 'fa-pause');
-    playBtn.setAttribute('title', 'Play')
+    playBtn.setAttribute('title', 'Pause')
 }
 
 // Pause
@@ -19,7 +19,7 @@ function pauseQuran() {
     isPlaying = false;
     quran.pause();
     playBtn.classList.replace('fa-pause', 'fa-play');
-    playBtn.setAttribute('title', 'Pause')
+    playBtn.setAttribute('title', 'Play')
 }
 
 // Play or Pause Event Listener
