@@ -74,7 +74,6 @@ function prevRecitation() {
     } else {
         quranIndex = recitation.length - 1;
     }
-    console.log(quranIndex)
     loadQuran(recitation[quranIndex]);
     playQuran();
 }
@@ -86,7 +85,6 @@ function nextRecitation() {
     } else {
         quranIndex = 0;
     }
-    console.log(quranIndex)
     loadQuran(recitation[quranIndex]);
     playQuran();
 }
