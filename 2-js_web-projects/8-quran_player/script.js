@@ -71,6 +71,8 @@ let quranIndex = 0;
 function prevRecitation() {
     if (quranIndex >= 0) {
         quranIndex--;
+    } else {
+        quranIndex 
     }
     loadQuran(recitation[quranIndex]);
     playQuran();
