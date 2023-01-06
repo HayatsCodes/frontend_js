@@ -10,13 +10,15 @@ let isPlaying = false;
 function playQuran() {
     isPlaying = true;
     quran.play();
-    playBtn.classList.replace()
+    playBtn.classList.replace('fa-play', 'fa-pause');
 }
 
 // Pause
 function pauseQuran() {
     isPlaying = false;
     quran.pause();
+    playBtn.classList.replace('fa-pause', 'fa-play');
+    playBtn.setAttribute('title')
 }
 
 // Play or Pause Event Listener
