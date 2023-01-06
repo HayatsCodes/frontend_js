@@ -40,19 +40,19 @@ body {
   box-shadow: 0 5px 30px 5px rgba(0, 0, 0, .5);
 }
 
-.img-fit-1 {
+.quran-1-fit {
   object-position: 10%;
 }
 
-.img-fit-2 {
+.quran-2-fit {
   object-position: 80%;
 }
 
-.img-fit-3 {
+.quran-3-fit {
   object-position: 35%;
 }
 
-.img-fit-4 {
+.quran-4-fit {
   object-position: 40%;
 }
 
