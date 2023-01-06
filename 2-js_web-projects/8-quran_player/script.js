@@ -15,6 +15,16 @@ const recitation = [
     },
     {
         name: 'quran-2',
+        displayName: "Ar-Ra'd",
+        reciter: 'Islam Sobhi',
+    },
+    {
+        name: 'quran-3',
+        displayName: 'A',
+        reciter: 'Islam Sobhi',
+    },
+    {
+        name: 'quran-4',
         displayName: 'Al-Fatiha',
         reciter: 'Islam Sobhi',
     }
