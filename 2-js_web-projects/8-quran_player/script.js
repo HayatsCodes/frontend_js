@@ -20,13 +20,13 @@ const recitation = [
     },
     {
         name: 'quran-3',
-        displayName: 'At-Takwir',
-        reciter: 'Muhammad Ayyub',
+        displayName: 'Maryam',
+        reciter: 'Rashid AlaFasy',
     },
     {
         name: 'quran-4',
-        displayName: 'Al-Fatiha',
-        reciter: 'Rashid AlaFasy',
+        displayName: 'At-Takwir',
+        reciter: 'Muhammad Ayyub',
     }
 ]
 
