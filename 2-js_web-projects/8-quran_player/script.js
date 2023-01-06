@@ -65,7 +65,14 @@ function loadQuran(quran_recitation) {
 }
 
 // Current recitation
-let quranIndex = 0
+let quranIndex = 0;
+
+// Next Recitation
+function nextRecitation() {
+    quranIndex++;
+    loadQuran(recitation[quranIndex]);
+    playQuran();
+}
 
 // On Load - Select First Quran
 loadQuran(recitation[quranIndex]);
