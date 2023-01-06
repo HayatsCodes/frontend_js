@@ -12,6 +12,7 @@ const recitation = [
         name: 'quran-1',
         displayName: 'Al-Fatiha',
         reciter: 'Yasser Al-Dosari',
+        imgPos: '10%'
     },
     {
         name: 'quran-2',
@@ -60,7 +61,8 @@ function loadQuran(quran_recitation) {
     reciter.textContent = quran_recitation.reciter;
     quran.src = `quran/${quran_recitation.name}.mp3`;
     image.src = `img/${quran_recitation.name}.jpg`;
+    
 }
 
 // On Load - Select second Quran
-loadQuran(recitation[1]);
+loadQuran(recitation[0]);
