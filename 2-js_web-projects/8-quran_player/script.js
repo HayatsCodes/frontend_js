@@ -10,6 +10,7 @@ let isPlaying = false;
 function playQuran() {
     isPlaying = true;
     quran.play();
+    playBtn.classList.replace()
 }
 
 // Pause
