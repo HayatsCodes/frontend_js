@@ -3,7 +3,7 @@ const title = document.getElementById('title');
 const reciter = document.getElementById('reciter');
 const quran = document.querySelector('audio');
 const progressContainer = document.getElementById('progress-container');
-
+const progress = document.getElementById('progress');
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
@@ -94,6 +94,9 @@ function nextRecitation() {
 // On Load - Select First Quran
 loadQuran(recitation[quranIndex]);
 
+
+
 // Event Listeners
 prevBtn.addEventListener('click', prevRecitation);
 nextBtn.addEventListener('click', nextRecitation);
+quran.addEventListener('timeupdate', updateProgressBar);
