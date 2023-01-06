@@ -133,5 +133,6 @@ function setProgressBar(e) {
 // Event Listeners
 prevBtn.addEventListener('click', prevRecitation);
 nextBtn.addEventListener('click', nextRecitation);
+quran.addEventListener
 quran.addEventListener('timeupdate', updateProgressBar);
 progressContainer.addEventListener('click', setProgressBar);
