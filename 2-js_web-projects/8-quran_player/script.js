@@ -116,13 +116,13 @@ function updateProgressBar(event) {
         if (durationSeconds === "00") {
             durationEl.textContent = "0:47"
         }
-        //  Calculate display for duration
+        //  Calculate display for current
         const currentMinutes = Math.floor(currentTime / 60);
         let currentSeconds = Math.floor((currentTime / 60) % 10);
         if (currentSeconds < 10) {
             currentSeconds = `0${currentSeconds}`;
         }
-        currentTimeEl.textContent =
+        currentTimeEl.textContent = `${currentMinutes}:${currentSeconds}`
     }
 }
 
