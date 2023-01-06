@@ -62,6 +62,7 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
   margin: 40px 20px;
+  margin-top: 20px;
   height: 4px;
   width: 90%;
 }
@@ -99,7 +100,7 @@ h3 {
 }
 
 .fas:hover {
-  filter
+  filter: brightness(80%)
 }
 
 
