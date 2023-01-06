@@ -54,3 +54,7 @@ playBtn.addEventListener('click', () => {
     isPlaying ? pauseQuran(): playQuran()
 });
 
+// Update DOM
+function loadQuran(quran) {
+    title.textContent = song.artist;
+}
