@@ -69,7 +69,7 @@ let quranIndex = 0;
 
 // Next Recitation
 function prevRecitation() {
-    if (quranIndex >= 0) {
+    if (quranIndex >= 1) {
         quranIndex--;
     } else {
         quranIndex = recitation.length - 1;
@@ -80,7 +80,7 @@ function prevRecitation() {
 
 // Next Recitation
 function nextRecitation() {
-    if (quranIndex <= 3) {
+    if (quranIndex <= 2) {
         quranIndex++;
     } else {
         quranIndex = 0;
