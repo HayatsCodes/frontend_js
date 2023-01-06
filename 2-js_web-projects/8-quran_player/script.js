@@ -69,15 +69,18 @@ let quranIndex = 0;
 
 // Next Recitation
 function prevRecitation() {
-    quranIndex--;
+    if (quranIndex >= 0) {
+        quranIndex--;
+    }
     loadQuran(recitation[quranIndex]);
     playQuran();
 }
 
 // Next Recitation
 function nextRecitation() {
-    
-    quranIndex++;
+    if (quranIndex <= 3) {
+        quranIndex++;
+    }
     loadQuran(recitation[quranIndex]);
     playQuran();
 }
