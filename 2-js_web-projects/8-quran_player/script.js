@@ -67,3 +67,6 @@ function loadQuran(quran_recitation) {
 // On Load - Select First Quran
 loadQuran(recitation[0]);
 
+// Event Listeners
+prevBtn.addEventListener('click', prevQuran);
+nextBtn.addEventListener('click', nextQuran);
