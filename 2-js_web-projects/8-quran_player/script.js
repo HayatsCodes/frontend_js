@@ -60,6 +60,7 @@ function loadQuran(quran_recitation) {
     reciter.textContent = quran_recitation.reciter;
     quran.src = `quran/${quran_recitation.name}.mp3`;
     image.src = `img/${quran_recitation.name}.jpg`;
+    image.className = ""
     image.classList.add(`${quran_recitation.name}-fit`);
 }
 
