@@ -3,6 +3,7 @@ const title = document.getElementById('title');
 const reciter = document.getElementById('reciter');
 const quran = document.querySelector('audio');
 const progressContainer = document.getElementById('progress-container');
+const currentTimeE
 const progress = document.getElementById('progress');
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
