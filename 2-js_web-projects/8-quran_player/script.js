@@ -94,7 +94,12 @@ function nextRecitation() {
 // On Load - Select First Quran
 loadQuran(recitation[quranIndex]);
 
-
+// Update Progress Bar & Time
+function updateProgressBar(event) {
+    if (isPlaying) {
+        
+    }
+}
 
 // Event Listeners
 prevBtn.addEventListener('click', prevRecitation);
