@@ -64,8 +64,11 @@ function loadQuran(quran_recitation) {
     image.classList.add(`${quran_recitation.name}-fit`);
 }
 
+// Current recitation
+let quranIndex = 0
+
 // On Load - Select First Quran
-loadQuran(recitation[0]);
+loadQuran(recitation[quranIndex]);
 
 // Event Listeners
 prevBtn.addEventListener('click', prevQuran);
