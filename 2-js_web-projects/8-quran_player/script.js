@@ -11,7 +11,12 @@ const recitation = [
     {
         name: 'quran-1',
         displayName: 'Al-Fatiha',
-        reciter: ''
+        reciter: 'Yasser',
+    },
+    {
+        name: 'quran-2',
+        displayName: 'Al-Fatiha',
+        reciter: 'Yasser',
     }
 ]
 
