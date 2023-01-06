@@ -109,6 +109,7 @@ function updateProgressBar(event) {
         if (durationSeconds < 10) {
             durationSeconds = `0${durationSeconds}`;
         }
+        //  Delay Switching 
         durationEl.textContent = `${durationMinutes}:${durationSeconds}`;
     }
 }
