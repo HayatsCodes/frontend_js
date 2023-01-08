@@ -62,9 +62,9 @@ h2 {
   color: red;
 }
 
-#player .far,
-#computer .far:la {
-
+#player .far:last-of-type,
+#computer .far:last-of-type {
+  margin-right: 0;
 }
 
 .selected {
