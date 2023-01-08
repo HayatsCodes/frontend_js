@@ -39,8 +39,8 @@ function updateDom() {
         // Hide Input
         inputContainer.hidden = true;
 
-        
-        // 
+
+        // If the countdown 
 
         // Populate Countdown
         countdownElTitle.textContent = `${countdownTitle}`;
