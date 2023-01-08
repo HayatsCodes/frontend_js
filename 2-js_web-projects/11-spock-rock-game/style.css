@@ -38,8 +38,6 @@ h1 {
 }
 
 .player-container {
-  display: flex;
-  flex
   margin: 50px;
 }
 
@@ -49,7 +47,7 @@ h2 {
 
 .far {
   font-size: 50px;
-  margin-right: 40px;
+  margin-right: 30px;
   User-select: none;
 }
 
