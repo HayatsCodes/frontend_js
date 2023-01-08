@@ -58,7 +58,9 @@ h2 {
 }
 
 #computer .far,
-#computer 
+#computer .choice {
+  color: red;
+}
 
 
 .reset-icon {
