@@ -140,7 +140,15 @@ li span {
   }
 
   25% {
-    color: rgb(233, 13, 13);
+    color: rgb(233, 213, 13);
+  }
+
+  50% {
+    color: rgb(64, 233, 13);
+  }
+
+  75% {
+    color: rgb(0, 38, blue);
   }
 }
 /* Media Query: Large Smartphone (Vertical) */
