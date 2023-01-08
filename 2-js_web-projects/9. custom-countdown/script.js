@@ -29,6 +29,9 @@ function updateDom() {
     const hours = Math.floor((distance % day) / hour);
     const minutes = Math.floor((distance % hour) / minute);
     const seconds = Math.floor((distance % minute) / second);
+
+    inputContainer.hidden = true;
+    countdownEl.hidden
 }
 
 // Take Values from Fminute Input
