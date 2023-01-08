@@ -24,6 +24,8 @@ dateEl.setAttribute('min', today);
 function updateDom() {
     const now = new Date().getTime();
     const distance = countdownValue - now;
+
+    
 }
 
 // Take Values from Form Input
