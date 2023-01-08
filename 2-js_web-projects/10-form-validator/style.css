@@ -19,8 +19,8 @@ div {
 }
 
 .container {
-  width: 380px;
-  height: 530px;
+  width: 430px;
+  height: 580px;
   background: #fff;
   display: flex;
   flex-direction: column;
