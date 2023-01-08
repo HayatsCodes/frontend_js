@@ -145,3 +145,4 @@ function select(playerChoice) {
       break;
   }
 }
+resetAll();
