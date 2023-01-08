@@ -36,7 +36,10 @@ function resetSelected() {
   })
 }
 
-// Reset Score 
+// Reset Score & playerChoice/computerChoice
+function resetAll() {
+   
+}
 
 function computerRandomChoice() {
   const computerChoiceNumber = Math.random();
