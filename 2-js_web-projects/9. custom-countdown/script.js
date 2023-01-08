@@ -30,6 +30,8 @@ function updateDom() {
     const minutes = Math.floor((distance % hour) / minute);
     const seconds = Math.floor((distance % minute) / second);
 
+    // Populate Countdown
+    countdownElTitle.textContent = 
     inputContainer.hidden = true;
     countdownEl.hidden = false;
 }
