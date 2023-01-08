@@ -29,6 +29,8 @@ const choices = {
 function select(playerChoice) {
   //  Add 'selected' styling & playerChoice
   switch (playerChoice) {
-    
+    case 'rock':
+      playerRock.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Rock'
   }
 }
