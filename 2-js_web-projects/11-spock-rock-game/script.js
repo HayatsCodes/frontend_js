@@ -41,7 +41,10 @@ function resetAll() {
    playerScoreNumber = 0;
    computerScoreNumber = 0;
    playerScoreEl.textContent = playerScoreNumber;
-   computerScoreEl.textContent = computerScoreNumber
+   computerScoreEl.textContent = computerScoreNumber;
+   playerChoiceEl.textContent = '';
+   computerChoiceEl.textContent = '';
+   resultText.textContent = '';
 }
 
 function computerRandomChoice() {
