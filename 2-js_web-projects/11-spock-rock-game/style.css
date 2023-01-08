@@ -99,6 +99,7 @@ h2 {
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
   .game-container {
+    w
     height: 550px;
   }
 
