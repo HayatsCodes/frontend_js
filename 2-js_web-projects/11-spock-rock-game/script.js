@@ -94,6 +94,7 @@ function updateScore(playerChoice) {
     } else {
       resultText.textContent = "You Lost!";
       computerScoreNumber++;
+      computerScoreEl.textContent = computerScoreNumber;
     }
   }
 }
