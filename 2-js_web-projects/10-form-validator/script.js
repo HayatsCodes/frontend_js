@@ -41,7 +41,11 @@ function validateForm() {
 
 function storeFormData() {
     const user = {
-        name:
+        name: form.name.value,
+        phone: form.phone.value,
+        email: form.email.value,
+        website: form.website.value,
+        password
     }
 }
 
