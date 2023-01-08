@@ -62,9 +62,9 @@ h2 {
   color: red;
 }
 
-#player .far:last-of-type,
-#computer .far:last-of-type {
-  margin-right: 90;
+#player .far:nth-last-of-type(3),
+#computer .far:nth-last-of-type(3) {
+  margin-right: 0;
 }
 
 .selected {
