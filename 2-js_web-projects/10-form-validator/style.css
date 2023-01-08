@@ -18,6 +18,10 @@ div {
   font-weight: 700;
 }
 
+h1 {
+  margin-bottom: 2px;
+}
+
 .container {
   width: 430px;
   height: 580px;
