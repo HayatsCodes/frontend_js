@@ -40,7 +40,12 @@ function updateDom() {
         inputContainer.hidden = true;
 
 
-        // If the countdown 
+        // If the countdown has ended, show complete
+        if (distance < 0) {
+            countdownEl.hidden = true;
+            clearInterval(countdownActive);
+            completeInfo.textContent =`${countdownTitle}`
+        }
 
         // Populate Countdown
         countdownElTitle.textContent = `${countdownTitle}`;
