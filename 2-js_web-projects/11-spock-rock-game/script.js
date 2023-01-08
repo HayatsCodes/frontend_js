@@ -145,4 +145,6 @@ function select(playerChoice) {
       break;
   }
 }
+
+// On load
 resetAll();
