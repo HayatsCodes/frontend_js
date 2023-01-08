@@ -62,6 +62,9 @@ h2 {
   color: red;
 }
 
+.selected {
+  color: #000 !important;
+}
 
 .reset-icon {
   font-size: 30px;
