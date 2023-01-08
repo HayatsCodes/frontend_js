@@ -68,7 +68,7 @@ function displayComputerChoice() {
       computerChoiceEl.textContent = ' --- Scissors';
       break;
     case 'lizard':
-      computerLizard.classList.add('selected'); 
+      computerLizard.classList.add('selected');
       computerChoiceEl.textContent = ' --- Lizard';
       break;
     case 'spock':
