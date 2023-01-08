@@ -33,9 +33,9 @@ function updateDom() {
     // Populate Countdown
     countdownElTitle.textContent = `${countdownTitle}`;
     timeElements[0].textContent = `${days}`;
-    timeElements[1].textContent = `${days}`;
-    timeElements[0].textContent = `${days}`;
-    timeElements[0].textContent = `${days}`;
+    timeElements[1].textContent = `${hours}`;
+    timeElements[2].textContent = `${minutes}`;
+    timeElements[3].textContent = `${seconds}`;
     inputContainer.hidden = true;
     countdownEl.hidden = false;
 }
