@@ -130,7 +130,9 @@ li span {
   top: 60px;
 }
 
-
+.complete-title {
+  animation: complete 4s timing-function delay iteration-count direction fill-mode;
+}
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .video-background {
