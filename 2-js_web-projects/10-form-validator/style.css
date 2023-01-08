@@ -87,10 +87,11 @@ button:focus {
 }
 
 .message-container {
-  border: 1px solid black;
+  border: 1px solid #000;
   border-radius: 5px;
   width: 90%;
   margin-top: 20px;
   display: flex;
-  justify-content: ;
+  justify-content: center;
+  color: #000;
 }
