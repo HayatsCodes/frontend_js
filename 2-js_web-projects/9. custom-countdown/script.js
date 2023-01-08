@@ -49,7 +49,13 @@ function updateCountdown(e) {
     countdownTitle = e.srcElement[0].value;
     countdownDate = e.srcElement[1].value;
     // Check For Valid Date
-    if (countdownDate === '')
+    if (countdownDate === '') {
+        alert('Please select a date for the countdown');
+    } else {
+        //  Get number version of current Date, updateDom
+    countdownValue = new Date(countdownDate).getTime();
+    updateDom();
+    }
 }
 
 //  Reset All Values
