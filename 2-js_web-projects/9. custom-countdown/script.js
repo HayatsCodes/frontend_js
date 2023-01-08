@@ -28,10 +28,10 @@ function updateDom() {
     const days = Math.floor(distance / day);
     const hours = Math.floor((distance % day) / hour);
     const minutes = Math.floor((distance % hour) / minute);
-    const secos = Math.floor((distance % day) / hour);
+    const seconds = Math.floor((distance % minute) / second);
 }
 
-// Take Values from Form Input
+// Take Values from Fminute Input
 function updateCountdown(e) {
     e.preventDefault();
     countdownTitle = e.srcElement[0].value;
