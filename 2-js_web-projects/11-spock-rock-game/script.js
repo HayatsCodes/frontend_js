@@ -26,7 +26,10 @@ const choices = {
   spock: { name: 'Spock', defeats: ['scissors', 'rock'] },
 };
 
-
+// Reset all 'selected icons
+function resetSelected() {
+  allGameIcons.forEach((icon))
+}
 
 function select(playerChoice) {
   //  Add 'selected' styling & playerChoice
