@@ -48,17 +48,14 @@ function updateDom() {
             completeEl.hidden = false;
         } else {
             // Else, show the countdown in progress
-        }
-
-        // Populate Countdown
-        countdownElTitle.textContent = `${countdownTitle}`;
+            countdownElTitle.textContent = `${countdownTitle}`;
         timeElements[0].textContent = `${days}`;
         timeElements[1].textContent = `${hours}`;
         timeElements[2].textContent = `${minutes}`;
         timeElements[3].textContent = `${seconds}`;
-
-        // Show Countdown
+        completeEl.hidden = tru
         countdownEl.hidden = false;
+        }
     }, second);
 }
 
