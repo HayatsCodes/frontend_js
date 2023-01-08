@@ -62,3 +62,11 @@ input:invalid {
   border: 1px solid red;
 }
 
+button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  height: ;
+}
