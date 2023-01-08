@@ -31,7 +31,7 @@ function updateDom() {
     const seconds = Math.floor((distance % minute) / second);
 
     inputContainer.hidden = true;
-    countdownEl.hidden
+    countdownEl.hidden = false;
 }
 
 // Take Values from Fminute Input
