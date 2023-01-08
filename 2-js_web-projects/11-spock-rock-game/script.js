@@ -45,6 +45,7 @@ function resetAll() {
    playerChoiceEl.textContent = '';
    computerChoiceEl.textContent = '';
    resultText.textContent = '';
+   resetSelected();
 }
 
 function computerRandomChoice() {
