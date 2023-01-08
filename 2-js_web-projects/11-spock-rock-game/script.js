@@ -52,28 +52,28 @@ function computerRandomChoice() {
 }
 
 // Add selected styling and computer choice
-function seldispect(playerChoice) {
+function displayComputerChoice() {
   //  Add 'selected' styling & playerChoice
-  switch (playerChoice) {
+  switch (computerChoice) {
     case 'rock':
-      playerRock.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Rock';
+      computerRock.classList.add('selected');
+      computerChoiceEl.textContent = ' --- Rock';
       break;
     case 'paper':
-      playerPaper.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Paper';
+      computerPaper.classList.add('selected');
+      computerChoiceEl.textContent = ' --- Paper';
       break;
     case 'scissors':
-      playerScissors.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Scissors';
+      computerScissors.classList.add('selected');
+      computerChoiceEl.textContent = ' --- Scissors';
       break;
     case 'lizard':
-      playerLizard.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Lizard';
+      computerLizard.classList.add('selected');
+      computerChoiceEl.textContent = ' --- Lizard';
       break;
     case 'spock':
-      playerSpock.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Spock';
+      computerSpock.classList.add('selected');
+      computerChoiceEl.textContent = ' --- Spock';
       break;
     default:
       break;
