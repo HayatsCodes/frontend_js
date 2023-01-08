@@ -90,6 +90,7 @@ function reset() {
     // Reset Values
     countdownTitle = '';
     countdownDate = '';
+    localStorage.removeItem('countdown');
 }
 
 function restorePreviousCountDown() {
@@ -110,4 +111,4 @@ countdownBtn.addEventListener('click', reset);
 completeBtn.addEventListener('click', reset);
 
 // On load
-restorePreviousCountDown
+restorePreviousCountDown();
