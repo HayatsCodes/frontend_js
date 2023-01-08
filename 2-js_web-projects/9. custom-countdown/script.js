@@ -10,6 +10,7 @@ const timeElements = document.querySelectorAll('span');
 let countdownTitle = '';
 let countdownDate = '';
 let countdownValue = Date;
+let c
 
 const second = 1000;
 const minute = second * 60;
