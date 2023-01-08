@@ -26,6 +26,8 @@ const choices = {
   spock: { name: 'Spock', defeats: ['scissors', 'rock'] },
 };
 
+let computerChoice = '';
+
 // Reset all 'selected icons
 function resetSelected() {
   allGameIcons.forEach((icon) => {
@@ -33,7 +35,11 @@ function resetSelected() {
   })
 }
 
-// 
+// Call functions to process turn
+function checkResult() {
+  resetSelected();
+  computerRandomChoice();
+}
 
 function select(playerChoice) {
   resetSelected();
