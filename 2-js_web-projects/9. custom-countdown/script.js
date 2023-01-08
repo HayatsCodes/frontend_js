@@ -61,7 +61,7 @@ function reset() {
     clearInterval(countdownActive);
     // Reset Values
     countdownTitle = '';
-    countdownDate = ''
+    countdownDate = '';
 }
 
 //  Event Listeners
