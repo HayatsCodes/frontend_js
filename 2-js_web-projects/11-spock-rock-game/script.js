@@ -58,7 +58,7 @@ function checkResult() {
 }
 
 function select(playerChoice) {
-  resetSelected();
+  re
   //  Add 'selected' styling & playerChoice
   switch (playerChoice) {
     case 'rock':
