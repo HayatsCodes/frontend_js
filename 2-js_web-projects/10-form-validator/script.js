@@ -29,6 +29,7 @@ function validateForm() {
         password1El.style.borderColor = 'red';
         password2El.style.borderColor = 'red';
     }
+    //  If form is valid and passwords match
     
 }
 
