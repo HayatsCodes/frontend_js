@@ -35,6 +35,10 @@ function resetSelected() {
   })
 }
 
+function computerRandomChoice() {
+  const computerChoiceNumber
+}
+
 // Call functions to process turn
 function checkResult() {
   resetSelected();
