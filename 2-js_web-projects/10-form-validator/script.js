@@ -39,6 +39,9 @@ function validateForm() {
     }
 }
 
+
+
+
 function processFormData(e) {
     e.preventDefault();
     validateForm();
