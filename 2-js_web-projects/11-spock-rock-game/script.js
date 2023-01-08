@@ -1,4 +1,4 @@
-import { removeConfetti, stopConfetti } from "./confetti";
+// import { removeConfetti, stopConfetti } from "./confetti";
 
 const playerScoreEl = document.getElementById('playerScore');
 const playerChoiceEl = document.getElementById('playerChoice');
