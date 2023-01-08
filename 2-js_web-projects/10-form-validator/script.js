@@ -15,6 +15,7 @@ function validateForm() {
         message.textContent = 'Please fill out all fields.';
         message.style.color = 'red';
         messageContainer.style.borderColor = 'red';
+        
     }
     // Check to see if passwords match
     if (password1El.value === password2El.value) {
