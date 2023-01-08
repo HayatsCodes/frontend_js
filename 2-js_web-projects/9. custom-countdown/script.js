@@ -44,7 +44,8 @@ function updateDom() {
         if (distance < 0) {
             countdownEl.hidden = true;
             clearInterval(countdownActive);
-            completeInfo.textContent =`${countdownTitle}`
+            completeInfo.textContent =`${countdownTitle} finished on ${countdownDate}`;
+            completeEl.hidden = false;
         }
 
         // Populate Countdown
