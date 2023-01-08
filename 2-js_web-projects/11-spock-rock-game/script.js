@@ -1,3 +1,5 @@
+import { startConfetti } from "./confetti";
+
 const playerScoreEl = document.getElementById('playerScore');
 const playerChoiceEl = document.getElementById('playerChoice');
 const computerScoreEl = document.getElementById('computerScore');
@@ -99,6 +101,7 @@ function updateScore(playerChoice) {
   } else {
     const choice = choices[playerChoice]
     if (choice.defeats.indexOf(computerChoice) >= 0) {
+      startConfetti();
       resultText.textContent = "You Won!";
       playerScoreNumber++;
       playerScoreEl.textContent = playerScoreNumber;
