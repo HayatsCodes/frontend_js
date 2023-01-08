@@ -37,7 +37,11 @@ function resetSelected() {
 
 function computerRandomChoice() {
   const computerChoiceNumber = Math.random();
-  if ()
+  if (computerChoiceNumber < 0.2) {
+    computerChoice = 'rock';
+  } else if (computerChoiceNumber <= 0.4) {
+    computerChoice
+  }
 }
 
 // Call functions to process turn
