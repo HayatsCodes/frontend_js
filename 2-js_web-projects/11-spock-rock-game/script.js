@@ -51,6 +51,7 @@ function computerRandomChoice() {
   console.log(computerChoice);
 }
 
+// Add selected styling and computer choice
 
 
 // Call functions to process turn
