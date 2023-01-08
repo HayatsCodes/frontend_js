@@ -32,8 +32,8 @@ function validateForm() {
     //  If form is valid and passwords match
     if (isValid && passwordsMatch) {
         message.textContent = 'Succesfully Registered!';
-        message.style.color = 'red';
-        messageContainer.style.borderColor = 'red';
+        message.style.color = 'green';
+        messageContainer.style.borderColor = 'green';
     }
 }
 
