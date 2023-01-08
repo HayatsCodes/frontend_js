@@ -22,7 +22,7 @@ function validateForm() {
         password1El.style.borderColor = 'green';
         password2El.style.borderColor = 'green';
     } else {
-        passwordsMatch = true;
+        passwordsMatch = false;
         message.textContent = 'Make sure passwords match.';
         message.style.color = 'red';
         messageContainer.style.borderColor = 'red';
@@ -30,7 +30,11 @@ function validateForm() {
         password2El.style.borderColor = 'red';
     }
     //  If form is valid and passwords match
-    
+    if (isValid && passwordsMatch) {
+        message.textContent = 'Succesfully Registered!';
+        message.style.color = 'red';
+        messageContainer.style.borderColor = 'red';
+    }
 }
 
 function processFormData(e) {
