@@ -31,5 +31,14 @@ div {
 
 /* Form */
 form {
+  width: 90%;
+}
+
+.form-group {
+  height: 65px;
+}
+
+label {
+  position: relative;
   
 }
