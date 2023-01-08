@@ -25,7 +25,7 @@ function updateDom() {
     const now = new Date().getTime();
     const distance = countdownValue - now;
 
-    
+    const days = 
 }
 
 // Take Values from Form Input
