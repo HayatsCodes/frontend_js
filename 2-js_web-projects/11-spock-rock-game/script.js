@@ -85,7 +85,9 @@ function displayComputerChoice() {
 // Check result, increase scores, update resultText
 function updateScore(playerChoice) {
   if (playerChoice === computerChoice) {
-    resultText.textContent = "It's atie.";
+    resultText.textContent = "It's a tie.";
+  } else {
+    const choice = choices
   }
 }
 // Call functions to process turn
