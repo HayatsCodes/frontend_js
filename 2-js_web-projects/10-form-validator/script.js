@@ -5,6 +5,7 @@ const messageContainer = document.querySelector('.message-container');
 const message = document.getElementById('message');
 
 let isValid = false;
+let passwordsMatch = false();
 
 function validateForm() {
     //  Using Constraint API
