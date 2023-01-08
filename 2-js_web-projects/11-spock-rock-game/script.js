@@ -39,7 +39,7 @@ function resetSelected() {
 // Reset Score & playerChoice/computerChoice
 function resetAll() {
    playerScoreNumber = 0;
-   computerScoreNumber
+   computerScoreNumber 
 }
 
 function computerRandomChoice() {
