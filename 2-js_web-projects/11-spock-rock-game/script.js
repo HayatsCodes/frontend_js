@@ -36,6 +36,8 @@ function resetSelected() {
   })
 }
 
+// Reset Score 
+
 function computerRandomChoice() {
   const computerChoiceNumber = Math.random();
   if (computerChoiceNumber < 0.2) {
