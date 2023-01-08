@@ -8,7 +8,7 @@ const countdownBtn = document.getElementById('countdown-button');
 const timeElements = document.querySelectorAll('span');
 
 const completeEl = document.getElementById('complete');
-const completeInfo = document.getElementById('complete-title');
+const completeInfo = document.getElementById('complete-info');
 const completeBtn = document.getElementById('complete-button');
 
 let countdownTitle = '';
