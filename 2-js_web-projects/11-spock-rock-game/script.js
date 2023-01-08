@@ -48,6 +48,7 @@ function computerRandomChoice() {
   } else {
     computerChoice = 'spock';
   }
+  console.log(computerChoice);
 }
 
 // Call functions to process turn
