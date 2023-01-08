@@ -1,4 +1,4 @@
-import { stopConfetti } from "./confetti";
+import { removeConfetti, stopConfetti } from "./confetti";
 
 const playerScoreEl = document.getElementById('playerScore');
 const playerChoiceEl = document.getElementById('playerChoice');
@@ -37,7 +37,7 @@ function resetSelected() {
     icon.classList.remove('selected');
   })
   stopConfetti();
-  
+  removeConfetti();
 }
 
 // Reset Score & playerChoice/computerChoice
