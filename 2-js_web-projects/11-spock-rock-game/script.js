@@ -1,3 +1,4 @@
+import { stopConfetti } from "./confetti";
 
 const playerScoreEl = document.getElementById('playerScore');
 const playerChoiceEl = document.getElementById('playerChoice');
@@ -35,6 +36,7 @@ function resetSelected() {
   allGameIcons.forEach((icon) => {
     icon.classList.remove('selected');
   })
+  stopConfetti();
 }
 
 // Reset Score & playerChoice/computerChoice
