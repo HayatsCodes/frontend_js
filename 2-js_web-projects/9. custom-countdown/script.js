@@ -46,6 +46,8 @@ function updateDom() {
             clearInterval(countdownActive);
             completeInfo.textContent =`${countdownTitle} finished on ${countdownDate}`;
             completeEl.hidden = false;
+        } else {
+            // Else, show the countdown in progress
         }
 
         // Populate Countdown
