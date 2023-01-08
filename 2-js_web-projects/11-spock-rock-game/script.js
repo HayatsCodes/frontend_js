@@ -26,6 +26,8 @@ const choices = {
   spock: { name: 'Spock', defeats: ['scissors', 'rock'] },
 };
 
+
+
 function select(playerChoice) {
   //  Add 'selected' styling & playerChoice
   switch (playerChoice) {
