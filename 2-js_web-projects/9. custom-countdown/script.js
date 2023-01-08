@@ -13,7 +13,7 @@ dateEl.setAttribute('min', today);
 function updateCountdown(e) {
     e.preventDefault();
     countdownTitle = e.srcElement[0].value;
-    
+    countdownDate = e.srcElement[1];
 }
 //  Event Listeners
 countdownForm.addEventListener('submit', updateCountdown);
