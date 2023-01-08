@@ -27,4 +27,8 @@ const choices = {
 };
 
 function select(playerChoice) {
+  //  Add 'selected' styling & playerChoice
+  switch (playerChoice) {
+    
+  }
 }
