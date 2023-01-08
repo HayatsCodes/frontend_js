@@ -40,8 +40,10 @@ function computerRandomChoice() {
   if (computerChoiceNumber < 0.2) {
     computerChoice = 'rock';
   } else if (computerChoiceNumber <= 0.4) {
-    computerChoice
-  }
+    computerChoice = 'paper';
+  } else if (computerChoiceNumber <= 0.6) {
+    computerChoiceNumber = 'scissors';
+  } else if ()
 }
 
 // Call functions to process turn
