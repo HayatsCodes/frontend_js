@@ -100,7 +100,6 @@ function updateScore(playerChoice) {
   } else {
     const choice = choices[playerChoice]
     if (choice.defeats.indexOf(computerChoice) >= 0) {
-      startConfetti();
       resultText.textContent = "You Won!";
       playerScoreNumber++;
       playerScoreEl.textContent = playerScoreNumber;
