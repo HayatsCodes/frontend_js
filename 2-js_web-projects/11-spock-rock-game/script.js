@@ -82,6 +82,8 @@ function displayComputerChoice() {
   }
 }
 
+// Check result, increase scores, update resultText
+function updateSc
 // Call functions to process turn
 function checkResult() {
   resetSelected();
