@@ -100,6 +100,7 @@ function restorePreviousCountDown() {
         countdownTitle = savedCountdown.title;
         countdownDate = savedCountdown.date;
         countdownValue = new Date(countdownDate).getTime();
+        updateDom();
     }
 }
 
@@ -107,3 +108,6 @@ function restorePreviousCountDown() {
 countdownForm.addEventListener('submit', updateCountdown);
 countdownBtn.addEventListener('click', reset);
 completeBtn.addEventListener('click', reset);
+
+// On load
+restorePreviousCountDown
