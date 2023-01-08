@@ -39,8 +39,11 @@ function validateForm() {
     }
 }
 
-
-
+function storeFormData() {
+    const user = {
+        name:
+    }
+}
 
 function processFormData(e) {
     e.preventDefault();
