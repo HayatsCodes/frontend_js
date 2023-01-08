@@ -28,10 +28,13 @@ const choices = {
 
 // Reset all 'selected icons
 function resetSelected() {
-  allGameIcons.forEach((icon))
+  allGameIcons.forEach((icon) => {
+    icon.classList.remove('selected');
+  })
 }
 
 function select(playerChoice) {
+  resetSelected();
   //  Add 'selected' styling & playerChoice
   switch (playerChoice) {
     case 'rock':
