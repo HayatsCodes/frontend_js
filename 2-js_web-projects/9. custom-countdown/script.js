@@ -39,6 +39,8 @@ function updateDom() {
         // Hide Input
         inputContainer.hidden = true;
 
+        // 
+
         // Populate Countdown
         countdownElTitle.textContent = `${countdownTitle}`;
         timeElements[0].textContent = `${days}`;
@@ -46,7 +48,7 @@ function updateDom() {
         timeElements[2].textContent = `${minutes}`;
         timeElements[3].textContent = `${seconds}`;
 
-        // Shi
+        // Show Countdown
         countdownEl.hidden = false;
     }, second);
 }
