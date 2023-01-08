@@ -4,7 +4,9 @@ const password2El = document.getElementById('password2');
 const messageContainer = document.querySelector('.message-container');
 const message = document.getElementById('message');
 
-processFormData
+function processFormData(e) {
+    e.preventDefault();
+}
 
 // Event Listener
 form.addEventListener('submit', processFormData);
