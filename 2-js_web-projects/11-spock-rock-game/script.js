@@ -152,6 +152,6 @@ function select(playerChoice) {
 }
 
 //  Event Listeners 
-playerRock.addEventListener('click', select('rock'));
+playerRock.addEventListener('click', select();
 // On load
 resetAll();
