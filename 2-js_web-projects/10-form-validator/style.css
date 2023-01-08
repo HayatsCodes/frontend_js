@@ -76,4 +76,11 @@ button {
   margin-top: 7px;
 }
 
-button:
+button:hover {
+  filter: brightness(200%);
+  background: rgb(22, 22, 22);
+}
+
+button:focus {
+  outline: none;
+}
