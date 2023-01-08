@@ -33,7 +33,7 @@ function resetSelected() {
   })
 }
 
-
+// 
 
 function select(playerChoice) {
   resetSelected();
