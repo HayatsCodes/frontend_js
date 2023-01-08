@@ -6,6 +6,7 @@ const message = document.getElementById('message');
 
 function processFormData(e) {
     e.preventDefault();
+    validateForm();
 }
 
 // Event Listener
