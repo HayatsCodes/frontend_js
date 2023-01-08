@@ -29,7 +29,6 @@ const choices = {
 let playerScoreNumber = 0;
 let computerScoreNumber = 0;
 let computerChoice = '';
-
 // Reset all 'selected icons
 function resetSelected() {
   allGameIcons.forEach((icon) => {
@@ -93,7 +92,8 @@ function updateScore(playerChoice) {
       playerScoreNumber++;
       playerScoreEl.textContent = playerScoreNumber;
     } else {
-      resultText.textContent
+      resultText.textContent = "You Lost!";
+      computerScoreNumber++;
     }
   }
 }
