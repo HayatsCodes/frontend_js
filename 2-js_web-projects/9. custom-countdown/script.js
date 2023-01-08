@@ -15,6 +15,11 @@ let countdownValue = Date;
 const today = new Date().toISOString().split("T")[0];
 dateEl.setAttribute('min', today);
 
+// Populate Countdown / Complete UI
+function updateDom() {
+    
+}
+
 // Take Values from Form Input
 function updateCountdown(e) {
     e.preventDefault();
@@ -22,7 +27,7 @@ function updateCountdown(e) {
     countdownDate = e.srcElement[1].value;
     //  Get number version of current Date, updateDom
     countdownValue = new Date(countdownDate).getTime();
-    up
+    updateDom();
 }
 //  Event Listeners
 countdownForm.addEventListener('submit', updateCountdown);
