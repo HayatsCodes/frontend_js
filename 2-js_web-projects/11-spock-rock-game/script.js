@@ -37,17 +37,17 @@ function select(playerChoice) {
       playerPaper.classList.add('selected');
       playerChoiceEl.textContent = ' --- Paper'
       break;
-    case 'scisso':
-      playerscisso.classList.add('selected');
-      playerChoiceEl.textContent = ' --- scisso'
+    case 'scissors':
+      playerScissors.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Scissors'
       break;
-    case 'paper':
-      playerPaper.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Paper'
+    case 'lizard':
+      playerLizard.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Lizard'
       break;
-    case 'paper':
-      playerPaper.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Paper'
+    case 'spock':
+      playerSpock.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Spock'
       break;
   }
 }
