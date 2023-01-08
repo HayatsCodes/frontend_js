@@ -150,5 +150,8 @@ function select(playerChoice) {
       break;
   }
 }
+
+//  Event Listeners 
+
 // On load
 resetAll();
