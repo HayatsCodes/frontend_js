@@ -42,9 +42,9 @@ function computerRandomChoice() {
   } else if (computerChoiceNumber <= 0.4) {
     computerChoice = 'paper';
   } else if (computerChoiceNumber <= 0.6) {
-    computerChoiceNumber = 'scissors';
+    computerChoice = 'scissors';
   } else if (computerChoiceNumber <= 0.8) {
-    computerChoiceNumber = 'lizard';
+    computerChoice = 'lizard';
   } else {
     computerChoice = 'spock';
   }
@@ -58,7 +58,7 @@ function checkResult() {
 }
 
 function select(playerChoice) {
-  re
+  checkResult();
   //  Add 'selected' styling & playerChoice
   switch (playerChoice) {
     case 'rock':
