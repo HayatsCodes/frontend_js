@@ -4,7 +4,8 @@ const dateEl = document.getElementById('date-picker');
 
 const countdownEl = document.getElementById('countdown');
 const countdownElTitle = document.getElementById('countdown-title');
-const countdownEl = document.getElementById('countdown');
+const countdownBtn = document.getElementById('countdown-button');
+const timeElements = document.querySelectorAll('span');
 
 let countdownTitle = '';
 let countdownDate = '';
@@ -21,6 +22,7 @@ function updateCountdown(e) {
     countdownDate = e.srcElement[1].value;
     //  Get number version of current Date, updateDom
     countdownValue = new Date(countdownDate).getTime();
+    up
 }
 //  Event Listeners
 countdownForm.addEventListener('submit', updateCountdown);
