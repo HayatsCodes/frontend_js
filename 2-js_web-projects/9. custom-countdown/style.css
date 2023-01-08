@@ -11,7 +11,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-
+  font-family: 'Nunito', sans-serif;
 }
 
 /* Video Background */
@@ -84,7 +84,7 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
-
+  font-family: 'Nunito', sans-serif;
 }
 
 /* Button */
