@@ -48,7 +48,8 @@ function updateCountdown(e) {
     e.preventDefault();
     countdownTitle = e.srcElement[0].value;
     countdownDate = e.srcElement[1].value;
-    
+    // Check For Valid Date
+    if (countdownDate === '')
 }
 
 //  Reset All Values
