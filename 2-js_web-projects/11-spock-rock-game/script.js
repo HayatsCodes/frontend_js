@@ -148,3 +148,4 @@ function select(playerChoice) {
 
 // On load
 resetAll();
+sta
