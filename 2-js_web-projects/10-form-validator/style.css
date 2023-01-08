@@ -9,7 +9,9 @@ body {
   font-family: 'Sofia Sans Condensed', sans-serif;
   letter-spacing: 3px;
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
+  #c9ed
 }
 
 div {
