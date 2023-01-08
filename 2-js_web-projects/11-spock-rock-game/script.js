@@ -61,7 +61,6 @@ function computerRandomChoice() {
   } else {
     computerChoice = 'spock';
   }
-  console.log(computerChoice);
 }
 
 // Add selected styling and computer choice
