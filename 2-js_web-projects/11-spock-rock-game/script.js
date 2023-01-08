@@ -31,23 +31,25 @@ function select(playerChoice) {
   switch (playerChoice) {
     case 'rock':
       playerRock.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Rock'
+      playerChoiceEl.textContent = ' --- Rock';
       break;
     case 'paper':
       playerPaper.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Paper'
+      playerChoiceEl.textContent = ' --- Paper';
       break;
     case 'scissors':
       playerScissors.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Scissors'
+      playerChoiceEl.textContent = ' --- Scissors';
       break;
     case 'lizard':
       playerLizard.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Lizard'
+      playerChoiceEl.textContent = ' --- Lizard';
       break;
     case 'spock':
       playerSpock.classList.add('selected');
-      playerChoiceEl.textContent = ' --- Spock'
+      playerChoiceEl.textContent = ' --- Spock';
+      break;
+    default:
       break;
   }
 }
