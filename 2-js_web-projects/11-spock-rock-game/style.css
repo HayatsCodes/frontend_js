@@ -38,7 +38,8 @@ h1 {
 }
 
 .player-container {
-  display: ;
+  display: flex;
+  flex-
   margin: 50px;
 }
 
