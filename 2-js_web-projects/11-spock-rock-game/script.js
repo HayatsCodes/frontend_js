@@ -84,10 +84,10 @@ function displayComputerChoice() {
 
 // Check result, increase scores, update resultText
 function updateScore() {
-  
+
 }
 // Call functions to process turn
-function checkResult() {
+function checkResult(playerChoice) {
   resetSelected();
   computerRandomChoice();
   displayComputerChoice();
