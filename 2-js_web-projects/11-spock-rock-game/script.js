@@ -26,6 +26,8 @@ const choices = {
   spock: { name: 'Spock', defeats: ['scissors', 'rock'] },
 };
 
+
+
 let computerChoice = '';
 
 // Reset all 'selected icons
