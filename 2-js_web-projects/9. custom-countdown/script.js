@@ -92,6 +92,10 @@ function reset() {
     countdownDate = '';
 }
 
+function restorePreviousCountDown() {
+    
+}
+
 //  Event Listeners
 countdownForm.addEventListener('submit', updateCountdown);
 countdownBtn.addEventListener('click', reset);
