@@ -84,7 +84,7 @@ function displayComputerChoice() {
 function checkResult() {
   resetSelected();
   computerRandomChoice();
-  d
+  displayComputerChoice();
 }
 
 function select(playerChoice) {
