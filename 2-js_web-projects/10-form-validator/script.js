@@ -7,7 +7,7 @@ const message = document.getElementById('message');
 let isValid = false;
 
 function validateForm() {
-    
+    isValid = form.checkValidity();
 }
 
 function processFormData(e) {
