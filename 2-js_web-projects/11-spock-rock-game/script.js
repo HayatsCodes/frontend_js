@@ -33,6 +33,8 @@ function resetSelected() {
   })
 }
 
+
+
 function select(playerChoice) {
   resetSelected();
   //  Add 'selected' styling & playerChoice
