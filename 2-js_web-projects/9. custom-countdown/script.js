@@ -38,6 +38,7 @@ function updateDom() {
     timeElements[3].textContent = `${seconds}`;
     inputContainer.hidden = true;
     countdownEl.hidden = false;
+    console.log()
 }
 
 // Take Values from Fminute Input
