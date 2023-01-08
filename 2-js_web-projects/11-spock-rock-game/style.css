@@ -51,7 +51,14 @@ h2 {
   User-select: none;
 }
 
+#player .far,
+#player .choice {
+  color: dodgerblue;
+  cursor: pointer;
+}
 
+#computer .far,
+#computer 
 
 
 .reset-icon {
