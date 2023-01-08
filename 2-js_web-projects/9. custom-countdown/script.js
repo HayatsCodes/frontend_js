@@ -93,7 +93,11 @@ function reset() {
 }
 
 function restorePreviousCountDown() {
-    // 
+    // Get countdown from localStorage if available
+    if (localStorage.getItem('countdown')) {
+        inputContainer.hidden = true;
+        savedCountdown = JSON.parse(loc)
+    }
 }
 
 //  Event Listeners
