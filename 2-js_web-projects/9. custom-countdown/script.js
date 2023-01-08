@@ -25,21 +25,21 @@ dateEl.setAttribute('min', today);
 function updateDom() {
     countdownActive = setInterval(() => {
         const now = new Date().getTime();
-    const distance = countdownValue - now;
+        const distance = countdownValue - now;
 
-    const days = Math.floor(distance / day);
-    const hours = Math.floor((distance % day) / hour);
-    const minutes = Math.floor((distance % hour) / minute);
-    const seconds = Math.floor((distance % minute) / second);
+        const days = Math.floor(distance / day);
+        const hours = Math.floor((distance % day) / hour);
+        const minutes = Math.floor((distance % hour) / minute);
+        const seconds = Math.floor((distance % minute) / second);
 
-    // Populate Countdown
-    countdownElTitle.textContent = `${countdownTitle}`;
-    timeElements[0].textContent = `${days}`;
-    timeElements[1].textContent = `${hours}`;
-    timeElements[2].textContent = `${minutes}`;
-    timeElements[3].textContent = `${seconds}`;
-    inputContainer.hidden = true;
-    countdownEl.hidden = false;
+        // Populate Countdown
+        countdownElTitle.textContent = `${countdownTitle}`;
+        timeElements[0].textContent = `${days}`;
+        timeElements[1].textContent = `${hours}`;
+        timeElements[2].textContent = `${minutes}`;
+        timeElements[3].textContent = `${seconds}`;
+        inputContainer.hidden = true;
+        countdownEl.hidden = false;
     }, second);
 }
 
@@ -53,8 +53,8 @@ function updateCountdown(e) {
         alert('Please select a date for the countdown');
     } else {
         //  Get number version of current Date, updateDom
-    countdownValue = new Date(countdownDate).getTime();
-    updateDom();
+        countdownValue = new Date(countdownDate).getTime();
+        updateDom();
     }
 }
 
