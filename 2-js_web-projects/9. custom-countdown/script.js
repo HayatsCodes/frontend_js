@@ -15,7 +15,7 @@ let countdownTitle = '';
 let countdownDate = '';
 let countdownValue = Date;
 let countdownActive;
-
+let savedCoundown;
 
 const second = 1000;
 const minute = second * 60;
@@ -65,6 +65,7 @@ function updateCountdown(e) {
     e.preventDefault();
     countdownTitle = e.srcElement[0].value;
     countdownDate = e.srcElement[1].value;
+    savedCountdown
     // Check For Valid Date
     if (countdownDate === '') {
         alert('Please select a date for the countdown');
