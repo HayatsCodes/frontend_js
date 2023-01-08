@@ -148,7 +148,11 @@ li span {
   }
 
   75% {
-    color: rgb(0, 38, blue);
+    color: rgb(0, 38, 253);
+  }
+
+  100% {
+    color: rgb(0, 38, 253);
   }
 }
 /* Media Query: Large Smartphone (Vertical) */
