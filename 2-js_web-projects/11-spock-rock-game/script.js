@@ -1,4 +1,7 @@
-const 
+const playerScoreEl = document.getElementById('playerScore');
+const playerChoiceEl = document.getElementById('playerChoice');
+const playerChoiceEl = document.getElementById('playerChoice');
+const playerChoiceEl = document.getElementById('playerChoice');
 
 const choices = {
   rock: { name: 'Rock', defeats: ['scissors', 'lizard'] },
