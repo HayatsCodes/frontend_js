@@ -53,7 +53,10 @@ function storeFormData() {
 function processFormData(e) {
     e.preventDefault();
     validateForm();
-    
+    // Submit data if  valid
+    if (isValid && passwordsMatch) {
+        storeFormData();
+    }
 }
 
 // Event Listener
