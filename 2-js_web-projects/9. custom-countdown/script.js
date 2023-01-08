@@ -31,10 +31,8 @@ function updateDom() {
     const seconds = Math.floor((distance % minute) / second);
 
     // Populate Countdown
-    // countdownElTitle.textContent = `${countdownTitle}`;
-    console.log( 'countdown', countdownTitle);
+    countdownElTitle.textContent = `${countdownTitle}`;
     timeElements[0].textContent = `${days}`;
-    console.log( 'span-0', timeElements[0]);
     timeElements[1].textContent = `${hours}`;
     timeElements[2].textContent = `${minutes}`;
     timeElements[3].textContent = `${seconds}`;
