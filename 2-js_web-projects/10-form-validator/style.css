@@ -11,9 +11,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  #c9ed
+  background: #c9ced3;
 }
 
 div {
   font-weight: 700;
+}
+
+.container {
+  width: 480px;
+  height: ;
 }
