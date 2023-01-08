@@ -90,6 +90,7 @@ function updateScore(playerChoice) {
     const choice = choices[playerChoice]
     if (choice.defeats.indexOf(computerChoice) > -1) {
       resultText.textContent = "You Won!";
+      playerScoreNumber++
     }
   }
 }
