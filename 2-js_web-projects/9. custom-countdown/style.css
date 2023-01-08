@@ -134,7 +134,15 @@ li span {
   animation: complete 4s infinite;
 }
 
-@key
+@keyframes complete {
+  0% {
+    color: rgb(233, 13, 13);
+  }
+
+  25% {
+    color: rgb(233, 13, 13);
+  }
+}
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .video-background {
