@@ -32,6 +32,7 @@ function updateDom() {
 
     // Populate Countdown
     // countdownElTitle.textContent = `${countdownTitle}`;
+    console.log( countdownTitle);
     timeElements[0].textContent = `${days}`;
     timeElements[1].textContent = `${hours}`;
     timeElements[2].textContent = `${minutes}`;
