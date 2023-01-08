@@ -20,5 +20,9 @@ div {
 
 .container {
   width: 480px;
-  height: ;
+  height: 630px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
