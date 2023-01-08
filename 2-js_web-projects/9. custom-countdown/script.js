@@ -39,6 +39,7 @@ function updateDom() {
         // Hide Input
         inputContainer.hidden = true;
 
+        
         // 
 
         // Populate Countdown
