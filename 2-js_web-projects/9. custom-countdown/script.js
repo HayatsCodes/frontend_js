@@ -77,8 +77,8 @@ function updateCountdown(e) {
 //  Reset All Values
 function reset() {
     countdownEl.hidden = true;
+    completeEl.hidden = true;
     inputContainer.hidden = false;
-    
     // Stop Countdown
     clearInterval(countdownActive);
     // Reset Values
