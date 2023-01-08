@@ -83,7 +83,7 @@ function displayComputerChoice() {
 }
 
 // Check result, increase scores, update resultText
-function updateScore() {
+function updateScore(playerChoice) {
 
 }
 // Call functions to process turn
@@ -91,10 +91,11 @@ function checkResult(playerChoice) {
   resetSelected();
   computerRandomChoice();
   displayComputerChoice();
+  updateScore(playerChoice);
 }
 
 function select(playerChoice) {
-  checkResult();
+  checkResult(playerChoice);
   //  Add 'selected' styling & playerChoice
   switch (playerChoice) {
     case 'rock':
