@@ -1,4 +1,4 @@
-
+const 
 
 const choices = {
   rock: { name: 'Rock', defeats: ['scissors', 'lizard'] },
