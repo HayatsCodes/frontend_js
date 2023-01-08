@@ -43,7 +43,11 @@ function computerRandomChoice() {
     computerChoice = 'paper';
   } else if (computerChoiceNumber <= 0.6) {
     computerChoiceNumber = 'scissors';
-  } else if ()
+  } else if (computerChoiceNumber <= 0.8) {
+    computerChoiceNumber = 'lizard';
+  } else {
+    computerChoice = 'spock';
+  }
 }
 
 // Call functions to process turn
