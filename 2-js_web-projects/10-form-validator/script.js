@@ -45,13 +45,15 @@ function storeFormData() {
         phone: form.phone.value,
         email: form.email.value,
         website: form.website.value,
-        password
-    }
+        password: form.password.value
+    };
+    // Do something with user data
 }
 
 function processFormData(e) {
     e.preventDefault();
     validateForm();
+    
 }
 
 // Event Listener
