@@ -145,6 +145,7 @@ li span {
 
   50% {
     color: rgb(64, 233, 13);
+    transform: ;
   }
 
   75% {
@@ -152,7 +153,7 @@ li span {
   }
 
   100% {
-    color: rgb(0, 38, 253);
+    color: rgb(253, 143, 0);
   }
 }
 /* Media Query: Large Smartphone (Vertical) */
