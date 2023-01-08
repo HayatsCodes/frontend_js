@@ -51,6 +51,8 @@ function computerRandomChoice() {
   console.log(computerChoice);
 }
 
+
+
 // Call functions to process turn
 function checkResult() {
   resetSelected();
