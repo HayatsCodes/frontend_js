@@ -32,5 +32,6 @@ function select(playerChoice) {
     case 'rock':
       playerRock.classList.add('selected');
       playerChoiceEl.textContent = ' --- Rock'
+      break;
   }
 }
