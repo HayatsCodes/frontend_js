@@ -57,7 +57,11 @@ function updateCountdown(e) {
 function reset() {
     countdownEl.hidden = true;
     inputContainer.hidden = false;
-    ? Stop
+    // Stop Countdown
+    clearInterval(countdownActive);
+    // Reset Values
+    countdownTitle = '';
+    countdownDate = ''
 }
 
 //  Event Listeners
