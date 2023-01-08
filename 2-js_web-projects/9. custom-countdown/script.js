@@ -2,7 +2,9 @@ const inputContainer = document.getElementById('input-container');
 const countdownForm = document.getElementById('countdownForm');
 const dateEl = document.getElementById('date-picker');
 
-
+const countdownEl = document.getElementById('countdown');
+const countdownElTitle = document.getElementById('countdown-title');
+const countdownEl = document.getElementById('countdown');
 
 let countdownTitle = '';
 let countdownDate = '';
