@@ -27,5 +27,4 @@ const choices = {
 };
 
 function select(playerChoice) {
-  console.log(playerChoice);
 }
