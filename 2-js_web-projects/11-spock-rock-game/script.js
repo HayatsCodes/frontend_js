@@ -16,7 +16,7 @@ const computerScissors = document.getElementById('computerScissors');
 const computerLizard = document.getElementById('computerLizard');
 const computerSpock = document.getElementById('computerRock');
 
-
+const allGameIcons = document.querySelectorAll('.far');
 
 const choices = {
   rock: { name: 'Rock', defeats: ['scissors', 'lizard'] },
