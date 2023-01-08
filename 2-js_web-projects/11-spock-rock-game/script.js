@@ -37,7 +37,7 @@ function resetSelected() {
 
 function computerRandomChoice() {
   const computerChoiceNumber = Math.random();
-  
+  if ()
 }
 
 // Call functions to process turn
