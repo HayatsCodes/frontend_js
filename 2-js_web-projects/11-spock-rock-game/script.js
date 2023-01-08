@@ -36,7 +36,8 @@ function resetSelected() {
 }
 
 function computerRandomChoice() {
-  const computerChoiceNumber
+  const computerChoiceNumber = Math.random();
+  
 }
 
 // Call functions to process turn
