@@ -12,7 +12,7 @@ function validateForm() {
     // Style main message for an error
     message.textContent = 'Please fill out all fields.';
     message.style.color = 'red';
-    messageContainer.style.bor
+    messageContainer.style.borderColor = 'red';
 }
 
 function processFormData(e) {
