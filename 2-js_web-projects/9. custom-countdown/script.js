@@ -28,7 +28,7 @@ function updateDom() {
     const days = Math.floor(distance / day);
     const hours = Math.floor((distance % day) / hour);
     const minutes = Math.floor((distance % hour) / minute);
-    const hours = Math.floor((distance % day) / hour);
+    const secos = Math.floor((distance % day) / hour);
 }
 
 // Take Values from Form Input
