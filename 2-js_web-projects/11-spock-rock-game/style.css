@@ -47,7 +47,7 @@ h2 {
 
 .far {
   font-size: 50px;
-  margin-right: 55px;
+  margin-right: 40px;
   User-select: none;
 }
 
@@ -62,8 +62,8 @@ h2 {
   color: red;
 }
 
-#player .far:nth-last-of-type(3),
-#computer .far:nth-last-of-type(3) {
+#player .far:last-of-type,
+#computer .far:last-of-type {
   margin-right: 0;
 }
 
