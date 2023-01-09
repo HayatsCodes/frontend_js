@@ -64,7 +64,7 @@ body {
 }
 
 .items-container {
-
+    margin-top: 20px;
 }
 
 .items-list {
@@ -83,8 +83,9 @@ body {
 .fas {
     font-size: 20px;
     cursor: pointer;
-    margin-right: 20px;
 }
+
+.fas:nt
 
 .fas:hover {
     filter: brightness(80%);
@@ -114,9 +115,6 @@ body {
     margin-left: -20px;
 }
 
-.items li {
-    
-}
 
 .clear-items {
     box-sizing: border-box;
