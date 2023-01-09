@@ -1,7 +1,6 @@
 const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
-let checkIcons = document.getElementById('hidden-wrapper');
 
 function addItemsToList() {
     if (textInput.value) {
@@ -13,8 +12,7 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
-        checkIcons = document.querySelectorAll('.fa-check');
-
+        const checkIcons = document.querySelectorAll('.fa-check');
         function markItemAsChecked(e) {
             console.log('checkIcons', checkIcons);
             checkIcons.forEach(() => {
