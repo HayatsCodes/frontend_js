@@ -82,6 +82,10 @@ body {
     cursor: pointer;
 }
 
+.fas:hover {
+    filter: brightness(80%);
+}
+
 .fas:active {
     transform: translateY(2px);
 }
