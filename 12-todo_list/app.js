@@ -3,7 +3,13 @@ const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
 function addItemsToList() {
-    ITE
+    itemsWrapper.innerHTML +=` <li class="items-list">
+    <span>Learn NodeJS</span>
+    <span> <i class="fas fa-check"></i>
+        <i class="fas fa-pen"></i>
+        <i class="fas fa-trash"></i>
+    </span>
+</li>`
 }
 
 // Add Events Listener
