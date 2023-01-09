@@ -25,4 +25,5 @@ body {
 .header {
     color: 595959;
     letter-spacing: 2px;
+    word-spacing: -2px;
 }
