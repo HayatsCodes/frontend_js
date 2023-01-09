@@ -23,7 +23,8 @@ function markItemAsChecked(e) {
     checkIcons.forEach(checkIcon => {
             const li = e.target.parentNode.parentNode;
             console.log('liiiiiiiiiii', li);
-            // li.classLists.add('completed');
+            li.style.color = 'red';
+            li.style.
         });
     };
 
