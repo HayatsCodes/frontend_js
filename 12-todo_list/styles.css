@@ -135,3 +135,6 @@ input {
     /* font-family: 'Courier New', Courier, monospace; */
 }
 
+.edit-item-container input {
+    color: #c0bebe;
+}
