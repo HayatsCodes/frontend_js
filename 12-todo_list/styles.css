@@ -62,5 +62,6 @@ body {
 
 .items-container {
     display: flex;
+    justify-content: ;
 }
 
