@@ -21,7 +21,7 @@ function addItemsToList() {
 function markItemAsChecked(e) {
     console.log('checkIcons', checkIcons);
     checkIcons.forEach(checkIcon => {
-            const li = e.target.parentNode.parentNode;
+            const li = e.target.parentNode.previo;
             console.log(li);
             li.style.textDecoration = 'line-through red 3px';
         });
