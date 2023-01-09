@@ -1,12 +1,10 @@
 const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
-let checkIcons = document.getElementById('hidden-wrapper');
 
 function checkIconsEventListener() {
-    
+    const checkIcons = document.querySelectorAll('.fa-check');
     checkIcons.addEventListener('click', markItemAsChecked);
-
 }
 
 function addItemsToList() {
@@ -19,6 +17,7 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
+        checkIconsEventListener();
     }
 }
 
