@@ -4,8 +4,9 @@ const textInput = document.getElementById('text-input');
 let checkIcons = document.getElementById('hidden-wrapper');
 
 function checkIconsEventListener() {
-    checkIcons.addEventListener('click', markItemAsChecked);
     
+    checkIcons.addEventListener('click', markItemAsChecked);
+
 }
 
 function addItemsToList() {
@@ -19,7 +20,6 @@ function addItemsToList() {
     </li>`
         textInput.value = '';
     }
-    checkIcons = document.querySelectorAll('.fa-check');
 }
 
 
