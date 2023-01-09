@@ -4,7 +4,14 @@ const textInput = document.getElementById('text-input');
 
 function checkIconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
-    checkIcons[0].addEventListener('click', markItemAsChecked);
+    checkIcons[0].addEventListener('click', (e) => {
+
+    checkIcons.forEach(() => {
+        const textSpan = e.target.parentNode.previousElementSibling;
+        console.log(textSpan);
+        textSpan.style.textDecoration = 'line-through red 3px';
+        
+    }););
 }
 
 function addItemsToList() {
