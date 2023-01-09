@@ -63,19 +63,22 @@ body {
     transform: translateY(2px);
 }
 
+.items-container {
+
+}
+
 .items-list {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 10px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
 }
 
-.items-control {
-    height: 30px;
-    padding: 10px;
-    border-radius: 15px;
-    margin-right: 5px;
-}
 
 .fas {
     font-size: 20px;
@@ -111,11 +114,7 @@ body {
 }
 
 .items li {
-    margin-top: 10px;
-    list-style: none;
-    font-weight: 600;
-    font-size: 20px;
-    color: #000;
+    
 }
 
 .clear-items {
