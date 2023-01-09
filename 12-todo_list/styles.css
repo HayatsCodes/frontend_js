@@ -61,7 +61,8 @@ body {
 }
 
 .text-container {
-    display: ;
+    display: flex;
+    text-align: ;
 }
 
 
