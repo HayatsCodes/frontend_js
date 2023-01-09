@@ -19,7 +19,6 @@ function addItemsToList() {
 
 if (itemsWrapper.hasChildNodes()) {
     let checkIcons = document.querySelector('.fa-check');
-}
 
 function markItemAsChecked(e) {
     console.log('checkIcons', checkIcons);
