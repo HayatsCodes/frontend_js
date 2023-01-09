@@ -1,6 +1,7 @@
 const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
+let checkIcons = document.getElementById('hidden-wrapper');
 
 function addItemsToList() {
     if (textInput.value) {
@@ -12,22 +13,20 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
-        const checkIcons = document.querySelectorAll('.fa-check');
-
-        function markItemAsChecked(e) {
-            console.log('checkIcons', checkIcons);
-            checkIcons.forEach(() => {
-                const textSpan = e.target.parentNode.previousElementSibling;
-                console.log(textSpan);
-                textSpan.style.textDecoration = 'line-through red 3px';
-            });
-        };
     }
+    checkIcons = document.querySelectorAll('.fa-check');
 }
 
 
 
-
+function markItemAsChecked(e) {
+    console.log('checkIcons', checkIcons);
+    checkIcons.forEach(() => {
+            const textSpan = e.target.parentNode.previousElementSibling;
+            console.log(textSpan);
+            textSpan.style.textDecoration = 'line-through red 3px';
+        });
+    };
 
 
 
@@ -35,3 +34,4 @@ function addItemsToList() {
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
+checkIcons.addEventListener('click', markItemAsChecked);
