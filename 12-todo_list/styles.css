@@ -68,7 +68,9 @@ body {
 }
 
 .items-control {
-    hei
+    height: 30px;
+    border: 1px solid ;
+    border-radius: 15px;
     margin-right: 20px;
 }
 
