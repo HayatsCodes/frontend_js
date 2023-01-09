@@ -6,7 +6,7 @@ html {
 
 body {
     background-image: linear-gradient(to right, #1d2020, #1d2020, #1d2020, #272b28, #272b28);
-    
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,9 @@ body {
 }
 
 .main-container {
-    background-color: #6a7070;
     height: 530px;
     width: 620px;
+    background-color: #6a7070;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px 15px rgba(255, green, blue, alpha);
 }
