@@ -30,7 +30,6 @@ function addItemsToList() {
 function markItemAsChecked(e) {
     const textSpan = e.target.parentNode.previousElementSibling;
     if (!isChecked) {
-        console.log(textSpan);
         textSpan.style.textDecoration = 'line-through red 3px';
         isChecked = true;
     } else {
