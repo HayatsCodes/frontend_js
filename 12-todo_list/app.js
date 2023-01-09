@@ -22,8 +22,9 @@ function addItemsToList() {
                 textSpan.style.textDecoration = 'line-through red 3px';
             });
         };
+        checkIcons.addEventListener('click', markItemAsChecked);
+
     }
-}
 
 
 
@@ -33,5 +34,5 @@ function addItemsToList() {
 
 
 
-// Add Events Listener
-addItem.addEventListener('click', addItemsToList);
+    // Add Events Listener
+    addItem.addEventListener('click', addItemsToList);
