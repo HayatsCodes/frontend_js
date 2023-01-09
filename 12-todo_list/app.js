@@ -25,9 +25,7 @@ function markItemAsChecked(e) {
             console.log('liiiiiiiiiii', li);
             li.classLists.toggle('completed');
         });
-    });
-
-}
+    };
 
 
 
