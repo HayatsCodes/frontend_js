@@ -7,7 +7,7 @@ function checkItem() {
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', event => {
             const li = event.target.parentNode.parentNode;
-            
+            li.style.text
         })
     })
 }
