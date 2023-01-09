@@ -28,10 +28,6 @@ function markItemAsChecked(e) {
         });
     };
 
-
-
-
-
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
 checkIcons.addEventListener('click', markItemAsChecked);
