@@ -20,6 +20,7 @@ function addItemsToList() {
 
 const checkIcons = document.querySelectorAll('.fa-check');
 checkIcons.forEach(checkIcon => {
+    console.log
     checkIcon.addEventListener('click', event => {
         const li = event.target.parentNode.parentNode;
         console.log(li);
