@@ -13,20 +13,23 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
-
-        function markItemAsChecked(e) {
-            console.log('checkIcons', checkIcons);
-            checkIcons.forEach(() => {
-                    const textSpan = e.target.parentNode.previousElementSibling;
-                    console.log(textSpan);
-                    textSpan.style.textDecoration = 'line-through red 3px';
-                });
-            };
-        
     }
     checkIcons = document.querySelectorAll('.fa-check');
-
 }
+
+
+
+function markItemAsChecked(e) {
+    console.log('checkIcons', checkIcons);
+    checkIcons.forEach(() => {
+            const textSpan = e.target.parentNode.previousElementSibling;
+            console.log(textSpan);
+            textSpan.style.textDecoration = 'line-through red 3px';
+        });
+    };
+
+
+
 
 
 // Add Events Listener
