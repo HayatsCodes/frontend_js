@@ -90,5 +90,9 @@ body {
     color: red;
 }
 
-.items
+.items li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+}
 
