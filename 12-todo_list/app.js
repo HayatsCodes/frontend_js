@@ -24,7 +24,7 @@ function markItemAsChecked() {
         console.log(checkIcons);
         checkIcon.addEventListener('click', event => {
             const li = event.target.parentNode.parentNode;
-            console.log('li',li);
+            console.log('liiiiiiiiiii', li);
             li.classLists.toggle('completed');
         });
     });
