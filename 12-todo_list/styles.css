@@ -33,7 +33,8 @@ body {
 }
 
 .text-container input {
-    height: 20px;
-    width: ;
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
 
 }
