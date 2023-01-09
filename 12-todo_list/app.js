@@ -17,7 +17,6 @@ function addItemsToList() {
         checkIcons = document.querySelectorAll('.fa-check');
     }
 }
-console.log(checkIcons);
 if (itemsWrapper.hasChildNodes()) {
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', event => {
@@ -27,8 +26,6 @@ if (itemsWrapper.hasChildNodes()) {
         });
     });
 }
-
-
 
 
 
