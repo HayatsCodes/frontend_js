@@ -15,11 +15,11 @@ function addItemsToList() {
     </li>`
         textInput.value = '';
         checkIcons = document.querySelectorAll('.fa-check');
-        console.log(checkIcons);
     }
 }
 
 function markItemAsChecked() {
+    console.log(checkIcons);
     checkIcons.forEach(checkIcon => {
         console.log(checkIcons);
         checkIcon.addEventListener('click', event => {
