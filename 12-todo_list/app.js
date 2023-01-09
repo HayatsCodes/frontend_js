@@ -4,7 +4,6 @@ const textInput = document.getElementById('text-input');
 
 function checkIconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
-    checkIcons[0].addEventListener('click', markItemAsChecked);
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', markItemAsChecked)
     });
