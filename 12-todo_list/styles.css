@@ -62,6 +62,6 @@ body {
 
 .items-container {
     display: flex;
-    justify-content: ;
+    justify-content: space-between;
 }
 
