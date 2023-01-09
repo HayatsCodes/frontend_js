@@ -21,7 +21,6 @@ function addItemsToList() {
 function markItemAsChecked() {
     console.log('checkIcons', checkIcons);
     checkIcons.forEach(checkIcon => {
-        console.log(checkIcons);
         checkIcon.addEventListener('click', event => {
             const li = event.target.parentNode.parentNode;
             console.log('liiiiiiiiiii', li);
