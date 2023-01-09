@@ -71,16 +71,12 @@ body {
     height: 30px;
     padding: 10px;
     border-radius: 15px;
-    margin-right: 20px;
+    margin-right: 8px;
 }
 
 .fas {
     font-size: 20px;
     margin-right: 2px;
-    padding-right: 3px;
-    border-right: 1px solid #595959;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
 }
 
 .fa-check {
