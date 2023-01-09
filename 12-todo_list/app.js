@@ -3,7 +3,7 @@ const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
 function addItemsToList() {
-    text
+    console.log(textInput.value)
 }
 
 // Add Events Listener
