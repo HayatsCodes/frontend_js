@@ -25,7 +25,7 @@ function markItemAsChecked(e) {
             console.log(textSpan);
             const i = document.createElement('i');
             i.classList.add('fas');
-            i.classList.add('fa-check-circle');
+            i.classList.add('fa-circle-check');
             textSpan.append(i);
         });
     };
