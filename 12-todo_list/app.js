@@ -2,9 +2,10 @@ const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
-if (itemsWrapper.hasChildNodes()) {
-    const checkIcon = document.querySelectorAll('.fa-check');
+function checkItem() {
+    
 }
+
 
 function addItemsToList() {
     if (textInput.value) {
