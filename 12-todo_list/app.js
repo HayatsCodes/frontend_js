@@ -23,7 +23,7 @@ function markItemAsChecked(e) {
     checkIcons.forEach(checkIcon => {
             const li = e.target.parentNode.previousElementSibling;
             console.log(li);
-            li.style.textDecoration = 'line-through red 3px';
+            li.style.textDecoration = 'line-through #595959 3px';
         });
     };
 
