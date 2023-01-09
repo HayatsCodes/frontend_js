@@ -67,6 +67,10 @@ body {
     align-items: baseline;
 }
 
+.items-control {
+    margin-right: 20px;
+}
+
 .fas {
     font-size: 25px;
 }
