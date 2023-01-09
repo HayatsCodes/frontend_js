@@ -23,7 +23,7 @@ checkIcons.forEach(checkIcon => {
     checkIcon.addEventListener('click', event => {
         const li = event.target.parentNode.parentNode;
         console.log(li);
-        li.classLists.toggle('completed')
+        li.classLists.toggle('completed');
     });
 });
 
