@@ -33,7 +33,7 @@ body {
     margin-top: 50px;
 }
 
-.text-container input,
+input,
 .btn {
     height: 45px;
     padding: 10px;
@@ -44,7 +44,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.text-container input {
+input {
     box-sizing: border-box;
     width: 80%;
 }
@@ -129,7 +129,7 @@ body {
 
 .edit-item-container {
     position: fixed;
-    top: 10%;
+    top: 25%;
     height: 150px;
     width: 150px;
     /* font-family: 'Courier New', Courier, monospace; */
