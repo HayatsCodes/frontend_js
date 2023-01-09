@@ -77,6 +77,11 @@ body {
 
 .fas {
     font-size: 20px;
+    cursor: pointer;
+}
+
+.fas:focus {
+    
 }
 
 .fa-check {
