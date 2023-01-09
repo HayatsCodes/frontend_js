@@ -14,20 +14,21 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
-        checkIcons = document.querySelectorAll('.fa-check');       
+        checkIcons = document.querySelectorAll('.fa-check');
+        console.log(checkIcons);
     }
 }
 
 
 
-checkIcons.forEach(checkIcon => {
-    console.log(checkIcons);
-    checkIcon.addEventListener('click', event => {
-        const li = event.target.parentNode.parentNode;
-        console.log(li);
-        li.classLists.toggle('completed');
-    });
-});
+// checkIcons.forEach(checkIcon => {
+//     console.log(checkIcons);
+//     checkIcon.addEventListener('click', event => {
+//         const li = event.target.parentNode.parentNode;
+//         console.log(li);
+//         li.classLists.toggle('completed');
+//     });
+// });
 
 
 // Add Events Listener
