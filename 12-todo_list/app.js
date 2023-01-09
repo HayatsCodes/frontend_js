@@ -2,7 +2,7 @@ const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
-
+isElementInItemsWrapper = itemsWrapper.hasChildNodes();
 
 function addItemsToList() {
     if (textInput.value) {
@@ -14,14 +14,14 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
-        
+        isElementInItemsWrapper = true;
     }
 }
 
 console.log(itemsWrapper.hasChildNodes())
 
  
-if (itemsWrapper.hasChildNodes()) {
+if (isElementInItemsWrapper) {
     const checkIcons = document.querySelectorAll('.fa-check');
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', event => {
