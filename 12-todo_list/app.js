@@ -3,8 +3,7 @@ const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
 function checkItem() {
-
-    const checkIcon = document.querySelectorAll('.fa-check');
+    const checkIcons = document.querySelectorAll('.fa-check');
 }
 
 
