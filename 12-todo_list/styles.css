@@ -35,6 +35,8 @@ body {
 .text-container input {
     height: 30px;
     width: 70%;
-    border-radius: 10px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
 
 }
