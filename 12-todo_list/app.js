@@ -17,6 +17,7 @@ function addItemsToList() {
     }
 }
 
+
  
 if (itemsWrapper.hasChildNodes()) {
     const checkIcons = document.querySelectorAll('.fa-check');
