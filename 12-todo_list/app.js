@@ -24,7 +24,7 @@ function markItemAsChecked(e) {
             const textSpan = e.target.parentNode.previousElementSibling;
             console.log(textSpan);
             const i = document.createElement('i');
-            i.classList.add('fas');
+            i.classList.add('fa-');
             i.classList.add('fa-circle-check');
             textSpan.append(i);
         });
