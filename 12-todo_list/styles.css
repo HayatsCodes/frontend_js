@@ -39,6 +39,7 @@ body {
     border: 0;
     border-radius: 5px;
     outline: none;
+    background-color: whitesmoke;
 }
 
 .text-container input {
@@ -51,7 +52,7 @@ body {
 }
 
 .btn:hover {
-    filter: brightness(80%%);
+    filter: brightness(80%);
 }
 
 
