@@ -14,7 +14,6 @@ function addItemsToList() {
     </li>`
     textInput.value = '';
     }
-   
 }
 
 // Add Events Listener
