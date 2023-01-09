@@ -2,15 +2,6 @@ const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
-if ()
-const checkIcons = document.querySelectorAll('.fa-check');
-checkIcons.forEach(checkIcon => {
-    checkIcon.addEventListener('click', event => {
-        const li = event.target.parentNode.parentNode;
-        li.style.textDecoration = 'line-through';
-        li.style.color = 'red';
-    });
-});
 
 
 function addItemsToList() {
@@ -24,6 +15,18 @@ function addItemsToList() {
     </li>`
         textInput.value = '';
     }
+}
+
+ 
+if (itemsWrapper.hasChildNodes()) {
+    const checkIcons = document.querySelectorAll('.fa-check');
+    checkIcons.forEach(checkIcon => {
+        checkIcon.addEventListener('click', event => {
+            const li = event.target.parentNode.parentNode;
+            li.style.textDecoration = 'line-through';
+            li.style.color = 'red';
+        });
+    });
 }
 
 // Add Events Listener
