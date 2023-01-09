@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    backgroun
+    background: #F4EDED;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ body {
 .main-container {
     height: 530px;
     width: 620px;
-    background-color: #6a7070;
+    background-color: #6DB1BF;
     border-radius: 15px;
-    box-shadow: 0 10px 20px 15px rgba(255, 255, 255, .3);
+    box-shadow: 0 10px 20px 15px rgba(20, 20, 20, 0.3);
 }
