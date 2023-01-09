@@ -30,5 +30,7 @@ if (itemsWrapper.hasChildNodes()) {
 
 
 
+
+
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
