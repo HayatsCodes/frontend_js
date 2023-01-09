@@ -36,9 +36,9 @@ body {
 .btn {
     height: 45px;
     padding: 10px;
-    border: 1px solid;
+    border: 1px solid #70c5d6;
     border-radius: 5px;
-    outline: none;
+    /* outline: none; */
     background-color: whitesmoke;
 }
 
