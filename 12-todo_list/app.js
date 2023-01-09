@@ -24,7 +24,6 @@ function addItemsToList() {
 
 
 function markItemAsChecked(e) {
-    console.log('checkIcons', checkIcons);
     checkIcons.forEach(() => {
             const textSpan = e.target.parentNode.previousElementSibling;
             console.log(textSpan);
