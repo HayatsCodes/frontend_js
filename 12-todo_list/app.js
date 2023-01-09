@@ -17,6 +17,7 @@ function addItemsToList() {
     }
 }
 
+console.log(itemsWrapper.hasChildNodes())
 
  
 if (itemsWrapper.hasChildNodes()) {
