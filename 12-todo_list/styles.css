@@ -18,12 +18,12 @@ body {
     height: 600px;
     width: 600px;
     background-color: #6DB1BF;
+    color: #595959;
     border-radius: 15px;
     box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .header {
-    color: #595959;
     letter-spacing: 2px;
     word-spacing: -2px;
 }
@@ -38,5 +38,4 @@ body {
     border: 0;
     border-radius: 5px;
     outline: none;
-
 }
