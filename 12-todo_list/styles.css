@@ -41,6 +41,7 @@ body {
     border-radius: 5px;
     outline: none;
     background-color: #F4EDED;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .text-container input {
