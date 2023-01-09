@@ -131,5 +131,6 @@ body {
     position: fixed;
     top: 10%;
     background-color: #F4EDED;
-    font-family: 'Courier New', Courier, monospace;
+    height: 150px;
+    /* font-family: 'Courier New', Courier, monospace; */
 }
