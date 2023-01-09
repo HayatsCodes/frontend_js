@@ -24,7 +24,7 @@ function markItemAsChecked(e) {
             const li = e.target.parentNode.parentNode;
             console.log('liiiiiiiiiii', li);
             li.style.color = 'red';
-            li.style.
+            li.style.textDecoration = 'line-through';
         });
     };
 
