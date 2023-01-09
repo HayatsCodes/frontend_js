@@ -14,19 +14,22 @@ function addItemsToList() {
     </li>`
         textInput.value = '';
         checkIcons = document.querySelectorAll('.fa-check');
+
+        function markItemAsChecked(e) {
+            console.log('checkIcons', checkIcons);
+            checkIcons.forEach(() => {
+                const textSpan = e.target.parentNode.previousElementSibling;
+                console.log(textSpan);
+                textSpan.style.textDecoration = 'line-through red 3px';
+            });
+        };
+        checkIcons.addEventListener('click', markItemAsChecked);
     }
 }
 
 
 
-function markItemAsChecked(e) {
-    console.log('checkIcons', checkIcons);
-    checkIcons.forEach(() => {
-            const textSpan = e.target.parentNode.previousElementSibling;
-            console.log(textSpan);
-            textSpan.style.textDecoration = 'line-through red 3px';
-        });
-    };
+
 
 
 
@@ -34,4 +37,3 @@ function markItemAsChecked(e) {
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
-checkIcons.addEventListener('click', markItemAsChecked);
