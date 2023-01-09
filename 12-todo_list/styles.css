@@ -67,5 +67,11 @@ body {
     align-items: baseline;
 }
 
-.
+.fas {
+    font-size: 20px;
+}
+
+.fa-check {
+    color: green;
+}
 
