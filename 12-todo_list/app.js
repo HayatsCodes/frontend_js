@@ -14,7 +14,7 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
-        checkIcons = document.querySelectorAll('.fa-check');        
+        checkIcons = document.querySelectorAll('.fa-check');       
     }
 }
 
