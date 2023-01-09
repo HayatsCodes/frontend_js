@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to right, #191a1b, #1d2020, #222525, #272b28, #2f302c);
+    background-image: linear-gradient(to right, #1d2020, #1d2020, #1d2020, #272b28, #272b28);
     display: flex;
     justify-content: center;
     align-items: center;
