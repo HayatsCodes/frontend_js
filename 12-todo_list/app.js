@@ -23,8 +23,8 @@ function markItemAsChecked(e) {
     checkIcons.forEach(checkIcon => {
             const textSpan = e.target.parentNode.previousElementSibling;
             console.log(textSpan);
-            textSpan.create(i);
-            
+            i = Element.create('i');
+
         });
     };
 
