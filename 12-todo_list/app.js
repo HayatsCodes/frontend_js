@@ -4,14 +4,16 @@ const textInput = document.getElementById('text-input');
 
 
 function addItemsToList() {
-    
-    itemsWrapper.innerHTML +=` <li class="items-list">
-    <span>${textInput.value}</span>
-    <span> <i class="fas fa-check"></i>
-        <i class="fas fa-pen"></i>
-        <i class="fas fa-trash"></i>
-    </span>
-</li>`
+    if (textInput.value) {
+        itemsWrapper.innerHTML +=` <li class="items-list">
+        <span>${textInput.value}</span>
+        <span> <i class="fas fa-check"></i>
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash"></i>
+        </span>
+    </li>`
+    }
+   
 }
 
 // Add Events Listener
