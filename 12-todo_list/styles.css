@@ -21,6 +21,7 @@ body {
     color: #595959;
     border-radius: 15px;
     box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 .header {
@@ -102,5 +103,6 @@ body {
 }
 
 .clear-items {
-    
+    position: absolute;
+    top: 80%;
 }
