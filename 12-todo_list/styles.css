@@ -36,7 +36,7 @@ body {
 .btn {
     height: 45px;
     padding: 10px;
-    border: 0;
+    border: 1px solid;
     border-radius: 5px;
     outline: none;
     background-color: whitesmoke;
@@ -52,7 +52,7 @@ body {
 }
 
 .btn:hover {
-    filter: brightness(60%);
+    filter: brightness(80%);
     background-color: #6DB1BF;
 }
 
