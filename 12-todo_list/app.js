@@ -2,15 +2,15 @@ const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
-function checkItem() {
-    const checkIcons = document.querySelectorAll('.fa-check');
-    checkIcons.forEach(checkIcon => {
-        checkIcon.addEventListener('click', event => {
-            const li = event.target.parentNode.parentNode;
-            li.style.textDecoration = 'line-through';
-        })
-    })
-}
+if ()
+const checkIcons = document.querySelectorAll('.fa-check');
+checkIcons.forEach(checkIcon => {
+    checkIcon.addEventListener('click', event => {
+        const li = event.target.parentNode.parentNode;
+        li.style.textDecoration = 'line-through';
+        li.style.color = 'red';
+    });
+});
 
 
 function addItemsToList() {
