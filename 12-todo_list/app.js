@@ -12,6 +12,7 @@ function addItemsToList() {
             <i class="fas fa-trash"></i>
         </span>
     </li>`
+    textInput.value = '';
     }
    
 }
