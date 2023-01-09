@@ -19,7 +19,9 @@ function addItemsToList() {
     }
 }
 
+function markItemAsChecked() {
 
+}
 
 // checkIcons.forEach(checkIcon => {
 //     console.log(checkIcons);
@@ -33,4 +35,4 @@ function addItemsToList() {
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
-checkIcons.addEventListener('click', markItemAsChecked)
+// checkIcons.addEventListener('click', markItemAsChecked);
