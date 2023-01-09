@@ -23,13 +23,13 @@ function addItemsToList() {
 
 
 
-function markItemAsChecked(e) {
-    checkIcons.forEach(() => {
-            const textSpan = e.target.parentNode.previousElementSibling;
-            console.log(textSpan);
-            textSpan.style.textDecoration = 'line-through red 3px';
-        });
-    };
+// function markItemAsChecked(e) {
+//     checkIcons.forEach(() => {
+//             const textSpan = e.target.parentNode.previousElementSibling;
+//             console.log(textSpan);
+//             textSpan.style.textDecoration = 'line-through red 3px';
+//         });
+//     };
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
