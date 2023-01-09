@@ -3,7 +3,7 @@ const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
 if (itemsWrapper.hasChildNodes()) {
-    
+    const checkIcon = document.querySelectorAll('.fa-check');
 }
 
 function addItemsToList() {
