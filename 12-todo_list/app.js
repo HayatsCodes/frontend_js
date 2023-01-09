@@ -17,15 +17,17 @@ function addItemsToList() {
         checkIcons = document.querySelectorAll('.fa-check');
     }
 }
-
-checkIcons.forEach(checkIcon => {
-    console.log(checkIcons);
-    checkIcon.addEventListener('click', event => {
-        const li = event.target.parentNode.parentNode;
-        console.log(li);
-        li.classLists.toggle('completed');
+if (itemsWrapper.hasChildNodes()) {
+    checkIcons.forEach(checkIcon => {
+        console.log(checkIcons);
+        checkIcon.addEventListener('click', event => {
+            const li = event.target.parentNode.parentNode;
+            console.log(li);
+            li.classLists.toggle('completed');
+        });
     });
-});
+}
+
 
 
 // Add Events Listener
