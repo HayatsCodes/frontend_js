@@ -28,6 +28,7 @@ function addItemsToList() {
 
 
 function markItemAsChecked(e) {
+    
     const textSpan = e.target.parentNode.previousElementSibling;
     console.log(textSpan);
     textSpan.style.textDecoration = 'line-through red 3px';
