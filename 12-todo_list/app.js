@@ -21,9 +21,9 @@ function addItemsToList() {
 function markItemAsChecked(e) {
     console.log('checkIcons', checkIcons);
     checkIcons.forEach(checkIcon => {
-            const li = e.target.parentNode.previousElementSibling;
+            const textSpan = e.target.parentNode.previousElementSibling;
             console.log(li);
-            li.style.textDecoration = 'line-through #595959 3px';
+
         });
     };
 
