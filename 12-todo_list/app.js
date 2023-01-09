@@ -4,6 +4,7 @@ const textInput = document.getElementById('text-input');
 
 
 function addItemsToList() {
+    
     itemsWrapper.innerHTML +=` <li class="items-list">
     <span>${textInput.value}</span>
     <span> <i class="fas fa-check"></i>
