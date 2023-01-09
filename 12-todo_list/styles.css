@@ -109,7 +109,9 @@ body {
 
 .clear-items {
     box-sizing: border-box;
-    padding: 10px 0;
+    object-fit: contain;
+    object-position: 10%, 50%;
+    padding: 5px 10px;
     position: absolute;
     top: 85%;
     text-align: center;
