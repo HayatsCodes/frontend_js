@@ -1,7 +1,6 @@
 const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
-let checkIcons = document.querySelector('html');
 
 
 function addItemsToList() {
@@ -26,6 +25,9 @@ function markItemAsChecked(e) {
             textSpan.style.textDecoration = 'line-through red 3px';
         });
     };
+
+if ()
+let checkIcons = document.querySelector('.fa-check');
 
 
 
