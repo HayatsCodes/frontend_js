@@ -2,6 +2,7 @@ const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
+
 function addItemsToList() {
     itemsWrapper.innerHTML +=` <li class="items-list">
     <span>${textInput.value}</span>
