@@ -80,8 +80,8 @@ body {
     cursor: pointer;
 }
 
-.fas:focus {
-    
+.fas:active {
+    transform: translateY(2px);
 }
 
 .fa-check {
