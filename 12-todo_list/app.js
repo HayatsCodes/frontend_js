@@ -14,6 +14,7 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
+        
     }
 }
 
