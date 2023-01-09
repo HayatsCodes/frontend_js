@@ -18,11 +18,10 @@ function addItemsToList() {
     }
 }
 
-function markItemAsChecked() {
+function markItemAsChecked(e) {
     console.log('checkIcons', checkIcons);
     checkIcons.forEach(checkIcon => {
-        checkIcon.addEventListener('click', event => {
-            const li = event.target.parentNode.parentNode;
+            const li = e.target.parentNode.parentNode;
             console.log('liiiiiiiiiii', li);
             li.classLists.toggle('completed');
         });
