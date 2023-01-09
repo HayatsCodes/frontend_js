@@ -17,6 +17,7 @@ function addItemsToList() {
 }
 
 const checkIcons = document.querySelectorAll('.fa-check');
+console
 checkIcons.forEach(checkIcon => {
     console.log(checkIcons);
     checkIcon.addEventListener('click', event => {
