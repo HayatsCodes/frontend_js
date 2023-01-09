@@ -19,5 +19,5 @@ body {
     width: 600px;
     background-color: #6DB1BF;
     border-radius: 15px;
-    box-shadow: 0 10px 20px 15px rgba(20, 20, 20, 0.3);
+    box-shadow: 0 5px 10px 15px rgba(0, 0, 0, 0.3);
 }
