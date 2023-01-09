@@ -60,9 +60,7 @@ body {
     transform: translateY(2px);
 }
 
-.text-container {
+.items-container {
     display: flex;
-    text-align: ;
 }
-
 
