@@ -1,7 +1,7 @@
 const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
-let checkIcons = document.querySelector('hidden-wrapper');
+let checkIcons = document.getElementById('hidden-wrapper');
 
 function addItemsToList() {
     if (textInput.value) {
