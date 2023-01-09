@@ -25,7 +25,7 @@ function markItemAsChecked(e) {
             console.log(textSpan);
             const i = document.createElement('i');
             i.classList.add('fas');
-            i.classList.add('fa-check-double');
+            i.classList.add('fa-square-check-double');
             textSpan.append(i);
         });
     };
