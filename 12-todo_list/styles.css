@@ -86,6 +86,10 @@ body {
     filter: brightness(80%);
 }
 
+.fa-pen:hover {
+    filter: brightness(200%);
+}
+
 .fas:active {
     transform: translateY(2px);
 }
