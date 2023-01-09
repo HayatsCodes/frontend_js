@@ -31,3 +31,8 @@ body {
 .text-container {
     margin-top: 50px;
 }
+
+.text-container input {
+    height: 5px;
+    
+}
