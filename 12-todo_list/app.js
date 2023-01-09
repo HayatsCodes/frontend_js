@@ -18,7 +18,6 @@ function addItemsToList() {
     }
 }
 console.log(checkIcons);
-
 if (itemsWrapper.hasChildNodes()) {
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', event => {
