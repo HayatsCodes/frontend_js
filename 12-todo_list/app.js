@@ -2,6 +2,8 @@ const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
+let isChecked = false;
+
 function checkIconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
     checkIcons.forEach(checkIcon => {
@@ -29,7 +31,7 @@ function markItemAsChecked(e) {
     const textSpan = e.target.parentNode.previousElementSibling;
     console.log(textSpan);
     textSpan.style.textDecoration = 'line-through red 3px';
-    
+    isChecked = true;
 }
 
 // Add Events Listener
