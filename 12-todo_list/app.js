@@ -4,6 +4,7 @@ const textInput = document.getElementById('text-input');
 let checkIcons = document.getElementById('hidden-wrapper');
 
 function checkIconsEventListener() {
+    checkIcons.addEventListener('click', markItemAsChecked);
     
 }
 
@@ -34,4 +35,3 @@ function markItemAsChecked(e) {
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
-checkIcons.addEventListener('click', markItemAsChecked);
