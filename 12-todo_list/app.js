@@ -2,7 +2,6 @@ const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
-isElementInItemsWrapper = itemsWrapper.hasChildNodes();
 
 function addItemsToList() {
     if (textInput.value) {
