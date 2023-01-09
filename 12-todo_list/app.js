@@ -26,13 +26,10 @@ function addItemsToList() {
 
 
 function markItemAsChecked(e) {
-    console.log('checkIcons', checkIcons);
-    checkIcons.forEach(() => {
-            const textSpan = e.target.parentNode.previousElementSibling;
-            console.log(textSpan);
-            textSpan.style.textDecoration = 'line-through red 3px';
-        });
-    };
+    const textSpan = e.target.parentNode.previousElementSibling;
+    console.log(textSpan);
+    textSpan.style.textDecoration = 'line-through red 3px';
+}
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
