@@ -20,19 +20,19 @@ function addItemsToList() {
 }
 
 function markItemAsChecked() {
+    checkIcons.forEach(checkIcon => {
+        console.log(checkIcons);
+        checkIcon.addEventListener('click', event => {
+            const li = event.target.parentNode.parentNode;
+            console.log(li);
+            li.classLists.toggle('completed');
+        });
+    });
 
 }
 
-// checkIcons.forEach(checkIcon => {
-//     console.log(checkIcons);
-//     checkIcon.addEventListener('click', event => {
-//         const li = event.target.parentNode.parentNode;
-//         console.log(li);
-//         li.classLists.toggle('completed');
-//     });
-// });
 
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
-// checkIcons.addEventListener('click', markItemAsChecked);
+checkIcons.addEventListener('click', markItemAsChecked);
