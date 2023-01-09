@@ -17,9 +17,10 @@ function addItemsToList() {
         checkIcons = document.querySelectorAll('.fa-check');
     }
 }
+console.log(checkIcons);
+
 if (itemsWrapper.hasChildNodes()) {
     checkIcons.forEach(checkIcon => {
-        console.log(checkIcons);
         checkIcon.addEventListener('click', event => {
             const li = event.target.parentNode.parentNode;
             console.log(li);
