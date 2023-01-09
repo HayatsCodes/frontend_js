@@ -18,6 +18,8 @@ function addItemsToList() {
     }
 }
 
+
+
 checkIcons.forEach(checkIcon => {
     console.log(checkIcons);
     checkIcon.addEventListener('click', event => {
