@@ -6,7 +6,8 @@ function checkItem() {
     const checkIcons = document.querySelectorAll('.fa-check');
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', event => {
-            const li = event.target
+            const li = event.target.parentNode.parentNode;
+            
         })
     })
 }
