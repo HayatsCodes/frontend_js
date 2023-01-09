@@ -3,6 +3,8 @@ const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 let checkIcons = document.getElementById('hidden-wrapper');
 
+ch
+
 function addItemsToList() {
     if (textInput.value) {
         itemsWrapper.innerHTML += ` <li class="items-list">
