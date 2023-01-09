@@ -11,11 +11,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .main-container {
-    height: 530px;
-    width: 620px;
+    height: 600px;
+    width: 600px;
     background-color: #6DB1BF;
     border-radius: 15px;
     box-shadow: 0 10px 20px 15px rgba(20, 20, 20, 0.3);
