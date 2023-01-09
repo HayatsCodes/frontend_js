@@ -17,9 +17,6 @@ function addItemsToList() {
         isElementInItemsWrapper = true;
     }
 }
-
-console.log(itemsWrapper.hasChildNodes())
-
  
 if (isElementInItemsWrapper) {
     const checkIcons = document.querySelectorAll('.fa-check');
