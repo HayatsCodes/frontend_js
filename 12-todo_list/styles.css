@@ -43,7 +43,12 @@ body {
 
 .text-container input {
     box-sizing: border-box;
-    width: 70%;
+    width: 80%;
+    margin-right: 0;
+}
+
+.btn {
+    margin-left: 0;
 }
 
 
