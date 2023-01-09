@@ -39,7 +39,9 @@ body {
     border: 0;
     border-radius: 5px;
     outline: none;
-    background-color: rgb(231, 220, 220);
+    background-color: rgb(231, 219, 219);
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .text-container input {
