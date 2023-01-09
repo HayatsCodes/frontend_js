@@ -40,7 +40,6 @@ body {
     border-radius: 5px;
     outline: none;
     background-color: rgb(231, 219, 219);
-    box-shadow: 0 5px 20px 15px rgba(0, 0, 0, 0.3);
 }
 
 .text-container input {
@@ -50,6 +49,7 @@ body {
 
 .btn {
     cursor: pointer;
+    box-shadow: 0 3px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
