@@ -129,8 +129,7 @@ body {
 
 .edit-item-container {
     position: fixed;
-    /* top: 10%; */
-    background-color: #F4EDED;
+    top: 10%;
     height: 150px;
     width: 150px;
     /* font-family: 'Courier New', Courier, monospace; */
