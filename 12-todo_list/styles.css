@@ -108,6 +108,8 @@ body {
 }
 
 .clear-items {
+    box-sizing: border-box;
+    padding: 10px 0;
     position: absolute;
     top: 85%;
     text-align: center;
