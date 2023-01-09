@@ -4,14 +4,7 @@ const textInput = document.getElementById('text-input');
 
 function checkIconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
-    checkIcons[0].addEventListener('click', (e) => {
-
-    checkIcons.forEach(() => {
-        const textSpan = e.target.parentNode.previousElementSibling;
-        console.log(textSpan);
-        textSpan.style.textDecoration = 'line-through red 3px';
-        
-    }););
+    checkIcons[0].addEventListener('click', markItemAsChecked);
 }
 
 function addItemsToList() {
@@ -30,13 +23,14 @@ function addItemsToList() {
 
 
 
-// function markItemAsChecked(e) {
-//     checkIcons.forEach(() => {
-//             const textSpan = e.target.parentNode.previousElementSibling;
-//             console.log(textSpan);
-//             textSpan.style.textDecoration = 'line-through red 3px';
-//         });
-//     };
+function markItemAsChecked(e) {
+    console.log('checkIcons', checkIcons);
+    checkIcons.forEach(() => {
+            const textSpan = e.target.parentNode.previousElementSibling;
+            console.log(textSpan);
+            textSpan.style.textDecoration = 'line-through red 3px';
+        });
+    };
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
