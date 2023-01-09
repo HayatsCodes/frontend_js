@@ -38,14 +38,16 @@ function addItemsToList() {
   }
   
  
-const checkIcons = document.querySelectorAll('.fa-check');
-checkIcons.forEach(checkIcon => {
-  checkIcon.addEventListener('click', event => {
-    const li = event.target.parentNode.parentNode;
-    li.classList.toggle('completed');
-  });
-});
-
+if (isElementInItemsWrapper) {
+    const checkIcons = document.querySelectorAll('.fa-check');
+    checkIcons.forEach(checkIcon => {
+        checkIcon.addEventListener('click', event => {
+            const li = event.target.parentNode.parentNode;
+            console.log(li);
+            li.classLists.toggle('completed')
+        });
+    });
+}
 
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
