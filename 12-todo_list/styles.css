@@ -104,5 +104,8 @@ body {
 
 .clear-items {
     position: absolute;
-    top: 80%;
+    top: 85%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
