@@ -23,6 +23,7 @@ if (isElementInItemsWrapper) {
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', event => {
             const li = event.target.parentNode.parentNode;
+            console.log(li);
             li.style.textDecoration = 'line-through';
             li.style.color = 'red';
         });
