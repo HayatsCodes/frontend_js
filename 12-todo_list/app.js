@@ -13,7 +13,7 @@ function addItemsToList() {
     </li>`
         textInput.value = '';
         const checkIcons = document.querySelectorAll('.fa-check');
-        
+
         function markItemAsChecked(e) {
             console.log('checkIcons', checkIcons);
             checkIcons.forEach(() => {
@@ -22,7 +22,6 @@ function addItemsToList() {
                 textSpan.style.textDecoration = 'line-through red 3px';
             });
         };
-        checkIcons.addEventListener('click', markItemAsChecked);
     }
 }
 
