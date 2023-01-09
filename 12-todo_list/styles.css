@@ -13,5 +13,7 @@ body {
 }
 
 .main-container {
-    
+    background-color: #6a7070;
+    height: 400px;
+    width: 600px;
 }
