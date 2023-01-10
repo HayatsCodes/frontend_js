@@ -4,7 +4,7 @@ const textInput = document.getElementById('text-input');
 
 let isChecked = false;
 
-// 
+// Icons Function
 
 function checkIconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
@@ -12,6 +12,8 @@ function checkIconsEventListener() {
         checkIcon.addEventListener('click', markItemAsChecked)
     });
 }
+
+
 
 function addItemsToList() {
     if (textInput.value) {
