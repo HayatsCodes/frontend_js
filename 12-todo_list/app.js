@@ -49,6 +49,7 @@ function markItemAsChecked(e) {
 function editItem(e) {
     const textSpan = e.target.parentNode.previousElementSibling;
     textSpan.setAttribute("contenteditable", "true");
+    
     textSpan.focus();
     textSpan.addEventListener('blur', () => {
         textSpan.setAttribute("contenteditable", "false");
