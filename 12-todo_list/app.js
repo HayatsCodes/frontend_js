@@ -54,6 +54,8 @@ function editItem(e) {
     textSpan.addEventListener('blur', () => {
         if (textSpan.innerText.length < 1) {
             e.preventDefault();
+        } else {
+            
         }
         textSpan.setAttribute("contenteditable", "false");
     });
