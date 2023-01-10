@@ -38,14 +38,7 @@ function addItemsToList() {
 
 function markItemAsChecked(e) {
     if (!isFocused) {
-        const textSpan = e.target.parentNode.previousElementSibling;
-        if (!isChecked) {
-            textSpan.style.textDecoration = 'line-through red 3px';
-            isChecked = true;
-        } else {
-            textSpan.style.textDecoration = 'none';
-            isChecked = false;
-        }
+        
     }
 }
 
@@ -65,7 +58,6 @@ function editItem(e) {
             } else {
                 textSpan.setAttribute("contenteditable", "false");
                 textSpan.style.caretColor = 'black';
-                isFocused = false;
             }
         });
     }
