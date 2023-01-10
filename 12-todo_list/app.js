@@ -52,7 +52,7 @@ function editItem(e) {
     textSpan.setAttribute("contenteditable", "true");
     textSpan.focus();
     textSpan.addEventListener('blur', (e) => {
-        if (textSpan.innerText.length < 1) {
+        if (textSpan.innerText.length <= 1) {
             e.preventDefault();
             textSpan.textDecoration = 'underline red 3px'
         } else {
