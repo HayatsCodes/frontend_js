@@ -135,5 +135,5 @@ body {
     height: 600px;
     width: 600px;
     z-index: 10;
-    background-color: rg;
+    background-color: rgba(255, 255, 255, .5);
 }
