@@ -52,6 +52,7 @@ function editItem(e) {
     textSpan.setAttribute("contenteditable", "true");
     textSpan.focus();
     textSpan.addEventListener('blur', () => {
+        
         textSpan.setAttribute("contenteditable", "false");
     });
 }
