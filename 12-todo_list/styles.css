@@ -133,5 +133,7 @@ body {
 }
 
 @media screen and (max-width: 500px){
-    overflow-y: ;
+    body {
+        overflow-y: hidden;
+    }
 }
