@@ -141,7 +141,8 @@ body {
     background-color: rgba(255, 255, 255, .6);
 }
 
-.edit-container input {
+.edit-container input,
+.edit-container btn {
     z-index: 2000;
     margin-top: 50px;
     transform: translateY(50px);
