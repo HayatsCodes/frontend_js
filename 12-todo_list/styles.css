@@ -133,7 +133,6 @@ body {
 }
 
 .edit-container {
-    position: relative;
     margin-top: -173px;
     height: 600px;
     width: 600px;
@@ -144,5 +143,4 @@ body {
 
 .edit-container input {
     z-index: 2000;
-    
 }
