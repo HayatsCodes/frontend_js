@@ -141,7 +141,9 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.edit-container input
+/* .edit-container input {
+    margin-top: 75px;
+} */
 .edit-container input,
 .edit-container .btn {
     z-index: 2000;
