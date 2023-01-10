@@ -51,11 +51,13 @@ function editItem(e) {
     textSpan.setAttribute("onkeypress","return (this.innerText.length <= 35)");
     textSpan.setAttribute("contenteditable", "true");
     textSpan.focus();
-    textSpan.addEventListener('blur', () => {
+    textSpan.addEventListener('blur', (event) => {
         if (textSpan.innerText.length < 1) {
-            event.preventDefault
+            event.preventDefault();
+            textSpan.focus();
+        } else {
+            textSpan.setAttribute("contenteditable", "false");
         }
-        textSpan.setAttribute("contenteditable", "false");
     });
 }
 
