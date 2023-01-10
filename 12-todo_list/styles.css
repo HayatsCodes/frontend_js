@@ -145,7 +145,7 @@ body {
     column-gap: 10px;
     height: 150px;
     border-radius: 15px;
-    z-index: 1000;
+    z-index: 1200;
     background-color: #6DB1BF;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
