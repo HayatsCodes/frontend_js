@@ -13,7 +13,9 @@ function checkIconsEventListener() {
     });
 }
 
-function 
+function penIconsEventListener() {
+    
+}
 
 function addItemsToList() {
     if (textInput.value) {
