@@ -151,6 +151,7 @@ body {
     z-index: 1500;
     background-color: #6DB1BF;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    opacity: 1;
 }
 
 /* .edit-container input {
@@ -159,4 +160,5 @@ body {
 .edit-container input,
 .edit-container .btn {
     z-index: 2000;
+    opacity: 1;
 }
