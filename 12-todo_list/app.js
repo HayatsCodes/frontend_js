@@ -3,7 +3,6 @@ const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
 let isChecked = false;
-// Icons Function
 
 function iconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
