@@ -69,5 +69,9 @@ function editItem(e) {
     }
 }
 
+function deleteItem(e) {
+    
+}
+
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
