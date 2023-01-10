@@ -36,6 +36,7 @@ body {
 }
 
 .text-container input,
+.edit-container input,
 .btn {
     height: 45px;
     padding: 10px;
@@ -46,7 +47,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.text-container input, {
+.text-container input, 
+.edit-container input{
     box-sizing: border-box;
     width: 80%;
 }
@@ -139,6 +141,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.edit-container input
 .edit-container input,
 .edit-container .btn {
     z-index: 2000;
