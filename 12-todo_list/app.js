@@ -75,5 +75,10 @@ function deleteItem(e) {
     li.remove();
 }
 
+function clearAllItems() {
+    
+}
+
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
+clearItems.addEventListener('click', clearAllItems);
