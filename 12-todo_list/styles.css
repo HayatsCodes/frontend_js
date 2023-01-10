@@ -85,10 +85,8 @@ body {
 
 
 .fas {
-    position: fixed;
     font-size: 20px;
     cursor: pointer;
-    z-index: 1000;
 }
 
 .fas:last-of-type {
@@ -109,12 +107,10 @@ body {
 
 .fa-check {
     color: #379634;
-    right: 12%;
 }
 
 .fa-pen {
     color: #03045E;
-    right: 8%;
 }
 
 .fa-trash {
