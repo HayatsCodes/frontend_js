@@ -52,7 +52,9 @@ function editItem(e) {
     textSpan.setAttribute("contenteditable", "true");
     textSpan.focus();
     textSpan.addEventListener('blur', () => {
-        if (textSpan.innerText.length <)
+        if (textSpan.innerText.length < 1) {
+            e.preventDefault();
+        }
         textSpan.setAttribute("contenteditable", "false");
     });
 }
