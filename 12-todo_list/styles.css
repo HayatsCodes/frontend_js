@@ -132,6 +132,6 @@ body {
     z-index: 1;
 }
 
-@media screen {
-    
+@media screen and (max-width: 500px){
+    overflow-y: ;
 }
