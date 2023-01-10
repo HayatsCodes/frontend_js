@@ -33,7 +33,7 @@ body {
     margin-top: 50px;
 }
 
-input,
+.text-container input,
 .btn {
     height: 45px;
     padding: 10px;
@@ -44,7 +44,7 @@ input,
     font-family: 'Courier New', Courier, monospace;
 }
 
-input {
+.text-container input {
     box-sizing: border-box;
     width: 80%;
 }
@@ -127,14 +127,7 @@ input {
     transform: translateX(-50%);
 }
 
-.edit-item-container {
-    /* position: fixed; */
-    top: 20%;
-    height: 150px;
-    width: 150px;
-    /* font-family: 'Courier New', Courier, monospace; */
-}
-
-.edit-input {
-    color: #a8a6a6;
+.completed {
+    text-decoration: line-through;
+    color: red;
 }
