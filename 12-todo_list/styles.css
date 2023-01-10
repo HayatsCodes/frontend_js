@@ -134,10 +134,11 @@ body {
 
 .edit-container-wrapper {
     height: 600px;
-    width: 6;
     margin-top: -173px;
     background-color: rgba(0, 0, 0, .2);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .edit-container {
