@@ -130,9 +130,8 @@ body {
     z-index: 1;
 }
 
-/* .edit-container {
+.edit-container {
     height: 150px;
-    width: 600px;
     border-radius: 15px;
     z-index: 1000;
     background-color: #6DB1BF;
@@ -142,6 +141,4 @@ body {
 .edit-container input,
 .edit-container .btn {
     z-index: 2000;
-    margin-top: 50px;
-    transform: translateY(50px);
-} */
+}
