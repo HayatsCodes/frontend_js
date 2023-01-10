@@ -16,7 +16,10 @@ function iconsEventListener() {
         penIcon.addEventListener('click', editItem);
     });
 
-    
+    const trashIcons = document.querySelectorAll('.fa-trash');
+    trashIcons.forEach(trashIcons => {
+        
+    })
 }
 
 
