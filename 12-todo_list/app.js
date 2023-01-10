@@ -15,6 +15,8 @@ function iconsEventListener() {
     penIcons.forEach(penIcon => {
         penIcon.addEventListener('click', editItem);
     });
+
+    
 }
 
 
