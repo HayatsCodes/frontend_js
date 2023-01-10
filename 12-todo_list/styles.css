@@ -141,5 +141,6 @@ body {
 
 .edit-container input,
 .edit-container .btn {
+    height: 5px;
     z-index: 2000;
 }
