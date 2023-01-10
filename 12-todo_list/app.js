@@ -71,7 +71,7 @@ function editItem(e) {
 
 function deleteItem(e) {
     const li = e.target.parentNode.parentNode;
-    
+    li.remove()
 }
 
 // Add Events Listener
