@@ -27,6 +27,7 @@ body {
 .header {
     letter-spacing: 2px;
     word-spacing: -2px;
+    z-index: 30;
 }
 
 .text-container,
