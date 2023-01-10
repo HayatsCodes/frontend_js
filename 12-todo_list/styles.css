@@ -140,9 +140,9 @@ body {
     
 }
 
-/* .edit-container input {
-    margin-top: 75px;
-} */
+.edit-container input {
+}
+
 .edit-container input,
 .edit-container .btn {
     
