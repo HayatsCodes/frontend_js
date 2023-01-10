@@ -134,6 +134,8 @@ body {
 
 .edit-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 150px;
     border-radius: 15px;
     z-index: 1000;
