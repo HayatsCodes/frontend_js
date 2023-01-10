@@ -114,10 +114,12 @@ body {
 
 .fa-pen {
     color: #03045E;
+    right: 8%;
 }
 
 .fa-trash {
     color: red;
+    right: 4%;
 }
 
 .items-container {
