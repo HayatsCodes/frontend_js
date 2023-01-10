@@ -13,7 +13,7 @@ function checkIconsEventListener() {
     });
 }
 
-
+function 
 
 function addItemsToList() {
     if (textInput.value) {
