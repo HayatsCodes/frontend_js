@@ -15,8 +15,8 @@ function checkIconsEventListener() {
 
 function penIconsEventListener() {
     const penIcons = document.querySelectorAll('.fa-pen');
-    penIcons.forEach(penIcon {
-
+    penIcons.forEach(penIcon => {
+        penIcon.addEventListener('click', editItem);
     });
 }
 
