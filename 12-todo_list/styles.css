@@ -143,4 +143,5 @@ body {
 
 .edit-container input {
     z-index: 2000;
+    margin-top: 50px;
 }
