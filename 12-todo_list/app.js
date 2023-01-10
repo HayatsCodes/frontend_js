@@ -76,7 +76,7 @@ function deleteItem(e) {
 }
 
 function clearAllItems() {
-    
+    itemsWrapper.innerHTML = "";
 }
 
 // Add Events Listener
