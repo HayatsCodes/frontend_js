@@ -26,17 +26,16 @@ function iconsEventListener() {
 function addItemsToList() {
     if (textInput.value) {
         if (itemsWrapper.length <= 8) {
-            
-        }
-        itemsWrapper.innerHTML += ` <li class="items-list">
+            itemsWrapper.innerHTML += ` <li class="items-list">
         <span contenteditable="false">${textInput.value}</span>
         <span> <i class="fas fa-check"></i>
             <i class="fas fa-pen"></i>
             <i class="fas fa-trash"></i>
         </span>
     </li>`
-        textInput.value = '';
-        iconsEventListener();
+            textInput.value = '';
+            iconsEventListener();
+        }
 
     }
 }
