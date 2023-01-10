@@ -1,7 +1,7 @@
 const addItem = document.getElementById('add-item');
 const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
-clearItems = document.getElementById('')
+const clearItems = document.getElementById('clear-items');
 
 let isChecked = false;
 
