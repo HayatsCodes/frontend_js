@@ -4,6 +4,7 @@ const textInput = document.getElementById('text-input');
 
 let isChecked = false;
 
+// 
 
 function checkIconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
