@@ -46,7 +46,8 @@ function markItemAsChecked(e) {
 }
 
 function editItem(e) {
-    
+    const textSpan = e.target.parentNode.previousElementSibling;
+    textSpan.setAttribute(co)
 }
 
 // Add Events Listener
