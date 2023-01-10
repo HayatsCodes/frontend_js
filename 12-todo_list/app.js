@@ -6,7 +6,7 @@ let isChecked = false;
 
 // Icons Function
 
-function checkIconsEventListener() {
+function iconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', markItemAsChecked)
@@ -14,10 +14,7 @@ function checkIconsEventListener() {
 }
 
 function penIconsEventListener() {
-    const penIcons = document.querySelectorAll('.fa-pen');
-    penIcons.forEach(penIcon => {
-        penIcon.addEventListener('click', editItem);
-    });
+    
 }
 
 function addItemsToList() {
@@ -30,7 +27,7 @@ function addItemsToList() {
         </span>
     </li>`
         textInput.value = '';
-        checkIconsEventListener();
+        iconsEventListener();
     }
 }
 
