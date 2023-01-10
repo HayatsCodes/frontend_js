@@ -138,6 +138,7 @@ body {
     width: 600px;
     margin-top: -173px;
     background-color: rgba(0, 0, 0, .1);
+    opacity: .5;
 }
 
 .edit-container {
