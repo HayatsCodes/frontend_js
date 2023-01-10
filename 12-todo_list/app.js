@@ -70,8 +70,8 @@ function editItem(e) {
 }
 
 function deleteItem(e) {
-    const textSpan = e.target.parentNode.previousElementSibling;
-    
+    const li = e.target.parentNode.parentNode;
+
 }
 
 // Add Events Listener
