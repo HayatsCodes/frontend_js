@@ -28,7 +28,6 @@ function addItemsToList() {
         const listsInItemsWrapper = itemsWrapper.childNodes;
         console.log(listsInItemsWrapper);
         if (listsInItemsWrapper.length <= 14) {
-            console.log(listsInItemsWrapper.length);
             itemsWrapper.innerHTML += ` <li class="items-list">
         <span contenteditable="false">${textInput.value}</span>
         <span> <i class="fas fa-check"></i>
