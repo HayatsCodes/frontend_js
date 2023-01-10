@@ -130,14 +130,14 @@ body {
     z-index: 1;
 }
 
-/* /* .edit-container {
+/* .edit-container {
     height: 150px;
     width: 600px;
     border-radius: 15px;
     z-index: 1000;
     background-color: #6DB1BF;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-} */
+}
 
 .edit-container input,
 .edit-container .btn {
