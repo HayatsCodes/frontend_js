@@ -51,9 +51,9 @@ function editItem(e) {
     textSpan.setAttribute("onkeypress","return (this.innerText.length <= 35)");
     textSpan.setAttribute("contenteditable", "true");
     textSpan.focus();
-    textSpan.addEventListener('blur', () => {
+    textSpan.addEventListener('blur', (e) => {
         if (textSpan.innerText.length < 1) {
-            eve.preventDefault();
+            e.preventDefault();
             textSpan.textDecoration = 'underline red 3px'
         } else {
             textSpan.setAttribute("contenteditable", "false");
