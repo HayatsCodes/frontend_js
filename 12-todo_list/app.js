@@ -25,8 +25,8 @@ function iconsEventListener() {
 
 function addItemsToList() {
     if (textInput.value) {
-        const listsInItemsWrapper = itemsWrapper.childNode;
-        if (listsInItemsWrapper.length <= 8) {
+        const listsInItemsWrapper = itemsWrapper.childNodes;
+        if (listsInItemsWrapper.length <= 14) {
             console.log(listsInItemsWrapper.length);
             itemsWrapper.innerHTML += ` <li class="items-list">
         <span contenteditable="false">${textInput.value}</span>
