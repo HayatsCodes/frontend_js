@@ -53,7 +53,7 @@ function editItem(e) {
     textSpan.focus();
     textSpan.addEventListener('blur', () => {
         if (textSpan.innerText.length < 1) {
-            e.preventDefault();
+            eve.preventDefault();
             textSpan.textDecoration = 'underline red 3px'
         } else {
             textSpan.setAttribute("contenteditable", "false");
