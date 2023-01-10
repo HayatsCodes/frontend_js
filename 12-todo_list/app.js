@@ -70,6 +70,7 @@ function editItem(e) {
 }
 
 function deleteItem(e) {
+    const textSpan = e.target.parentNode.previousElementSibling;
     
 }
 
