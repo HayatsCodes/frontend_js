@@ -3,8 +3,6 @@ const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
 let isChecked = false;
-let isFocused = false;
-
 // Icons Function
 
 function iconsEventListener() {
@@ -37,14 +35,18 @@ function addItemsToList() {
 
 
 function markItemAsChecked(e) {
-    if (!isFocused) {
-        
+    const textSpan = e.target.parentNode.previousElementSibling;
+    if (!isChecked) {
+        textSpan.style.textDecoration = 'line-through red 2px';
+        isChecked = true;
+    } else {
+        textSpan.style.textDecoration = 'none';
+        isChecked = false;
     }
 }
 
 function editItem(e) {
     if (!isChecked) {
-        isFocused = true;
         const textSpan = e.target.parentNode.previousElementSibling;
         textSpan.setAttribute("onkeypress", "return (this.innerText.length <= 35)");
         textSpan.setAttribute("contenteditable", "true");
