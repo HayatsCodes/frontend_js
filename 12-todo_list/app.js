@@ -37,6 +37,7 @@ function addItemsToList() {
     </li>`
             textInput.value = '';
             iconsEventListener();
+            lo
         }
 
     }
