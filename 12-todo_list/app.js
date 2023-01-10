@@ -55,6 +55,7 @@ function editItem(e) {
         if (textSpan.innerText.length < 1) {
             event.preventDefault();
             textSpan.focus();
+            textSpan.style.textDecoration = 'underline red 3px'
         } else {
             textSpan.setAttribute("contenteditable", "false");
         }
