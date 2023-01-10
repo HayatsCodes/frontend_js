@@ -37,14 +37,15 @@ function addItemsToList() {
 
 
 function markItemAsChecked(e) {
-    
-    const textSpan = e.target.parentNode.previousElementSibling;
-    if (!isChecked) {
-        textSpan.style.textDecoration = 'line-through red 3px';
-        isChecked = true;
-    } else {
-        textSpan.style.textDecoration = 'none';
-        isChecked = false;
+    if (!isFocused) {
+        const textSpan = e.target.parentNode.previousElementSibling;
+        if (!isChecked) {
+            textSpan.style.textDecoration = 'line-through red 3px';
+            isChecked = true;
+        } else {
+            textSpan.style.textDecoration = 'none';
+            isChecked = false;
+        }
     }
 }
 
