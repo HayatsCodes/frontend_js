@@ -48,7 +48,7 @@ function markItemAsChecked(e) {
 
 function editItem(e) {
     const textSpan = e.target.parentNode.previousElementSibling;
-    textSpan.setAttribute("onkeypress","return (this.innerText.length <= 35)");
+    textSpan.setAttribute("onkeypress","return (this.innerText.length this.innerText.length <= 35)");
     textSpan.setAttribute("contenteditable", "true");
     textSpan.focus();
     textSpan.addEventListener('blur', () => {
