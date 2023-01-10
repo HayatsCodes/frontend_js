@@ -11,11 +11,13 @@ function iconsEventListener() {
     checkIcons.forEach(checkIcon => {
         checkIcon.addEventListener('click', markItemAsChecked)
     });
+
+    const penIcons = document.querySelectorAll('.fa-pen');
+    penIcons.forEach(penIcon => {
+        penIcon.addEventListener('click', editItem);
+    });
 }
 
-function penIconsEventListener() {
-    
-}
 
 function addItemsToList() {
     if (textInput.value) {
@@ -41,6 +43,10 @@ function markItemAsChecked(e) {
         textSpan.style.textDecoration = 'none';
         isChecked = false;
     }
+}
+
+function editItem(e) {
+    
 }
 
 // Add Events Listener
