@@ -25,7 +25,9 @@ function iconsEventListener() {
 
 function addItemsToList() {
     if (textInput.value) {
-        
+        if (itemsWrapper.length <= 8) {
+            
+        }
         itemsWrapper.innerHTML += ` <li class="items-list">
         <span contenteditable="false">${textInput.value}</span>
         <span> <i class="fas fa-check"></i>
