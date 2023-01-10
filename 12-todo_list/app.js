@@ -3,6 +3,7 @@ const itemsWrapper = document.querySelector('ul');
 const textInput = document.getElementById('text-input');
 
 let isChecked = false;
+let isFocus = false;
 
 // Icons Function
 
@@ -47,8 +48,11 @@ function markItemAsChecked(e) {
 
 function editItem(e) {
     const textSpan = e.target.parentNode.previousElementSibling;
-    textSpan.setAttribute(contentedited, "true");
-    
+    textSpan.setAttribute("contenteditable", "true");
+    textSpan.focus();
+    textSpan.addEventListener('blur', () => {
+        textSpan.setAttribute("contenteditable", "false");
+    });
 }
 
 // Add Events Listener
