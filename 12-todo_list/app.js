@@ -26,7 +26,6 @@ function addItemsToList() {
 }
 
 
-
 function markItemAsChecked(e) {
     const textSpan = e.target.parentNode.previousElementSibling;
     if (!isChecked) {
