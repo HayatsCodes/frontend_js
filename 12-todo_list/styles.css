@@ -132,6 +132,10 @@ body {
     z-index: 1;
 }
 
+.edit-container-wrapper {
+    
+}
+
 .edit-container {
     display: flex;
     justify-content: center;
