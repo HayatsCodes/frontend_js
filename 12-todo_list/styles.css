@@ -130,3 +130,6 @@ body {
     transform: translateX(-50%);
 }
 
+.edit-container {
+    position: relative;
+}
