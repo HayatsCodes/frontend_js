@@ -14,7 +14,10 @@ function checkIconsEventListener() {
 }
 
 function penIconsEventListener() {
-    
+    const penIcons = document.querySelectorAll('.fa-pen');
+    penIcons.forEach(penIcon {
+
+    });
 }
 
 function addItemsToList() {
