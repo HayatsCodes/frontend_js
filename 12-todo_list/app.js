@@ -14,7 +14,7 @@ function checkIconsEventListener() {
 function addItemsToList() {
     if (textInput.value) {
         itemsWrapper.innerHTML += ` <li class="items-list">
-        <span contenteditable="true">${textInput.value}</span>
+        <span contenteditable="false">${textInput.value}</span>
         <span> <i class="fas fa-check"></i>
             <i class="fas fa-pen"></i>
             <i class="fas fa-trash"></i>
