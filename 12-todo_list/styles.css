@@ -29,11 +29,13 @@ body {
     word-spacing: -2px;
 }
 
-.text-container {
+.text-container,
+.edit-container {
     margin-top: 50px;
 }
 
 .text-container input,
+.edit-container,
 .btn {
     height: 45px;
     padding: 10px;
