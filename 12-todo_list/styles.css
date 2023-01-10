@@ -137,8 +137,7 @@ body {
     height: 600px;
     width: 600px;
     margin-top: -173px;
-    background-color: rgba(0, 0, 0, .2);
-    opacity: .5;
+    background-color: rgba(0, 0, 0, .1);
 }
 
 .edit-container {
@@ -148,7 +147,7 @@ body {
     column-gap: 10px;
     height: 150px;
     border-radius: 15px;
-    z-index: 1200;
+    z-index: 1500;
     background-color: #6DB1BF;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
