@@ -130,7 +130,3 @@ body {
     transform: translateX(-50%);
 }
 
-.completed {
-    text-decoration: line-through;
-    color: red;
-}
