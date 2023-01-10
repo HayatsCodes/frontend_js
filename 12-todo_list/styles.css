@@ -136,9 +136,6 @@ body {
     height: 600px;
     margin-top: -173px;
     background-color: rgba(0, 0, 0, .2);
-    display: flex;
-    justify-content: center;
-    align-items: center
 }
 
 .edit-container {
