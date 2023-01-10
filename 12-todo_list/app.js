@@ -54,10 +54,10 @@ function editItem(e) {
     textSpan.addEventListener('blur', () => {
         if (textSpan.innerText.length < 1) {
             e.preventDefault();
+            textSpan.textDecoration = 'underline red 3px'
         } else {
-            
+            textSpan.setAttribute("contenteditable", "false");
         }
-        textSpan.setAttribute("contenteditable", "false");
     });
 }
 
