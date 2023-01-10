@@ -85,7 +85,6 @@ body {
 
 
 .fas {
-    position: fixed;
     font-size: 20px;
     cursor: pointer;
     z-index: 1000;
@@ -108,6 +107,7 @@ body {
 }
 
 .fa-check {
+    position: fixed;
     color: #379634;
 }
 
