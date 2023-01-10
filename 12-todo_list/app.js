@@ -65,6 +65,7 @@ function editItem(e) {
             } else {
                 textSpan.setAttribute("contenteditable", "false");
                 textSpan.style.caretColor = 'black';
+                isFocused = false;
             }
         });
     }
