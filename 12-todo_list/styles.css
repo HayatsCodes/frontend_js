@@ -135,5 +135,6 @@ body {
 @media screen and (max-width: 500px){
     .text-container .btn {
         flex-direction: column;
+        row-gap: 200px;
     }
 }
