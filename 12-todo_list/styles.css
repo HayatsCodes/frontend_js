@@ -133,7 +133,7 @@ body {
     z-index: 1;
 }
 
-.edit-container {
+/* .edit-container {
     margin-top: -173px;
     height: 600px;
     width: 600px;
@@ -148,4 +148,4 @@ body {
     z-index: 2000;
     margin-top: 50px;
     transform: translateY(50px);
-}
+} */
