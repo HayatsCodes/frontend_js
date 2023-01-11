@@ -90,7 +90,6 @@ clearItems.addEventListener('click', clearAllItems);
 
 // On Load
 if (localStorage) {
-    let toDoItems = localStorage.getItem("toDoItems");
-    toDoItems = toDoItems.JSON();
+    let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
     console.log(toDoItems);
 }
