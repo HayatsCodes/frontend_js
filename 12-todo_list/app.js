@@ -107,9 +107,6 @@ function retrieveFromStorage() {
     if (toDoItems) {
         itemsWrapper.innerHTML = toDoItems;
         iconsEventListener();
-    }
-    listsInItemsWrapper = JSON.parse(localStorage.getItem(listsInItemsWrapper));
-    if (listsInItemsWrapper) {
         
     }
 }
