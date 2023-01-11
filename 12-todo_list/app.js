@@ -25,7 +25,8 @@ function iconsEventListener() {
 
 function addItemsToList() {
     if (textInput.value) {
-        const listsInItemsWrapper = itemsWrapper.childNodes.inner;
+        const listsInItemsWrapper = itemsWrapper.childNodes;
+        for (let i = 1; i < listsInItemsWrapper.length)
         console.log(listsInItemsWrapper);
         if (listsInItemsWrapper.length <= 14) {
             itemsWrapper.innerHTML += ` <li class="items-list">
