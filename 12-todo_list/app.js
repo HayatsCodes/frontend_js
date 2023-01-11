@@ -39,7 +39,7 @@ function addItemsToList() {
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
         } else {
             p = document.createElement("p");
-            p.
+            p.classLists.add()
         }
 
     }
