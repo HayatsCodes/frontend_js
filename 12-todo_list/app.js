@@ -89,4 +89,6 @@ addItem.addEventListener('click', addItemsToList);
 clearItems.addEventListener('click', clearAllItems);
 
 // On Load
-toDoItems = localStorage.getItem("toDoItems");
+let toDoItems = localStorage.getItem("toDoItems");
+toDoItems = toDoItems.JSON();
+console.log
