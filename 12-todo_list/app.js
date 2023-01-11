@@ -40,6 +40,7 @@ function addItemsToList() {
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
             localStorage.setItem('listsInItemsWrapper', JSON.stringify((listsInItemsWrapper)));
         } else if (listsInItemsWrapper === 8){
+            
             p = document.createElement("p");
             p.innerText = "Items Limit Reached!";
             itemsWrapper.append(p);
