@@ -33,7 +33,7 @@ function addItemsToList() {
             <i class="fas fa-pen"></i>
             <i class="fas fa-trash"></i>
         </span>
-    </li>`
+    </li>`;
             textInput.value = '';
             iconsEventListener();
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
