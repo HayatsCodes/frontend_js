@@ -85,6 +85,7 @@ function deleteItem(e) {
     listsInItemsWrapper--;
     if (localStorage.getItem("toDoItems")) {
         localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
+        localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
     }
     retrieveFromStorage();
     let p = itemsWrapper.querySelector('p');
