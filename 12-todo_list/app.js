@@ -38,7 +38,7 @@ function addItemsToList() {
             iconsEventListener();
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
         } else {
-            
+            p = Element.cre
         }
 
     }
