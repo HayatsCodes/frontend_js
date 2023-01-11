@@ -81,6 +81,7 @@ function editItem(e) {
 function deleteItem(e) {
     const li = e.target.parentNode.parentNode;
     li.remove();
+    listsInItemsWrapper--;
     if (localStorage.getItem("toDoItems")) {
         localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
     }
