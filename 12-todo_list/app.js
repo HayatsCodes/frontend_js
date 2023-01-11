@@ -87,3 +87,6 @@ function clearAllItems() {
 // Add Events Listener
 addItem.addEventListener('click', addItemsToList);
 clearItems.addEventListener('click', clearAllItems);
+
+// On Load
+localStorage.getItem("toDo")
