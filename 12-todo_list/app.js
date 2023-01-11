@@ -38,7 +38,7 @@ function addItemsToList() {
             textInput.value = '';
             iconsEventListener();
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
-            localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
+            localStorage.setItem('listsInItemsWrapper', JSON.stringify((listsInItemsWrapper)));
         } else {
             p = document.createElement("p");
             p.innerText = "You Can't add More than 8 items to the list";
@@ -108,6 +108,7 @@ function retrieveFromStorage() {
         itemsWrapper.innerHTML = toDoItems;
         iconsEventListener();
     }
+    listsInItemsWrapper = JSON
 }
 
 // On Load
