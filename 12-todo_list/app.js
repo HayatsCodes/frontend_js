@@ -96,6 +96,7 @@ function deleteItem(e) {
 
 function clearAllItems() {
     itemsWrapper.innerHTML = "";
+    listsInItemsWrapper = 0;
     localStorage.clear();
 }
 
