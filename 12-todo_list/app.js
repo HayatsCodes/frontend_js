@@ -77,7 +77,10 @@ function editItem(e) {
 function deleteItem(e) {
     const li = e.target.parentNode.parentNode;
     li.remove();
-    localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
+    if (localStorage.getItem("toDoItems")) {
+        localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
+    }
+    retrieveFromStorage
 }
 
 function clearAllItems() {
