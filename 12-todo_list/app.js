@@ -93,6 +93,7 @@ function retrieveFromStorage() {
     let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
     if (toDoItems) {
         itemsWrapper.innerHTML = toDoItems;
+        iconsEventListener();
     }
 }
 
