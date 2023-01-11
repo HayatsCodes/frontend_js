@@ -88,6 +88,8 @@ function clearAllItems() {
 addItem.addEventListener('click', addItemsToList);
 clearItems.addEventListener('click', clearAllItems);
 
+
+
 // On Load
 if (localStorage) {
     let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
