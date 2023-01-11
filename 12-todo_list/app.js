@@ -85,7 +85,8 @@ function deleteItem(e) {
     }
     retrieveFromStorage();
     if (itemsWrapper.querySelector('p')) {
-        itemsWrapper
+        let p = itemsWrapper.querySelector('p');
+        p.remove();
     }
 }
 
