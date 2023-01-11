@@ -4,7 +4,7 @@ const textInput = document.getElementById('text-input');
 const clearItems = document.getElementById('clear-items');
 
 let isChecked = false;
-let listsInItemsWrapper = 1;
+let listsInItemsWrapper = 0;
 
 function iconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
