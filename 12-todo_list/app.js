@@ -50,6 +50,7 @@ function markItemAsChecked(e) {
         isChecked = true;
     } else {
         textSpan.style.textDecoration = 'none';
+        isChecked = false;
     }
 }
 
