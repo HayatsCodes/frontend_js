@@ -90,5 +90,5 @@ clearItems.addEventListener('click', clearAllItems);
 // On Load
 if (localStorage) {
     let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
-    console.log(toDoItems);
+    itemsWrapper.innerHTML
 }
