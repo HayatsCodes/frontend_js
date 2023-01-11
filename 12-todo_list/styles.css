@@ -151,8 +151,11 @@ p {
         margin-top: 10px;
     }
 
-    .fas {
-        font-size: 10px;
+
+    .items-list,
+    .fas,
+    p {
+        font-size: 15px;
     }
     
 }
