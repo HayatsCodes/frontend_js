@@ -147,5 +147,8 @@ p {
         flex-direction: column;
         margin-top: 10px;
     }
-    
+    .main-container {
+        height: 400px;
+        width: 400px;
+    }
 }
