@@ -41,7 +41,7 @@ function addItemsToList() {
             localStorage.setItem('listsInItemsWrapper', JSON.stringify((listsInItemsWrapper)));
         } else {
             p = document.createElement("p");
-            p.innerText = "You Can't add More than 8 items to the list";
+            p.innerText = "Items Limit Reached!";
             itemsWrapper.append(p);
         }
 
