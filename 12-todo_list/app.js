@@ -39,7 +39,8 @@ function addItemsToList() {
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
         } else {
             p = document.createElement("p");
-            p.classLists.add()
+            p.innerText = "You Can't "
+            itemsWrapper.append(p);
         }
 
     }
