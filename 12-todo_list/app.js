@@ -26,9 +26,7 @@ function iconsEventListener() {
 
 function addItemsToList() {
     if (textInput.value) {
-        const listsInItemsWrapper = itemsWrapper.childNodes;
-        console.log(listsInItemsWrapper.length);
-        if (listsInItemsWrapper.length <= 14) {
+        if (listsInItemsWrapper <= 8) {
             itemsWrapper.innerHTML += ` <li class="items-list">
         <span contenteditable="false">${textInput.value}</span>
         <span> <i class="fas fa-check"></i>
@@ -36,6 +34,7 @@ function addItemsToList() {
             <i class="fas fa-trash"></i>
         </span>
     </li>`;
+            listsInItemsWrapper++;
             textInput.value = '';
             iconsEventListener();
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
