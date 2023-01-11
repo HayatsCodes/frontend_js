@@ -8,7 +8,7 @@ let isChecked = false;
 function iconsEventListener() {
     const checkIcons = document.querySelectorAll('.fa-check');
     checkIcons.forEach(checkIcon => {
-        checkIcon.addEventListener('click', markItemAsChecked)
+        checkIcon.addEventListener('click', markItemAsChecked);
     });
 
     const penIcons = document.querySelectorAll('.fa-pen');
