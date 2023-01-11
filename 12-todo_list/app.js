@@ -36,7 +36,6 @@ function addItemsToList() {
     </li>`
             textInput.value = '';
             iconsEventListener();
-            console.log(itemsWrapper.childNodes.length);
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
         }
 
@@ -89,7 +88,7 @@ addItem.addEventListener('click', addItemsToList);
 clearItems.addEventListener('click', clearAllItems);
 
 // On Load
-// if (localStorage) {
-//     let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
-//     console.log(toDoItems);
-// }
+if (localStorage) {
+    let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
+    console.log(toDoItems);
+}
