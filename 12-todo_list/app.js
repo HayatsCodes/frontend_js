@@ -26,7 +26,7 @@ function iconsEventListener() {
 
 function addItemsToList() {
     if (textInput.value) {
-        if (listsInItemsWrapper <= 8) {
+        if (listsInItemsWrapper < 8) {
             itemsWrapper.innerHTML += ` <li class="items-list">
         <span contenteditable="false">${textInput.value}</span>
         <span> <i class="fas fa-check"></i>
@@ -106,8 +106,8 @@ function retrieveFromStorage() {
     let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
     if (toDoItems) {
         itemsWrapper.innerHTML = toDoItems;
+        listsInItemsWrapper = JSON.parse(localStorage.getItem(listsInItemsWrapper));
         iconsEventListener();
-        
     }
 }
 
