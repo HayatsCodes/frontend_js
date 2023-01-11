@@ -88,7 +88,7 @@ function clearAllItems() {
 addItem.addEventListener('click', addItemsToList);
 clearItems.addEventListener('click', clearAllItems);
 
-
+function retrieveFrom
 
 // On Load
 if (localStorage) {
