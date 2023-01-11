@@ -26,7 +26,6 @@ function iconsEventListener() {
 function addItemsToList() {
     if (textInput.value) {
         const listsInItemsWrapper = itemsWrapper.childNodes;
-        console.log(itemsWrapper.innerHTML);
         if (listsInItemsWrapper.length <= 14) {
             itemsWrapper.innerHTML += ` <li class="items-list">
         <span contenteditable="false">${textInput.value}</span>
@@ -37,7 +36,7 @@ function addItemsToList() {
     </li>`
             textInput.value = '';
             iconsEventListener();
-            localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.childNodes)));
+            localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
         }
 
     }
