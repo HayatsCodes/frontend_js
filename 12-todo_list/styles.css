@@ -140,6 +140,9 @@ p {
 }
 
 @media screen and (max-width: 500px){
+    body {
+        overflow: hidden;
+    }
     .text-container {
         margin-top: 0;
     }
@@ -147,8 +150,5 @@ p {
         flex-direction: column;
         margin-top: 10px;
     }
-    .main-container {
-        height: 400px;
-        width: 400px;
-    }
+    
 }
