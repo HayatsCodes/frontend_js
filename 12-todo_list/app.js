@@ -39,12 +39,13 @@ function addItemsToList() {
             iconsEventListener();
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
             localStorage.setItem('listsInItemsWrapper', JSON.stringify((listsInItemsWrapper)));
-        } else if (listsInItemsWrapper === 8){
+        } else if (listsInItemsWrapper === 8) {
             let checkPEl = itemsWrapper.querySelector('p');
-            if
-            p = document.createElement("p");
-            p.innerText = "Items Limit Reached!";
-            itemsWrapper.append(p);
+            if (!checkPEl) {
+                p = document.createElement("p");
+                p.innerText = "Items Limit Reached!";
+                itemsWrapper.append(p);
+            }
         }
 
     }
@@ -63,23 +64,23 @@ function markItemAsChecked(e) {
 }
 
 function editItem(e) {
-        const textSpan = e.target.parentNode.previousElementSibling;
-        textSpan.style.textDecoration = 'none';
-        textSpan.setAttribute("onkeypress", "return (this.innerText.length <= 35)");
-        textSpan.setAttribute("contenteditable", "true");
-        textSpan.focus();
-        textSpan.style.outline = " 0px solid black";
-        textSpan.addEventListener('blur', (event) => {
-            if (textSpan.innerText.length < 1) {
-                event.preventDefault();
-                textSpan.focus();
-                textSpan.style.caretColor = 'red';
-            } else {
-                textSpan.setAttribute("contenteditable", "false");
-                textSpan.style.caretColor = 'black';
-            }
-        });
-    }
+    const textSpan = e.target.parentNode.previousElementSibling;
+    textSpan.style.textDecoration = 'none';
+    textSpan.setAttribute("onkeypress", "return (this.innerText.length <= 35)");
+    textSpan.setAttribute("contenteditable", "true");
+    textSpan.focus();
+    textSpan.style.outline = " 0px solid black";
+    textSpan.addEventListener('blur', (event) => {
+        if (textSpan.innerText.length < 1) {
+            event.preventDefault();
+            textSpan.focus();
+            textSpan.style.caretColor = 'red';
+        } else {
+            textSpan.setAttribute("contenteditable", "false");
+            textSpan.style.caretColor = 'black';
+        }
+    });
+}
 
 function deleteItem(e) {
     const li = e.target.parentNode.parentNode;
