@@ -90,11 +90,10 @@ addItem.addEventListener('click', addItemsToList);
 clearItems.addEventListener('click', clearAllItems);
 
 function retrieveFromStorage() {
-    if (localStorage) {
-        let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
+    let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
+    if (toDoItems) {
         itemsWrapper.innerHTML = toDoItems;
     }
-    iconsEventListener();
 }
 
 // On Load
