@@ -37,7 +37,7 @@ function addItemsToList() {
     </li>`
             textInput.value = '';
             iconsEventListener();
-            localStorage.setItem('toDoItems', (itemsWrapper.childNodes));
+            localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.childNodes)));
         }
 
     }
