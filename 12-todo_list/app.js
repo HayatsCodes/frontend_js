@@ -89,4 +89,4 @@ addItem.addEventListener('click', addItemsToList);
 clearItems.addEventListener('click', clearAllItems);
 
 // On Load
-localStorage.getItem("toDo")
+toDoItems = localStorage.getItem("toDoItems");
