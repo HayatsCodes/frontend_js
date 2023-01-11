@@ -55,8 +55,8 @@ function markItemAsChecked(e) {
 }
 
 function editItem(e) {
-    if (!isChecked) {
         const textSpan = e.target.parentNode.previousElementSibling;
+        textSpan.style.textDecoration = 'none';
         textSpan.setAttribute("onkeypress", "return (this.innerText.length <= 35)");
         textSpan.setAttribute("contenteditable", "true");
         textSpan.focus();
@@ -72,7 +72,6 @@ function editItem(e) {
             }
         });
     }
-}
 
 function deleteItem(e) {
     const li = e.target.parentNode.parentNode;
@@ -80,7 +79,7 @@ function deleteItem(e) {
     if (localStorage.getItem("toDoItems")) {
         localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
     }
-    retrieveFromStorage()
+    retrieveFromStorage();
 }
 
 function clearAllItems() {
