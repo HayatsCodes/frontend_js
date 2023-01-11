@@ -19,7 +19,7 @@ function iconsEventListener() {
     const trashIcons = document.querySelectorAll('.fa-trash');
     trashIcons.forEach(trashIcon => {
         trashIcon.addEventListener('click', deleteItem);
-    })
+    });
 }
 
 
