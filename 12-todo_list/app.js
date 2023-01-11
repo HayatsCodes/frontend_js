@@ -39,7 +39,8 @@ function addItemsToList() {
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
         } else {
             p = document.createElement("p");
-            p.innerText = "You Can't "
+            p.innerText = "You Can't enter More than 8 items to the list";
+            p.color = "red";
             itemsWrapper.append(p);
         }
 
