@@ -38,7 +38,8 @@ function addItemsToList() {
             iconsEventListener();
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
         } else {
-            p = document.cr
+            p = document.createElement("p");
+            p.
         }
 
     }
