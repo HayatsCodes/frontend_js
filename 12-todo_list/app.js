@@ -84,7 +84,9 @@ function deleteItem(e) {
         localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
     }
     retrieveFromStorage();
-    if (itemsWrapper.qu)
+    if (itemsWrapper.querySelector('p')) {
+        itemsWrapper
+    }
 }
 
 function clearAllItems() {
