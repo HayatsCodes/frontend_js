@@ -150,5 +150,9 @@ p {
         flex-direction: column;
         margin-top: 10px;
     }
+
+    .fas {
+        font-size: 10px;
+    }
     
 }
