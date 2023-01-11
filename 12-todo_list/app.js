@@ -39,7 +39,7 @@ function addItemsToList() {
             iconsEventListener();
             localStorage.setItem('toDoItems', JSON.stringify((itemsWrapper.innerHTML)));
             localStorage.setItem('listsInItemsWrapper', JSON.stringify((listsInItemsWrapper)));
-        } else if{
+        } else if (listsInItemsWrapper ){
             p = document.createElement("p");
             p.innerText = "Items Limit Reached!";
             itemsWrapper.append(p);
