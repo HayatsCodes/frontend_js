@@ -140,6 +140,7 @@ p {
 }
 
 @media screen and (max-width: 500px){
+    .te
     .text-container .btn {
         flex-direction: column;
         margin-top: 10px;
