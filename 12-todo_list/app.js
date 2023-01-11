@@ -81,6 +81,7 @@ function deleteItem(e) {
 
 function clearAllItems() {
     itemsWrapper.innerHTML = "";
+    localStorage.clear();
 }
 
 // Add Events Listener
@@ -90,5 +91,5 @@ clearItems.addEventListener('click', clearAllItems);
 // On Load
 if (localStorage) {
     let toDoItems = JSON.parse(localStorage.getItem("toDoItems"));
-    itemsWrapper.innerHTML
+    itemsWrapper.innerHTML = toDoItems;
 }
