@@ -20,6 +20,7 @@
 
             @include respond(tab-port) {
                 margin-right: 0;
+                margin-left: 2rem;
                 margin-bottom: $gutter-vertical-small;
             }
         }
