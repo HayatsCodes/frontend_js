@@ -1,4 +1,4 @@
-// Call: 1. it's a method that every function uses when they're invoked
+// Call(): 1. it's a method that every function uses when they're invoked
 function a() {
     console.log('a');
 }
@@ -23,4 +23,4 @@ console.log(1, archer);
 wizard.heal.call(archer, 30, 40);
 console.log(2, archer);
 
-// Apply: Same has 
+// Apply: Same as Call() except that the arguments passed is in an array
