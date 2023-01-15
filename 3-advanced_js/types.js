@@ -1,3 +1,3 @@
-console.log(typeof 5);
 
-?
+// Primitive: All non objects
+console.log(typeof 5);
