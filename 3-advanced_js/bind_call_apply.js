@@ -7,5 +7,14 @@ console.log(a.call() == a());
 
 //  Call: 2. it can also be use to call methods of a objects on another objects
 const wizard = {
-    name: 
+    name: 'Merlin',
+    health: 50,
+    heal(num1, num2) {
+        return this.health += num1 + num2;
+    }
+}
+
+const archer = {
+    name: 'Robin Hood',
+    
 }
