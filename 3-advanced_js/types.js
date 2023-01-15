@@ -14,4 +14,4 @@ typeof []
 typeof function() {}
 
 let five = Number('5')
-console.log(typeof five);
+console.log(typeof five); 
