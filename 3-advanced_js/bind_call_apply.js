@@ -25,6 +25,8 @@ console.log(2, archer);
 
 // Apply: Same as Call() except that the arguments passed is in an array
 wizard.heal.apply(archer, [20, 35]);
-console.log(2, archer);
+console.log(3, archer);
 
-// Bind(): same as call() but r
+// Bind(): same as call() but returns another function
+wizard.heal.
+console.log(4, archer);
