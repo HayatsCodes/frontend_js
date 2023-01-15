@@ -27,4 +27,4 @@ console.log(2, archer);
 wizard.heal.apply(archer, [20, 35]);
 console.log(2, archer);
 
-// Bind():
+// Bind(): same as call() but r
