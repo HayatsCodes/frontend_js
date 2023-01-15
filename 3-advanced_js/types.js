@@ -13,3 +13,5 @@ typeof {}
 typeof []
 typeof function() {}
 
+let five = Number('5')
+console.log(five);
