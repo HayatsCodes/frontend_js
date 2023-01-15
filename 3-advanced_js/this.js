@@ -25,3 +25,6 @@ const obj2 = {
     name: 'Jake',
     importantPerson: importantPerson
 }
+
+obj1.importantPerson()
+obj2.importantPerson()
