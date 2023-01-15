@@ -17,5 +17,11 @@ function importantPerson() {
 
 const name = 'Sunny';
 const obj1 = {
-    name
+    name: 'Cassy',
+    importantPerson: importantPerson
+}
+
+const obj2 = {
+    name: 'Jake',
+    importantPerson: importantPerson
 }
