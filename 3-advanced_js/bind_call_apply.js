@@ -16,5 +16,9 @@ const wizard = {
 
 const archer = {
     name: 'Robin Hood',
-    
+    health: 30
 }
+
+console.log(1, archer);
+wizard.heal.call(archer)
+console.log(2, archer);
