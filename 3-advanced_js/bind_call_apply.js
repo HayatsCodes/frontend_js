@@ -20,5 +20,7 @@ const archer = {
 }
 
 console.log(1, archer);
-wizard.heal.call(archer)
+wizard.heal.call(archer, 30, 40);
 console.log(2, archer);
+
+// Apply: Same has 
