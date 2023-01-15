@@ -2,5 +2,10 @@
 // 2: it also execute same code for multiple objects
 
 let sayHi = {
-    name
+    name: 'Hayats',
+    hi() {
+        return 'hi' + this.name
+    }
 }
+
+let hi = sayHi.hi();
