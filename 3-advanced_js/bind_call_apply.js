@@ -3,4 +3,5 @@ function a() {
     console.log('a');
 }
 
-a.call()
+console.log(a.call() == a());
+
