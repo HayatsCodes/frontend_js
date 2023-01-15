@@ -5,4 +5,7 @@ function a() {
 
 console.log(a.call() == a());
 
-//  Call: 2. it can also be use to call methods of another objects 
+//  Call: 2. it can also be use to call methods of a objects on another objects
+const wizard = {
+    name: 
+}
