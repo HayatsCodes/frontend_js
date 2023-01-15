@@ -28,5 +28,6 @@ wizard.heal.apply(archer, [20, 35]);
 console.log(3, archer);
 
 // Bind(): same as call() but returns another function
-wizard.heal.
+const healArcher = wizard.heal.bind(archer, 5, 10);
+// healArcher();
 console.log(4, archer);
