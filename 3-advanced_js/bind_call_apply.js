@@ -37,4 +37,7 @@ function multiply(a, b) {
     return a*b;
 }
 
-let multiplyByTwo = multiply.bind(this, 2)
+let multiplyByTwo = multiply.bind(this, 2);
+for (let i = 1; i <= 12; i++) {
+    console.log()
+}
