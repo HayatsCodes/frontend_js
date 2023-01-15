@@ -42,4 +42,5 @@ for (let i = 1; i <= 12; i++) {
     console.log(`2 * ${i} = ${multiplyByTwo(i)}`);
 }
 
-let multiplyByTen = multiply.bind(this, )
+let multiplyByTen = multiply.bind(this, 10);
+console.log(multiplyByTen(1000));
