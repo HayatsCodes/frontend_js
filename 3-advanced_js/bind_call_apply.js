@@ -32,4 +32,9 @@ const healArcher = wizard.heal.bind(archer, 5, 10);
 healArcher();
 console.log(4, archer);
 
-// 
+// Function currying
+function multiply(a, b) {
+    return a*b;
+}
+
+let multiplyByTwo = multiply.bind(this, 2)
