@@ -5,4 +5,4 @@ function a() {
 
 console.log(a.call() == a());
 
-//  Call: 2. it can also be use dto call  
+//  Call: 2. it can also be use to call methods of another objects 
