@@ -8,7 +8,7 @@ typeof undefined
 typeof null
 typeof Symbol('Me')
 
-// Non-Primitive: All objects types - has a reference to where the valu
+// Non-Primitive: All objects types - has a reference to where the values are held in memory
 typeof {}
 typeof []
 typeof function() {}
