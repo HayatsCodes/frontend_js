@@ -12,3 +12,4 @@ typeof Symbol('Me')
 typeof {}
 typeof []
 typeof function() {}
+
