@@ -16,3 +16,6 @@ function importantPerson() {
 }
 
 const name = 'Sunny';
+const obj1 = {
+    
+}
