@@ -26,5 +26,6 @@ const obj2 = {
     importantPerson: importantPerson
 }
 
-obj1.importantPerson()
-obj2.importantPerson()
+importantPerson();
+obj1.importantPerson();
+obj2.importantPerson();
