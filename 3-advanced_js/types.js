@@ -8,5 +8,7 @@ typeof undefined
 typeof null
 typeof Symbol('Me')
 
-// Non-Primitive
-typ
+// Non-Primitive: All objects types
+typeof {}
+typeof []
+typeof function() {}
