@@ -32,3 +32,4 @@ const healArcher = wizard.heal.bind(archer, 5, 10);
 healArcher();
 console.log(4, archer);
 
+// 
