@@ -1,3 +1,8 @@
 
 // Primitive: All non objects
-console.log(typeof 5);
+typeof 5
+typeof true
+typeof 'hi'
+typeof undefined
+typeof undefined
+typeof null
