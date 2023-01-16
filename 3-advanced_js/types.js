@@ -18,5 +18,10 @@ console.log(typeof five);
 
 
 // Pass by Value: primitive types are passed by value
+var a = 5;
+var b = a;
+b++;
 
-// Pass by reference: non-primitive ypes
+
+
+// Pass by reference: non-primitive types
