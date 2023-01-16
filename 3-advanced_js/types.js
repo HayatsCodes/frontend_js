@@ -1,5 +1,5 @@
 
-// Primitive: All non objects - represents only one value in memory 
+// Primitive: All non objects - represents only one value in memory and are imutable
 typeof 5;
 typeof true;
 typeof 'hi';
