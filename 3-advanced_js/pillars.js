@@ -12,4 +12,4 @@ function b() {
     return function c() {console.log('bye')}
 }
 var d = b();
-d()
+d();
