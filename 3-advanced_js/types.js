@@ -36,3 +36,7 @@ console.log(obj2);
 var c = [1,2,3,4 ,5];
 var d = c;
 d.push(7);
+console.log(c);
+console.log(d);
+
+// How to modify a 
