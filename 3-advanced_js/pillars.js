@@ -26,3 +26,4 @@ console.log(multiplyBy(2)(4));
 // Closure allows a function to access variables from an enclosing scope 
 // even after it leaves the scope in which it was declared
 
+let view
