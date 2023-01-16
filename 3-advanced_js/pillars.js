@@ -13,3 +13,5 @@ function b() {
 }
 var d = b();
 d();
+
+// Higher other functions return a function
