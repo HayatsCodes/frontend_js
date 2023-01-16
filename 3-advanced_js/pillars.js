@@ -21,3 +21,4 @@ const multiplyBy = function(num1) {
     }
 }
 
+console.log(multiplyBy(2)(4));
