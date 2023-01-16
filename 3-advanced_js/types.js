@@ -39,4 +39,6 @@ d.push(7);
 console.log(c);
 console.log(d);
 
-// How to modify a 
+// How to modify a non-primitive type 
+d = [].concat(c);
+console.log(d);
