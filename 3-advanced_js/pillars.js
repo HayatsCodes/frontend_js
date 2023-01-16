@@ -27,7 +27,6 @@ console.log(multiplyBy(2)(4));
 // even after it leaves the scope in which it was declared
 
 const array = [1, 2, 3, 4];
-for(var i=0; i < array.length; i++) {
-    var index = i;
-    setTimeout(() => console.log('I am at index ' + index), 3000);
+for(let i=0; i < array.length; i++) {
+    setTimeout(() => console.log('I am at index ' + i), 3000);
 }
