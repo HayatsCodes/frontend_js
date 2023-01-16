@@ -15,3 +15,6 @@ var d = b();
 d();
 
 // Higher other functions return a function
+function multiply(fn) {
+    return fn()
+}
