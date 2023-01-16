@@ -27,4 +27,9 @@ console.log(b);
 
 // Pass by reference: non-primitive types
 let obj1 = {name: 'abc', pwd: 1234}
-let obj1 = {name: 'abc', pwd: 1234}
+let obj2 = obj1;
+
+obj2.pwd = 6543;
+
+console.log(obj1);
+console.log(obj1);
