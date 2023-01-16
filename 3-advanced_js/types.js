@@ -44,3 +44,4 @@ d = [].concat(c);
 d.push(8)
 console.log(d);
 
+let obj = {a: 1, b: 2, c: 3}
