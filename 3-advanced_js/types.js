@@ -17,3 +17,6 @@ let five = Number('5');
 console.log(typeof five);
 
 
+// Pass by Value: primitive types are passed by value
+
+// Pass by reference: non-primitive ypes
