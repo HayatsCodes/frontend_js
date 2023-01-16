@@ -22,6 +22,9 @@ var a = 5;
 var b = a;
 b++;
 
-
+console.log(a);
+console.log(b);
 
 // Pass by reference: non-primitive types
+let obj1 = {name: 'abc', pwd: 1234}
+let obj1 = {name: 'abc', pwd: 1234}
