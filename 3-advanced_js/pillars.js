@@ -15,6 +15,6 @@ var d = b();
 d();
 
 // Higher other functions return a function
-function multiply(fn) {
-    return fn()
+const multiplyBy = function(num1) {
+    return function(num2) 
 }
