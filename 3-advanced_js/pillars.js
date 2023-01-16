@@ -33,5 +33,8 @@ function initialize() {
     console.log('view has been set');
 }
 
-initialize()
+initialize();
+initialize();
+initialize();
+console.log(view);
 
