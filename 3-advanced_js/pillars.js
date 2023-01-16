@@ -2,3 +2,4 @@
 // Functions are first class citizens in JS:
 // 1. They can be assigned to a variable
 // 2. They can be passed as a parameter to another function
+// 3. They can be returned 
