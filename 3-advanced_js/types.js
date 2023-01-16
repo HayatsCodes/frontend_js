@@ -41,4 +41,5 @@ console.log(d);
 
 // How to modify a non-primitive type 
 d = [].concat(c);
+d.push(8)
 console.log(d);
