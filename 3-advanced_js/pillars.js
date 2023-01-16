@@ -26,4 +26,7 @@ console.log(multiplyBy(2)(4));
 // Closure allows a function to access variables from an enclosing scope 
 // even after it leaves the scope in which it was declared
 
-const array = [1, 2, 3, 4]
+const array = [1, 2, 3, 4];
+for(var i=0; i < array.length; i++) {
+    setTimeout(() => )
+}
