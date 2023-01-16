@@ -145,7 +145,7 @@ p {
     }
 
     .main-container {
-        
+        max-width: 400px;
     }
     .text-container {
         margin-top: 0;
