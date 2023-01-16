@@ -4,6 +4,10 @@
 var stuff = function() {}
 // 2. They can be passed as a parameter to another function
 function a(fn) {
-    fn()
+    fn();
 }
+a(function() {console.log('hi there')});
 // 3. They can be returned in a function
+function b() {
+    return
+}
