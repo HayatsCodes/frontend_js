@@ -46,3 +46,7 @@ console.log(d);
 
 let obj = {a: 1, b: 2, c: 3}
 let clone = Object.assign({}, obj);
+clone.c = 5;
+
+console.log(obj);
+console.log(clone);
