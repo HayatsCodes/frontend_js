@@ -54,4 +54,3 @@ console.log(obj);
 console.log(clone);
 console.log(clone2);
 
- 
