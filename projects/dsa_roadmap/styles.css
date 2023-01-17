@@ -30,7 +30,12 @@ p {
     font-size: 40px;
 }
 
+.fas {
+
+}
+
 .list-header {
     display: flex;
-    
+    flex-wrap: nowrap;
+    justify-content: left;
 }
