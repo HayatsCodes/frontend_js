@@ -6,4 +6,9 @@
 body {
     display: flex;
     justify-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
 }
