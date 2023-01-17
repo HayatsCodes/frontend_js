@@ -37,6 +37,8 @@ p {
 .fas {
     position: absolute;
     margin-left: -30px;
-    top: ;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
