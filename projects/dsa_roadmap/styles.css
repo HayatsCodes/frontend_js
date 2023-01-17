@@ -4,14 +4,12 @@
 }
 
 body {
-    display: flex;
-    justify-items: center;
-    text-align: center;
     background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     font-weight: 500;
     margin-top: 30px;
     text-decoration: underline;
@@ -19,6 +17,5 @@ h1 {
 
 p {
     margin-top: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    margin-left: ;
 }
