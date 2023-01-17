@@ -31,11 +31,10 @@ p {
 }
 
 .fas {
-
+    position: absolute;
 }
 
 .list-header {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: left;
+    position: relative;
 }
