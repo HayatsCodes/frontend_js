@@ -7,8 +7,10 @@ body {
     display: flex;
     justify-items: center;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 h1 {
-    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }
