@@ -29,3 +29,7 @@ p {
     margin-bottom: 10px;
     font-size: 40px;
 }
+
+.list-header {
+    display: flex;
+}
