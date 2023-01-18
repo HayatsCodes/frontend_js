@@ -1,5 +1,6 @@
 let animal = {
-    eats: true
+    eats: true,
+    
   };
   let rabbit = {
     jumps: true
