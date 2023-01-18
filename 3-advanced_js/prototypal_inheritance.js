@@ -8,7 +8,7 @@ let animal = {
   rabbit.__proto__ = animal; // (*)
   
   // we can find both properties in rabbit now:
-  alert( rabbit.eats ); // true (**)
-  alert( rabbit.jumps ); // true
+  console.log( rabbit.eats ); // true
+  console.log( rabbit.jumps ); // true
 
   
