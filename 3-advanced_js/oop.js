@@ -2,12 +2,13 @@
 // are grouped together
 // FP seperates the data from the functions that acts upon it
 
-const elf = {
-    name: 'Orwell',
-    weapon: 'bow',
-    attack() {
-        return 'attack with ' + elf.weapon
-    }
-}
+// const elf = {
+//     name: 'Orwell',
+//     weapon: 'bow',
+//     attack() {
+//         return 'attack with ' + elf.weapon
+//     }
+// }
 
-// 
+// Factory Functions
+function createElf(name, weapon)
