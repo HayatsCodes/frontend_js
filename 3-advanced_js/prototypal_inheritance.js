@@ -22,5 +22,6 @@ rabbit = {
     jumps: true,
 };
 Object.setPrototypeOf(rabbit, animal);
+console.log(Object.getPrototypeOf(rabbit));
 // walk is taken from the prototype
 rabbit.walk(); // Animal walk
