@@ -59,16 +59,18 @@ let hamster = {
   };
   
   let speedy = {
-    __proto__: hamster
+    __proto__: hamster,
+    stomach: []
   };
   
   let lazy = {
-    __proto__: hamster
+    __proto__: hamster,
+    stomach: []
   };
   
   // This one found the food
   speedy.eat("apple");
-  alert( speedy.stomach ); // apple
+  console.( speedy.stomach ); // apple
   
   // This one also has it, why? fix please.
-  alert( lazy.stomach ); // apple
+  console.( lazy.stomach ); // apple
