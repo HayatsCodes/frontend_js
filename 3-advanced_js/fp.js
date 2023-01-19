@@ -10,3 +10,9 @@ function addItemsToCart(items) {
         user.cart.push(i);
     }
 }
+
+function taxItems(items) {
+    for (let i in items) {
+        
+    }
+}
