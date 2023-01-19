@@ -6,5 +6,7 @@ const user = {
 }
 
 function addItemsToCart(items) {
-    for 
+    for (let i in items) {
+        user.cart.push(i);
+    }
 }
