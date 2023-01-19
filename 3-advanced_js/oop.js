@@ -18,5 +18,5 @@ function createElf(name, weapon) {
         attack() {
             return 'attack with ' + weapon
         }
-    } 
+    }
 }
