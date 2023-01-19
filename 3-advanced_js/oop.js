@@ -62,3 +62,4 @@ console.log(peter.attack());
 const sam = new  Elf('Peter', 'fire');
 console.log(sam.attack());
 
+// Inheritance
