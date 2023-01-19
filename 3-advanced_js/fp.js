@@ -8,7 +8,6 @@ const user = {
 function addItemsToCart(items) {
     for (let item in items) {
         user.cart.push(item);
-    }
 }
 
 function taxItems(items) {
