@@ -6,13 +6,14 @@ const user = {
 }
 
 function addItemsToCart(items) {
-    for (let i in items) {
-        user.cart.push(i);
+    for (let item in items) {
+        user.cart.push(item);
     }
 }
 
 function taxItems(items) {
-    for (let i in items) {
-        
+    for (let item in items) {
+        items
+        user.cart.push(i);
     }
 }
