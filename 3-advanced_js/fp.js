@@ -4,3 +4,7 @@ const user = {
     cart: [],
     purchases: []
 }
+
+function addItemsToCart(items) {
+    for 
+}
