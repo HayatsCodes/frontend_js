@@ -25,9 +25,6 @@ function createElf(name, weapon) {
     let newElf = Object.create(elfFunctions);
     newElf.name = name;
     newElf.weapon = weapon;
-        weapon: weapon,
-        attack() {
-            return 'attack with ' + weapon
-        }
-    }
+    return newElf;
 }
+
