@@ -83,3 +83,4 @@ class Elf extends Character {
 
 const dolby = new Elf('Dolby', 'cloth', 'house');
 console.log(dolby);
+
