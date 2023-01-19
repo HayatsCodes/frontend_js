@@ -44,3 +44,4 @@
 // const peter = new  Elf('Peter', 'stones')
 // console.log(peter.name)
 
+// Classes
