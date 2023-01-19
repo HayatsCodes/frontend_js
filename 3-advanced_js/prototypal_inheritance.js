@@ -70,7 +70,7 @@ let hamster = {
   
   // This one found the food
   speedy.eat("apple");
-  console.( speedy.stomach ); // apple
+  console.log( speedy.stomach ); // apple
   
   // This one also has it, why? fix please.
-  console.( lazy.stomach ); // apple
+  console.log( lazy.stomach ); // apple
