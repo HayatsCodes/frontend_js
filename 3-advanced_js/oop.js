@@ -64,5 +64,11 @@ console.log(sam.attack());
 
 // Inheritance
 class Character {
-    
+    constructor(name, weapon) {
+        this.name = name;
+        this.weapon = weapon;
+    }
+    attack() {
+        
+    }
 }
