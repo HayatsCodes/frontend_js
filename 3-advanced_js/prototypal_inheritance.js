@@ -45,5 +45,8 @@ let head = {
   
   let pockets = {
     money: 2000,
-    __proto__:
+    __proto__: bed
   };
+
+console.log(pockets.pen);
+console.log(bed.glasses);
