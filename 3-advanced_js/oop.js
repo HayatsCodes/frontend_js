@@ -56,5 +56,8 @@ class Elf {
     }
 }
 
-const peter = new  Elf('Peter', 'stones')
-console.log(peteratt)
+const peter = new  Elf('Peter', 'stones');
+console.log(peter.attack());
+
+const sam = new  Elf('Peter', 'fire');
+console.log(peter.attack());
