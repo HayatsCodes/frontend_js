@@ -48,7 +48,8 @@
 // class Elf {
 //     constructor(name, weapon) {
 //         this.name = name;
-//         this.weapon = weapon;
+//         this.weapon = weapon; 
+
 //     }
 
 //     attack() {
