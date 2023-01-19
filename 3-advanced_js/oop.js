@@ -28,7 +28,7 @@ const elfMethod = {
 }
 
 function createElf(name, weapon) {
-    let newElf = Object.create(elfFunctions);
+    let newElf = Object.create(elfMethod);
     newElf.name = name;
     newElf.weapon = weapon;
     return newElf;
