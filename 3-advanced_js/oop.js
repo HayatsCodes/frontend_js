@@ -74,7 +74,10 @@ class Character {
 }
 
 class Elf extends Character {
-    constructor(name, weapon) {
-        super(name, weapon, ty)
+    constructor(name, weapon, type) {
+        super(name, weapon);
+        this.type = type;
     }
 }
+
+const dolby = new Elf('Dolby', )
