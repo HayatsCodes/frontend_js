@@ -21,6 +21,6 @@ animal = {
 rabbit = {
     jumps: true,
 };
-
+setPrototypeOf(rabanimal,)
 // walk is taken from the prototype
 rabbit.walk(); // Animal walk
