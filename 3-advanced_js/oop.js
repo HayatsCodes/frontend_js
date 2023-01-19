@@ -21,6 +21,12 @@
 //     }
 // }
 
+const elfMethod = {
+    attack() {
+        return 'attack with ' + this.weapon;
+    }
+}
+
 function createElf(name, weapon) {
     let newElf = Object.create(elfFunctions);
     newElf.name = name;
