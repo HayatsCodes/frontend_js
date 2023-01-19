@@ -69,6 +69,12 @@ class Character {
         this.weapon = weapon;
     }
     attack() {
-        
+        return 'attack with ' + this.weapon;
+    }
+}
+
+class Elf extends Character {
+    constructor(name, weapon) {
+        super(name, weapon, ty)
     }
 }
