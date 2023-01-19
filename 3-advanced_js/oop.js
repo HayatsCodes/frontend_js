@@ -60,4 +60,4 @@ const peter = new  Elf('Peter', 'stones');
 console.log(peter.attack());
 
 const sam = new  Elf('Peter', 'fire');
-console.log(peter.attack());
+console.log(sam.attack());
