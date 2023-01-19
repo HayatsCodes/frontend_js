@@ -20,7 +20,6 @@ animal = {
 
 rabbit = {
     jumps: true,
-    this
 };
 
 // walk is taken from the prototype
