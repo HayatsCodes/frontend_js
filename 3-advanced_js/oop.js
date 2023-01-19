@@ -11,4 +11,12 @@
 // }
 
 // Factory Functions
-function createElf(name, weapon)
+function createElf(name, weapon) {
+    return {
+        name: name,
+        weapon: weapon,
+        attack() {
+            return 'attack with ' + weapon
+        }
+    }
+}
