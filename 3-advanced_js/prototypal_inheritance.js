@@ -32,14 +32,18 @@ let head = {
   };
   
   let table = {
-    pen: 3
+    pen: 3,
+    __proto__: head
   };
   
   let bed = {
     sheet: 1,
-    pillow: 2
+    pillow: 2,
+    __proto__: table
+
   };
   
   let pockets = {
-    money: 2000
+    money: 2000,
+    __proto__:
   };
