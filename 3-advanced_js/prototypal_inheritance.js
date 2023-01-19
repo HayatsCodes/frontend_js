@@ -52,7 +52,6 @@ console.log(pockets.pen);
 console.log(bed.glasses);
 
 let hamster = {
-    stomach: [],
   
     eat(food) {
       this.stomach.push(food);
