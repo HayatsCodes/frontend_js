@@ -34,3 +34,12 @@
 //     return newElf;
 // }
 
+// Constructor Functions
+
+function elf(name, weapon) {
+    this.name = name;
+    this.weapon = weapon;
+}
+
+const peter = new 
+
