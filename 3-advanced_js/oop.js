@@ -20,3 +20,14 @@
 //         }
 //     }
 // }
+
+function createElf(name, weapon) {
+    let newElf = Object.create(elfFunctions)
+    return {
+        name: name,
+        weapon: weapon,
+        attack() {
+            return 'attack with ' + weapon
+        }
+    }
+}
