@@ -25,3 +25,21 @@ Object.setPrototypeOf(rabbit, animal);
 console.log(Object.getPrototypeOf(rabbit));
 // walk is taken from the prototype
 rabbit.walk(); // Animal walk
+
+
+let head = {
+    glasses: 1
+  };
+  
+  let table = {
+    pen: 3
+  };
+  
+  let bed = {
+    sheet: 1,
+    pillow: 2
+  };
+  
+  let pockets = {
+    money: 2000
+  };
