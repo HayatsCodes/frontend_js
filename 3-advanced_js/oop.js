@@ -36,10 +36,11 @@
 
 // Constructor Functions
 
-function elf(name, weapon) {
+function Elf(name, weapon) {
     this.name = name;
     this.weapon = weapon;
 }
 
-const peter = new 
+const peter = new  Elf('Peter', 'stones')
+console.log(peter.name)
 
