@@ -52,6 +52,9 @@ class Elf {
     }
 
     attack() {
-        return 'attack with ' + 
+        return 'attack with ' + this.weapon;
     }
 }
+
+const peter = new  Elf('Peter', 'stones')
+console.log(peteratt)
