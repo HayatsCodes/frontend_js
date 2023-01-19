@@ -45,22 +45,22 @@
 // console.log(peter.name)
 
 // Classes
-class Elf {
-    constructor(name, weapon) {
-        this.name = name;
-        this.weapon = weapon;
-    }
+// class Elf {
+//     constructor(name, weapon) {
+//         this.name = name;
+//         this.weapon = weapon;
+//     }
 
-    attack() {
-        return 'attack with ' + this.weapon;
-    }
-}
+//     attack() {
+//         return 'attack with ' + this.weapon;
+//     }
+// }
 
-const peter = new  Elf('Peter', 'stones');
-console.log(peter.attack());
+// const peter = new  Elf('Peter', 'stones');
+// console.log(peter.attack());
 
-const sam = new  Elf('Peter', 'fire');
-console.log(sam.attack());
+// const sam = new  Elf('Peter', 'fire');
+// console.log(sam.attack());
 
 // Inheritance
 class Character {
@@ -80,4 +80,5 @@ class Elf extends Character {
     }
 }
 
-const dolby = new Elf('Dolby', )
+const dolby = new Elf('Dolby', 'cloth', 'house');
+console.log(dolby);
