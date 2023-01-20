@@ -44,3 +44,5 @@ const array2 = removeLastItem(array);
 const array3 = multiplyBy2(array);
 console.log(array, array2, array3);
 
+// Characteristics of a Perfect Functions:
+// 1. does 1 task
