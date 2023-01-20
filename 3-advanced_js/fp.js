@@ -10,7 +10,7 @@ function addItemsToCart(items) {
 }
 
 function taxItems(items) {
-    for (let i=0; i < items.length; i++)  {
-
+    for (let i=0; i < items.length; i++) {
+        cart[i].price 
     }
     }
