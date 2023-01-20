@@ -68,4 +68,6 @@ console.log(array, array2, array3);
 // returns a function or accepts a function as parameter
 
 // Closure:
-// accessing the state of the parent function even after it has returned
+// accessing the state of the parent functions even after it has returned
+
+// Currying:
