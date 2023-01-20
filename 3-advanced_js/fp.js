@@ -85,4 +85,4 @@ console.log(multiplyBy3(2));
 
 multiply = (a, b, c) => b * c * a;
 const partialMultiplyBy5 = multiply.bind(null, 5);
-partialMultiplyBy5
+partialMultiplyBy5()
