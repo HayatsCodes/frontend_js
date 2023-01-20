@@ -67,3 +67,5 @@ console.log(array, array2, array3);
 // Higher Order Function:
 // returns a function or accepts a function as parameter
 
+// Closure:
+// accessing the state of the parent function even after it has returned
