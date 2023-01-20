@@ -48,4 +48,7 @@ console.log(array, array2, array3);
 // 1. does one task
 // 2. has a return statement
 // 3. a pure function
-// 4. it has no
+// 4. has no shared states
+// 5. has immutable states
+// 6. Composable
+// 7. Predictable
