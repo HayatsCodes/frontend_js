@@ -79,4 +79,5 @@ const multiplyBy3 = multiply(3);
 console.log(multiplyBy3(2));
 
 // Partial Application:
-// Same has 
+// Same as currying but after the first call, 
+// works on all ther arguments at the same time
