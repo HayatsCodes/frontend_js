@@ -28,3 +28,6 @@
 // 1. The same input should always produce the same output
 // 2. The function should not change anything outside of its block scope
 // i.e no side effects should be recorded
+
+const array = [1, 2, 3]
+function removeLas
