@@ -23,3 +23,6 @@
 // function emptyCart() {
 //     user.cart = [];
 // }
+
+// Functional programming follows the rules of Pure Functions:
+// 1. 
