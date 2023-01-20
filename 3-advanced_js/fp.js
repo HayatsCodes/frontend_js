@@ -71,3 +71,4 @@ console.log(array, array2, array3);
 // accessing the state of the parent functions even after it has returned
 
 // Currying:
+// 
