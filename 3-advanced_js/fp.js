@@ -58,4 +58,6 @@ console.log(array, array2, array3);
 
 // Imperative vs declarative:
 // Imperative tells computer what to do and how to do it
-// declarativ 
+// declarative tell computer what to do but not how to do it.
+
+
