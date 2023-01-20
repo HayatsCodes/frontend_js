@@ -16,5 +16,5 @@ function taxItems(cart) {
     }
 
     function BuyItem(cart) {
-        p
+        user.purchases.push(...cart);
     }
