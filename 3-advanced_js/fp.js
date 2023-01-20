@@ -17,8 +17,9 @@ function taxItems(cart) {
 
 function BuyItem(cart) {
     user.purchases.push(...cart);
+    emptyCart();
 }
 
-function emptyCart(cart) {
-    cart = [];
+function emptyCart() {
+    user.cart = [];
 }
