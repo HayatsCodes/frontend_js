@@ -9,10 +9,12 @@ function addItemsToCart(items) {
     user.cart.push(...items);
 }
 
-function taxItems(items) {
-    for (let i=0; i < items.length; i++) {
+function taxItems(cart) {
+    for (let i=0; i < cart.length; i++) {
         cart[i].price *= 1.03;
     }
     }
 
-    
+    function BuyItem(items) {
+
+    }
