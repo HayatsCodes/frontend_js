@@ -83,5 +83,6 @@ console.log(multiplyBy3(2));
 // work on all ther arguments at the same time.
 
 
-const multiply = (a, b, c) => c/b/a;
-const partial
+multiply = (a, b, c) => b * c * a;
+const partialMultiplyBy5 = multiply.bind(null, 5);
+partialMultiplyBy5
