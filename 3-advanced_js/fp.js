@@ -30,4 +30,7 @@
 // i.e no side effects should be recorded
 
 const array = [1, 2, 3]
-function removeLas
+function removeLastItem(arr) {
+    const newArray = [].concat(arr);
+    newArray.pop()
+}
