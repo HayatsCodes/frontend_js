@@ -52,3 +52,6 @@ console.log(array, array2, array3);
 // 5. has immutable states
 // 6. Composable
 // 7. Predictable
+
+// Indempotence:
+// 
