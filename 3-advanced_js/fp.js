@@ -10,11 +10,15 @@ function addItemsToCart(items) {
 }
 
 function taxItems(cart) {
-    for (let i=0; i < cart.length; i++) {
+    for (let i = 0; i < cart.length; i++) {
         cart[i].price *= 1.03;
     }
-    }
+}
 
-    function BuyItem(cart) {
-        user.purchases.push(...cart);
-    }
+function BuyItem(cart) {
+    user.purchases.push(...cart);
+}
+
+function emptyCart(cart) {
+    cart = [];
+}
