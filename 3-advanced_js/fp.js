@@ -11,6 +11,6 @@ function addItemsToCart(items) {
 
 function taxItems(items) {
     for (let i=0; i < items.length; i++) {
-        cart[i].price = 0.03;
+        cart[i].price = 0.03 ;
     }
     }
