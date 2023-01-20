@@ -88,4 +88,4 @@ const partialMultiplyBy5 = multiply.bind(null, 5);
 console.log(partialMultiplyBy5(4, 12));
 
 // Caching:
-// 
+// Cching is a way of storing data so that it can be used later
