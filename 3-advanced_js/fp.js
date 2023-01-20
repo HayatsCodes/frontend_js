@@ -76,3 +76,5 @@ console.log(array, array2, array3);
 const multiply = (a) => (b) => a * b
 const multiplyBy3 = multiply(3);
 console.log(multiplyBy3(2));
+
+// Partial Application:
