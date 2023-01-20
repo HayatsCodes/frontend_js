@@ -80,4 +80,7 @@ console.log(multiplyBy3(2));
 
 // Partial Application:
 // Same as currying but after the first call, 
-// works on all ther arguments at the same time
+// work on all ther arguments at the same time.
+
+
+const divide = (a, b, c) => a * b
