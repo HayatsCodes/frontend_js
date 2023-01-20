@@ -74,7 +74,7 @@ console.log(array, array2, array3);
 // turning functions that accept multiple arguments 
 // to one that accept just one arguments at a time
 
-const multiply = (a) => (b) => a * b
+let multiply = (a) => (b) => a * b
 const multiplyBy3 = multiply(3);
 console.log(multiplyBy3(2));
 
