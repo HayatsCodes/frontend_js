@@ -46,3 +46,6 @@ console.log(array, array2, array3);
 
 // Characteristics of a Perfect Functions:
 // 1. does one task
+// 2. has a return statement
+// 3. a pure function
+// 4. it has no
