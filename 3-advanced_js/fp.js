@@ -27,4 +27,4 @@
 // Functional programming follows the rules of Pure Functions:
 // 1. The same input should always produce the same output
 // 2. The function should not change anything outside of it block scope
-// i.e no sid e effects 
+// i.e no side effects should be recorded
