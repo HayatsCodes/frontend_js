@@ -54,4 +54,4 @@ console.log(array, array2, array3);
 // 7. Predictable
 
 // Indempotence:
-// 
+// Gives the same 
