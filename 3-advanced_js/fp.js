@@ -60,4 +60,7 @@ console.log(array, array2, array3);
 // Imperative tells computer what to do and how to do it
 // declarative tell computer what to do but not how to do it.
 
+// Immutability:
+// Not Changing the state or data but rathe r making a copy of it.
+
 
