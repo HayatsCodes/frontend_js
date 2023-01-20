@@ -61,6 +61,6 @@ console.log(array, array2, array3);
 // declarative tell computer what to do but not how to do it.
 
 // Immutability:
-// Not Changing the state or data but rathe r making a copy of it.
+// Not Changing the state or data but rather making a copy of it.
 
 
