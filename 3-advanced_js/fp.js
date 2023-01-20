@@ -10,8 +10,6 @@ function addItemsToCart(items) {
 }
 
 function taxItems(items) {
-    for (let item in items) {
-        items
-        user.cart.push(i);
+    
     }
 }
