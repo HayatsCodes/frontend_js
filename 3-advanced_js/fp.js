@@ -86,3 +86,6 @@ console.log(multiplyBy3(2));
 multiply = (a, b, c) => b * c * a;
 const partialMultiplyBy5 = multiply.bind(null, 5);
 console.log(partialMultiplyBy5(4, 12));
+
+// Caching:
+// 
