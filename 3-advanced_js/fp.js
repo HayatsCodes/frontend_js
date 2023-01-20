@@ -15,6 +15,6 @@ function taxItems(cart) {
     }
     }
 
-    function BuyItem(items) {
-
+    function BuyItem(cart) {
+        p
     }
