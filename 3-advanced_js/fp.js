@@ -88,4 +88,7 @@ const partialMultiplyBy5 = multiply.bind(null, 5);
 console.log(partialMultiplyBy5(4, 12));
 
 // Caching:
-// Cching is a way of storing data so that it can be used later
+// Cahing is a way of storing data so that it can be used later
+
+// Memoization:
+// It's a type of caching that returns data based on the parameter
