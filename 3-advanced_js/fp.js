@@ -71,10 +71,12 @@ console.log(array, array2, array3);
 // accessing the state of the parent functions even after it has returned
 
 // Currying:
-// turning functions that accept multiple argum to one that accept just one parameter
+// turning functions that accept multiple arguments 
+// to one that accept just one arguments at a time
 
 const multiply = (a) => (b) => a * b
 const multiplyBy3 = multiply(3);
 console.log(multiplyBy3(2));
 
 // Partial Application:
+// Same has 
