@@ -57,4 +57,5 @@ console.log(array, array2, array3);
 // input gives the same result but might not be pure
 
 // Imperative vs declarative:
-// 
+// Imperative tells computer what to do and how to do it
+// declarativ 
