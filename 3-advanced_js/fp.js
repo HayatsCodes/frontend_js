@@ -35,6 +35,9 @@ function removeLastItem(arr) {
     newArray.pop();
     return newArray;
 }
+
 function multiplyBy2(arr) {
-    return arr.map()
+    return arr.map((item) => item*2);
 }
+
+const array2 = remove
