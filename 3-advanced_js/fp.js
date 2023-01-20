@@ -91,4 +91,4 @@ console.log(partialMultiplyBy5(4, 12));
 // Cahing is a way of storing data so that it can be used later
 
 // Memoization:
-// It's a type of caching that returns data based on the parameter
+// It's a type of caching that stores the return value of a function based on the parameter passed to the function
