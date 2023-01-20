@@ -83,4 +83,5 @@ console.log(multiplyBy3(2));
 // work on all ther arguments at the same time.
 
 
-const divide = (a, b, c) => a * b
+const multiply = (a, b, c) => c/b/a;
+const partial
