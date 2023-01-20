@@ -54,4 +54,7 @@ console.log(array, array2, array3);
 // 7. Predictable
 
 // Indempotence:
-// Gives the same 
+// input gives the same result but might not be pure
+
+// Imperative vs declarative:
+// 
