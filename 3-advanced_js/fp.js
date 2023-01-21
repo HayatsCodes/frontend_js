@@ -122,10 +122,10 @@ function applyTaxToItems(user) {
     const updatedCart = cart.map(item => {
         return {
             name: item.name,
-            price: item.price * taxRate;
+            price: item.price * taxRate
         }
     });
-    return Object.assign({}, user, {cart})
+    return Object.assign({}, user, {cart: updatedCart})
 }
 
 function buyItem(user) {
