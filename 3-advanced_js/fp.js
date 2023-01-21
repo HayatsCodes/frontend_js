@@ -100,12 +100,12 @@ const user = {
 }
 
 compose = (f, g) => (...args) => f(g(...args));
-purchaseItem(
+console.log(purchaseItem(
     emptyCart,
     buyItem,
     applyTaxToItems,
     addItemToCart
-)(user, {name:'', price: 0});
+)(user, {name:'', price: 0}));
 
 function purchaseItem(...fns) {
     return fns.reduce(compose);
