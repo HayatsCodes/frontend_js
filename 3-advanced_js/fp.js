@@ -129,7 +129,7 @@ function applyTaxToItems(user) {
 }
 
 function buyItem(user) {
-    return user
+    return us
 }
 
 function emptyCart(user) {
