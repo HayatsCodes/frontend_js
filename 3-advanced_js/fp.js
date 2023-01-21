@@ -135,3 +135,4 @@ function buyItem(user) {
 function emptyCart(user) {
     return Object.assign({}, user, { cart: []}) 
 }
+ 
