@@ -1,6 +1,8 @@
 // Memory heap:
 // Where memory is allocated for states
 
+
+
 // Call stack:
 // where our code is executed
 
@@ -8,4 +10,4 @@
 // Has one call stacks and call stack is called once at a time
 
 // Synchronous Programming:
-// 
+// call stack is called once at a time
