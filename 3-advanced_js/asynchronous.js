@@ -65,5 +65,5 @@ Promise.all(urls.map(url => {
 async function fetchUsers() {
     const users = await fetch(urls[0]);
     const data = users.json();
-    
+    console.log(data);
 }
