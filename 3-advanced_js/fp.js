@@ -118,7 +118,8 @@ function addItemToCart(user, item) {
 
 function applyTaxToItems(user) {
     const {cart} = user;
-    const taxRate = 1.3
+    const taxRate = 1.3;
+    
 }
 
 function buyItem(user) {
