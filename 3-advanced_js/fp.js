@@ -54,7 +54,7 @@ console.log(array, array2, array3);
 // 7. Predictable
 
 // Indempotence:
-// input gives the same result but might not be pure
+// input always gives the same result but might not be pure
 
 // Imperative vs declarative:
 // Imperative tells computer what to do and how to do it
@@ -111,3 +111,4 @@ multiplyBy3AndAbs = compose(multiplyBy3, makePositive);
 console.log(multiplyBy3AndAbs(-50));
 
 // Arity:
+// The number of arguments in a function
