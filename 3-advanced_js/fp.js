@@ -99,7 +99,7 @@ const user = {
     purchases: []
 }
 
-const compose = (f, g) => (...args) => f(g(...args));
+const composer = (f, g) => (...args) => f(g(...args));
 console.log(purchaseItem(
     emptyCart,
     buyItem,
@@ -108,7 +108,7 @@ console.log(purchaseItem(
 )(user, {name:'', price: 0}));
 
 function purchaseItem(...fns) {
-    return fns.reduce(compose);
+    return fns.reduce(composer);
 }
 
 function addItemToCart(user, item) {
