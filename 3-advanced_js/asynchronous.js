@@ -53,3 +53,6 @@ const urls= [
     'https://jsonplaceholder.typicode.com/albums',
 ]
 
+Promise.all(urls.map(url => {
+    return fetch(url).then(resp=> resp.json())
+})).then
