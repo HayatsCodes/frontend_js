@@ -116,6 +116,14 @@ function addItemToCart(user, item) {
     return Object.assign({}, user, {cart: updateCart});
 }
 
-function applyTaxToItems(user) {}
+function applyTaxToItems(user) {
+    return user
+}
 
-function buyItem() {}
+function buyItem(user) {
+    return user
+}
+
+function emptyCart(user) {
+    return user
+}
