@@ -18,3 +18,12 @@
 // call stack is executed once at a time
 
 // Asynchronous Programming:
+// Send s 
+
+// Web API
+// 
+
+// Callback queue
+// 
+
+// Event loop
