@@ -735,7 +735,8 @@ body {
   font-size: 1rem;
   position: absolute;
   top: 70%;
-  left: 30%;
+  left: 15%;
+  transform: translateX(-15%);
 }
 .footer__five-star p {
   margin-top: 0;
