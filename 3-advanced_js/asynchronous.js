@@ -15,4 +15,6 @@
 // Has one call stacks and call stack is called once at a time
 
 // Synchronous Programming:
-// call stack is called once at a time
+// call stack is executed once at a time
+
+// Asynchronous 
