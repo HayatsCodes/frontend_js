@@ -34,7 +34,7 @@
 // This waits for an action before it gets executed
 
 // Promise:
-// Same as aynchronous programming but executes any codes
+// Same as aynchronous programming but executes any code (not just web apis) in the background
 
 const promise = new Promise((resolve, reject) => {
     if(true) {
@@ -47,3 +47,6 @@ const promise = new Promise((resolve, reject) => {
 promise
     .then(result => console.log(result));
 
+const urls= [
+    'https'
+]
