@@ -62,4 +62,6 @@ Promise.all(urls.map(url => {
 }).catch(() => console.log('error'));
 
 // Async Await
-
+async function fetchUsers() {
+    const users = await fetch
+}
