@@ -730,7 +730,7 @@ body {
   color: #fff;
 }
 .footer__five-star {
-  margin-left: 0;
+  margin-left: -3rem;
   text-align: center;
   font-size: 2rem;
   position: absolute;
