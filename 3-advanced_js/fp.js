@@ -97,9 +97,9 @@ console.log(partialMultiplyBy5(4, 12));
 // Compose:
 // It deals with the relationship between components (functions)
 
-const compose = (f, g) => (data) => f(g(data));
-const makePositive = (num) => Math.abs(num);
-const multiplyBy3AndAbs = compose(multiplyBy3, makePositive)
+let compose = (f, g) => (data) => f(g(data));
+let makePositive = (num) => Math.abs(num);
+let multiplyBy3AndAbs = compose(multiplyBy3, makePositive)
 console.log(multiplyBy3AndAbs(-50));
 
 // Pipe:
@@ -107,5 +107,5 @@ console.log(multiplyBy3AndAbs(-50));
 
 compose = (f, g) => (data) => g(f(data));
 makePositive = (num) => Math.abs(num);
-multiplyBy3AndAbs = compose(multiplyBy3, makePositive)
+multiplyBy3AndAbs = compose(multiplyBy3, makePositive);
 console.log(multiplyBy3AndAbs(-50));
