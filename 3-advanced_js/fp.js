@@ -108,7 +108,7 @@ purchaseItem(
 )(user, {name:'', price: 0});
 
 function purchaseItem(...fns) {
-    return fns.reduce();
+    return fns.reduce(compose);
 }
 
 function addItemToCart() {}
