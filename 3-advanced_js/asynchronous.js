@@ -18,7 +18,8 @@
 // call stack is executed once at a time
 
 // Asynchronous Programming:
-// Allows JavaScript to 
+// Allows JavaScript to run time or memory intensive applications in the background
+// while other 
 // Sends non-javascript functions to the web api while 
 
 // Web API
