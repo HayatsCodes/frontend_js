@@ -95,9 +95,11 @@ console.log(partialMultiplyBy5(4, 12));
 // based on the parameter passed to the function
 
 // Compose:
-// It deals with the relationship between components ()
+// It deals with the relationship between components (functions)
 
 const compose = (f, g) => (data) => f(g(data));
 const makePositive = (num) => Math.abs(num);
 const multiplyBy3AndAbs = compose(multiplyBy3, makePositive)
 console.log(multiplyBy3AndAbs(-50));
+
+// P
