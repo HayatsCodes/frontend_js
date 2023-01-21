@@ -1,7 +1,8 @@
- ((async function() {
+ console.log(((async function() {
     try {
-        await Promise.resolve('oops 1')
+        await Promise.resolve('oops 1');
+        await Promise.reject('oops 2');
     } catch (err) {
-        console.log(err.m)
+        console.log(err.message);
     }
- }))
+ }))()
