@@ -21,9 +21,9 @@
 // Sends non-javascript functions to the web api
 
 // Web API
-// browser built-in APIs 
+// browser built-in APIs executes the functions
 
 // Callback queue
-// 
+// the results are then 
 
 // Event loop
