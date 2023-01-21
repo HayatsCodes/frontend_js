@@ -38,6 +38,8 @@
 
 const promise = new Promise((resolve, reject) => {
     if(true) {
-        resolve()
+        resolve('stuff worked');
+    } else {
+        reject('Error, it broke')
     }
 })
