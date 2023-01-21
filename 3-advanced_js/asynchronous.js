@@ -43,3 +43,5 @@ const promise = new Promise((resolve, reject) => {
         reject('Error, it broke')
     }
 })
+
+promise.then(result => console.log(result));
