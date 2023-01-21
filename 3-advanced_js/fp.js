@@ -109,7 +109,7 @@ function taxItems(cart) {
     }
 }
 
-function BuyItem(cart) {
+function purchaseItem(cart) {
     user.purchases.push(...cart);
     emptyCart();
 }
