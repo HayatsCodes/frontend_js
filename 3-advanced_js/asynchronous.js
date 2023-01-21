@@ -28,4 +28,4 @@
 // the results are then sent to what is called the callback queue
 
 // Event loop
-// 
+// This checks if the call stack is empty, and transfer the 
