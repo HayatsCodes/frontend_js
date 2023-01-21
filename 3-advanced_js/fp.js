@@ -105,9 +105,9 @@ purchaseItem(
     buyItem,
     applyTaxToItems,
     addItemToCart
-)(user, {name:'', price: })
+)(user, {name:'', price: 0});
 
-function purchaseItem() {}
+function purchaseItem(...fns) => {}
 
 function addItemToCart() {}
 
