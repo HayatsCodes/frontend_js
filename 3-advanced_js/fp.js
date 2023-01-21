@@ -100,3 +100,4 @@ console.log(partialMultiplyBy5(4, 12));
 const compose = (f, g) => (data) => f(g(data));
 const makePositive = (num) => Math.abs(num);
 const multiplyBy3AndAbs = compose(multiplyBy3, makePositive)
+console.log(multiplyBy3AndAbs(-50));
