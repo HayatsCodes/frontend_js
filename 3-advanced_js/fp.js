@@ -101,8 +101,11 @@ const user = {
 
 compose = (f, g) => (...args) => f(g(...args));
 purchaseItem(
-    
-)
+    emptyCart,
+    buyItem,
+    applyTaxToItems,
+    addItemToCart
+)(user, {name:'', price: })
 
 function purchaseItem() {}
 
