@@ -101,7 +101,7 @@ const user = {
 
 function purchaseItem() {}
 
-function additemToCart() {}
+function addItemToCart() {}
 
 function applyTaxToItems() {}
 
