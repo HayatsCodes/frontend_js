@@ -21,12 +21,13 @@
 // Allows JavaScript to run web api functions in the background
 // while the call stack continues to be executed
 
-// Web API
+// Web API:
 // browser built-in APIs recieves asynchronous codes and executes it
 
-// Callback queue
+// Callback queue:
 // the results are then sent to what is called the callback queue
 
-// Event loop
+// Event loop:
 // This checks if the call stack is empty, and transfer the codes that are in the callback queue to the call stack
 
+// Promise:
