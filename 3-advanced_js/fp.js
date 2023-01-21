@@ -98,5 +98,5 @@ console.log(partialMultiplyBy5(4, 12));
 // It's the idea that data transfer between functions should be obvious
 
 const compose = (f, g) => (data) => f(g(data));
-const mak
+const makePositive = (num) => Math.abs(num);
 const multiplyBy3AndAbs = compose(multiplyBy3, makePositive)
