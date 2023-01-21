@@ -102,4 +102,5 @@ const makePositive = (num) => Math.abs(num);
 const multiplyBy3AndAbs = compose(multiplyBy3, makePositive)
 console.log(multiplyBy3AndAbs(-50));
 
-// P
+// Pipe:
+// 
