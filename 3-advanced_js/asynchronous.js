@@ -5,4 +5,4 @@
 // where our code is executed
 
 // Single threaded:
-// Has one call stacks and executes co
+// Has one call stacks and call stack is called once atma atime
