@@ -96,3 +96,5 @@ console.log(partialMultiplyBy5(4, 12));
 
 // Compose:
 // It's the idea that data transfer between functions should be obvious
+
+const compose = (f, g) => (data) => f(g(data));
