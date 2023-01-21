@@ -36,4 +36,8 @@
 // Promise:
 // 
 
-const promise 
+const promise = new Promise((resolve, reject) => {
+    if(true) {
+        resolve()
+    }
+})
