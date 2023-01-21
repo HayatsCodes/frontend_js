@@ -22,7 +22,7 @@
 // while the call stack continues to be executed
 
 // Web API
-// browser built-in APIs executes the functions
+// browser built-in APIs recieves asynchronous codes and executes it
 
 // Callback queue
 // the results are then sent to what is called the callback queue
