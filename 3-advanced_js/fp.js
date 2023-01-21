@@ -99,7 +99,10 @@ const user = {
     purchases: []
 }
 
-const 
+compose = (f, g) => (...args) => f(g(...args));
+purchaseItem(
+    
+)
 
 function purchaseItem() {}
 
