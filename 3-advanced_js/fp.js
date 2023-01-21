@@ -111,7 +111,7 @@ function purchaseItem(...fns) {
     return fns.reduce(compose);
 }
 
-function addItemToCart() {}
+function addItemToCart(user, item) {}
 
 function applyTaxToItems() {}
 
