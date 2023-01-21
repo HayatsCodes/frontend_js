@@ -99,21 +99,10 @@ const user = {
     purchases: []
 }
 
-function addItemsToCart(items) {
-    user.cart.push(...items);
-}
+function purchaseItem() {}
 
-function taxItems(cart) {
-    for (let i = 0; i < cart.length; i++) {
-        cart[i].price *= 1.03;
-    }
-}
+function itemToCart() {}
 
-function purchaseItem(cart) {
-    user.purchases.push(...cart);
-    emptyCart();
-}
+function applyTaxToItems() {}
 
-function emptyCart() {
-    user.cart = [];
-}
+
