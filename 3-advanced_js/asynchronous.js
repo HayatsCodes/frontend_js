@@ -67,3 +67,4 @@ async function fetchUsers() {
     const data = users.json();
     console.log(data);
 }
+
