@@ -18,10 +18,10 @@
 // call stack is executed once at a time
 
 // Asynchronous Programming:
-// Send s 
+// Sends non-javascript functions to the web api
 
 // Web API
-// 
+// browser built-in APIs 
 
 // Callback queue
 // 
