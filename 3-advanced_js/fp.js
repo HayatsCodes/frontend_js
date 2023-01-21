@@ -99,6 +99,8 @@ const user = {
     purchases: []
 }
 
+const 
+
 function purchaseItem() {}
 
 function addItemToCart() {}
