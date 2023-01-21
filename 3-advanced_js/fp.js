@@ -117,7 +117,7 @@ function addItemToCart(user, item) {
 }
 
 function applyTaxToItems(user) {
-    return user
+    const 
 }
 
 function buyItem(user) {
