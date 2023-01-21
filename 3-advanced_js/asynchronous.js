@@ -34,7 +34,7 @@
 // This waits for an action before it gets executed
 
 // Promise:
-// 
+// Same as aynchronous programming but executes any codes
 
 const promise = new Promise((resolve, reject) => {
     if(true) {
