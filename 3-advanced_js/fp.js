@@ -122,6 +122,7 @@ function applyTaxToItems(user) {
     const updatedCart = cart.map(item => {
         return {
             name: item.name,
+            
         }
     })
 }
