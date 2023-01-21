@@ -105,7 +105,7 @@ console.log(purchaseItem(
     buyItem,
     applyTaxToItems,
     addItemToCart
-)(user, {name:'', price: 0}));
+)(user, {name:'laptop', price: 200}));
 
 function purchaseItem(...fns) {
     return fns.reduce(composer);
