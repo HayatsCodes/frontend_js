@@ -113,7 +113,7 @@ function purchaseItem(...fns) {
 
 function addItemToCart(user, item) {
     const updateCart = user.cart.concat(item)
-    return Object.assign({}, user, {cart: updateCart});
+    return Object.assign({}, user);
 }
 
 function applyTaxToItems(user) {
