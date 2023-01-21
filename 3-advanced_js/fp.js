@@ -104,7 +104,8 @@ console.log(multiplyBy3AndAbs(-50));
 
 // Pipe:
 // Compose in the reverse order.
-compose = (f, g) => (data) => f(g(data));
+
+compose = (f, g) => (data) => g(f(data));
 makePositive = (num) => Math.abs(num);
 multiplyBy3AndAbs = compose(multiplyBy3, makePositive)
 console.log(multiplyBy3AndAbs(-50));
