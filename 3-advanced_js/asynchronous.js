@@ -68,3 +68,8 @@ async function fetchUsers() {
     console.log(data);
 }
 
+const getData = async function() {
+    const [ users, posts, albums ] = await Promise.all(urls.map(url => {
+        return fetch(url).then(resp=> resp.json())
+    }))
+}
