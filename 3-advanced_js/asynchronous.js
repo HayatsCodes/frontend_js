@@ -63,6 +63,3 @@ Promise.all(urls.map(url => {
 
 // Async Await
 
-async function getJson() {
-    const 
-}
