@@ -8,7 +8,7 @@
 // where our code is executed
 
 // Stack overflow:
-// 
+// This is when the call stack get filled up without a chance of the stacks popping of
 
 // Single threaded:
 // Has one call stacks and call stack is called once at a time
