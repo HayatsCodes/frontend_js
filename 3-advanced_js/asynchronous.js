@@ -5,4 +5,7 @@
 // where our code is executed
 
 // Single threaded:
-// Has one call stacks and call stack is called once atma atime
+// Has one call stacks and call stack is called once at a time
+
+// Synchronous Programming:
+// 
