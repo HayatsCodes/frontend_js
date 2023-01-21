@@ -77,3 +77,4 @@ const getData = async function() {
     console.log(posts);
     console.log(albums);
 }
+
