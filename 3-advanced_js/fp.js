@@ -95,4 +95,4 @@ console.log(partialMultiplyBy5(4, 12));
 // based on the parameter passed to the function
 
 // Compose:
-// It's the 
+// It's the idea that data transfer between functions should be obvious
