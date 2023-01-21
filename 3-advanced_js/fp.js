@@ -93,3 +93,4 @@ console.log(partialMultiplyBy5(4, 12));
 // Memoization:
 // It's a type of caching that stores the return value of a function
 // based on the parameter passed to the function
+
