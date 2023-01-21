@@ -111,7 +111,9 @@ function purchaseItem(...fns) {
     return fns.reduce(compose);
 }
 
-function addItemToCart(user, item) {}
+function addItemToCart(user, item) {
+    const updateCart = user.cart.concat(item)
+}
 
 function applyTaxToItems() {}
 
