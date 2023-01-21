@@ -107,7 +107,9 @@ purchaseItem(
     addItemToCart
 )(user, {name:'', price: 0});
 
-function purchaseItem(...fns) => ()
+function purchaseItem(...fns) {
+    return fns.reduce();
+}
 
 function addItemToCart() {}
 
