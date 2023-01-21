@@ -19,8 +19,7 @@
 
 // Asynchronous Programming:
 // Allows JavaScript to run time or memory intensive applications in the background
-// while other 
-// Sends non-javascript functions to the web api while 
+// while the call stack continues to be executed
 
 // Web API
 // browser built-in APIs executes the functions
