@@ -78,3 +78,5 @@ const getData = async function() {
     console.log(albums);
 }
 
+// Job Queue
+// Event loop checks this before Callback queue
