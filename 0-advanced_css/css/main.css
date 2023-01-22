@@ -696,13 +696,15 @@ body {
   margin-top: 10rem;
   translate: -50%, 0;
 }
+.footer__row {
+  margin-top: 5rem;
+}
 .footer__nav {
   display: inline-block;
   border-top: 0.5px solid #777;
   padding-top: 1rem;
   padding-left: 0;
   font-size: 2rem;
-  margin-top: 10rem;
   transition: all 0.3s;
 }
 .footer__nav a {
@@ -725,7 +727,6 @@ body {
   border-top: 0.5px solid #777;
   padding-top: 1rem;
   font-size: 2rem;
-  margin-top: 10rem;
   color: #fff;
 }
 .footer__five-star {

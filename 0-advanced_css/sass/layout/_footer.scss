@@ -21,7 +21,7 @@
     }
 
     &__row {
-        
+        margin-top: 5rem;
     }
 
     &__nav {
@@ -30,7 +30,6 @@
         padding-top: 1rem;
         padding-left: 0;
         font-size: 2rem;
-        margin-top: 10rem;
         transition: all .3s;
 
         & a {
@@ -60,7 +59,6 @@
         border-top: .5px solid $color-grey-dark;
         padding-top: 1rem;
         font-size: 2rem;
-        margin-top: 10rem;
         color: $color-white;
     }
 
