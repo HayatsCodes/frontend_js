@@ -736,7 +736,7 @@ body {
   .footer__paragraph {
     max-width: 80%;
     text-align: center;
-    margin-left: 2rem;
+    transform: translateX(10%);
   }
 }
 
