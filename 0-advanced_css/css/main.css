@@ -688,7 +688,7 @@ body {
 .footer__container {
   width: 100%;
   background-color: #000;
-  height: 70rem;
+  height: 1;
 }
 .footer__logo-box {
   text-align: center;
