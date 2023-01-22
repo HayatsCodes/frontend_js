@@ -2,13 +2,14 @@
     // padding: 15rem 0;
     // height: 100vh;
     // margin-bottom: 0;
+    @include respond(tab-port) {
+    }
 
     &__container {
         width: 100%;
         background-color: $color-black;
         // margin-top: -15rem;
-        @include respond(tab-port) {
-        }
+        
     }
 
 
