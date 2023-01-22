@@ -58,6 +58,7 @@
     &__paragraph {
         border-top: .5px solid $color-grey-dark;
         margin-top: 5rem;
+        margin-bottom: 5rem;
         padding-top: 1rem;
         font-size: 2rem;
         color: $color-white;
@@ -68,7 +69,7 @@
         text-align: center;
         font-size: 1rem;
         position: absolute;
-        top: 70%;
+        top: 75%;
         left: 15%;
         transform: translateX(-15%);
 
