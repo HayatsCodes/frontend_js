@@ -29,7 +29,6 @@
         padding-top: 1rem;
         padding-left: 0;
         margin-top: 5rem;
-
         font-size: 2rem;
         transition: all .3s;
 
@@ -58,6 +57,7 @@
 
     &__paragraph {
         border-top: .5px solid $color-grey-dark;
+        margin-top: 5rem;
         padding-top: 1rem;
         font-size: 2rem;
         color: $color-white;

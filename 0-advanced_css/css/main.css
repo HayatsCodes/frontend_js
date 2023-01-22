@@ -723,6 +723,7 @@ body {
 }
 .footer__paragraph {
   border-top: 0.5px solid #777;
+  margin-top: 5rem;
   padding-top: 1rem;
   font-size: 2rem;
   color: #fff;
