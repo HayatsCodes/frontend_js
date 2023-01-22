@@ -730,6 +730,7 @@ body {
 @media (max-width: 56.25em) {
   .footer__paragraph {
     max-width: 80%;
+    text-align: center;
   }
 }
 .footer__five-star {

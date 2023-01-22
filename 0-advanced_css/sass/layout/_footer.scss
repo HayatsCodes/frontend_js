@@ -19,8 +19,9 @@
         translate: -50%, 0;
     }
 
-    // &__row {
-    // }
+    &__row {
+        @include respond(tab)
+    }
 
     &__nav {
         position: relative;
@@ -65,7 +66,7 @@
 
         @include respond(tab-port) {
             max-width: 80%;
-            
+            text-align: center;
         }
     }
 
