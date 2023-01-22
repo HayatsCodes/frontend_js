@@ -693,6 +693,13 @@ body {
   margin-top: 5rem;
   translate: -50%, 0;
 }
+@media (max-width: 56.25em) {
+  .footer__row {
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
 .footer__nav {
   position: relative;
   display: inline-block;

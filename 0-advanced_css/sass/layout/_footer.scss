@@ -24,8 +24,9 @@
 
     &__row {
         @include respond(tab-port) {
-            // left: 50%;
-            // transform: translateX(-50%);
+            position: relative;
+            right: 50%;
+            transform: translateX(50%);
         }
     }
 
