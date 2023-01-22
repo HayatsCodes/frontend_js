@@ -699,7 +699,6 @@ body {
   }
 }
 .footer__nav {
-  position: relative;
   display: inline-block;
   border-top: 0.5px solid #777;
   padding-top: 1rem;
@@ -720,6 +719,7 @@ body {
   .footer__nav {
     text-align: center;
     max-width: 80%;
+    word-break: keep-all;
   }
 }
 .footer__link-style {

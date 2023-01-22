@@ -30,7 +30,6 @@
     }
 
     &__nav {
-        position: relative;
         display: inline-block;
         border-top: .5px solid $color-grey-dark;
         padding-top: 1rem;
@@ -51,6 +50,7 @@
         @include respond(tab-port) {
             text-align: center;
             max-width: 80%;
+            word-break: keep-all;
         }
 
     }
