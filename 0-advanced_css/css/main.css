@@ -716,6 +716,11 @@ body {
   text-decoration: none;
   color: #28b485;
 }
+@media (max-width: 56.25em) {
+  .footer__nav {
+    max-width: 80%;
+  }
+}
 .footer__link-style {
   display: inline-block;
   transition: all 0.2s;

@@ -47,7 +47,9 @@
             text-decoration: none;
             color: $color-primary-dark;
         }
-        
+        @include respond(tab-port) {
+            max-width: 80%;
+        }
 
     }
 
