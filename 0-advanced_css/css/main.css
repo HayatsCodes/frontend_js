@@ -718,6 +718,7 @@ body {
 }
 @media (max-width: 56.25em) {
   .footer__nav {
+    text-align: center;
     max-width: 80%;
   }
 }
