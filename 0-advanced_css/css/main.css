@@ -686,11 +686,6 @@ body {
   width: 100%;
   background-color: #000;
 }
-@media (max-width: 56.25em) {
-  .footer__container {
-    position: relative;
-  }
-}
 .footer__logo-box {
   text-align: center;
 }
@@ -700,7 +695,9 @@ body {
 }
 @media (max-width: 56.25em) {
   .footer__row {
-    position: absolute;
+    position: relative;
+    left: 50%;
+    transform: translate();
   }
 }
 .footer__nav {

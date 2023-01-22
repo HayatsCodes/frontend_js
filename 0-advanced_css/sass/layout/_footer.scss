@@ -8,7 +8,6 @@
         background-color: $color-black;
         // margin-top: -15rem;
         @include respond(tab-port) {
-            position: relative;
         }
     }
 
@@ -24,7 +23,9 @@
 
     &__row {
         @include respond(tab-port) {
-            position: absolute;
+            position: relative;
+            left: 50%;
+            transform: translate();
         }
     }
 
