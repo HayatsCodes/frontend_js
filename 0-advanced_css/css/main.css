@@ -693,6 +693,9 @@ body {
   margin-top: 5rem;
   translate: -50%, 0;
 }
+.footer__row {
+  position: relative;
+}
 .footer__nav {
   display: inline-block;
   border-top: 0.5px solid #777;
@@ -727,10 +730,12 @@ body {
   color: #fff;
 }
 .footer__five-star {
+  position: absolute;
   margin-left: 0;
   margin-bottom: 5rem;
   text-align: center;
   font-size: 1.5rem;
+  left: 50%;
 }
 .footer__five-star p {
   margin-top: 0;

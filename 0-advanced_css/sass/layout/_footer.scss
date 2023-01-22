@@ -20,6 +20,7 @@
     }
 
     &__row {
+        position: relative;
     }
 
     &__nav {
@@ -64,10 +65,12 @@
     }
 
     &__five-star {
+        position: absolute;
         margin-left: 0;
         margin-bottom: 5rem;
         text-align: center;
         font-size: 1.5rem;
+        left: 50%;
         // transform: translateX(-15%);
 
         & p {
