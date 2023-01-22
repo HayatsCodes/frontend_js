@@ -727,6 +727,11 @@ body {
   font-size: 2rem;
   color: #fff;
 }
+@media (max-width: 56.25em) {
+  .footer__paragraph {
+    max-width: 80%;
+  }
+}
 .footer__five-star {
   position: absolute;
   margin-left: 0;
