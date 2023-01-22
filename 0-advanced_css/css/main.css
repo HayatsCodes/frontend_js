@@ -719,7 +719,6 @@ body {
   .footer__nav {
     text-align: center;
     max-width: 80%;
-    word-break: keep-all;
   }
 }
 .footer__link-style {
