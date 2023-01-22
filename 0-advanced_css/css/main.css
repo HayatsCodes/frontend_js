@@ -693,10 +693,8 @@ body {
   margin-top: 5rem;
   translate: -50%, 0;
 }
-.footer__row {
-  position: relative;
-}
 .footer__nav {
+  position: relative;
   display: inline-block;
   border-top: 0.5px solid #777;
   padding-top: 1rem;

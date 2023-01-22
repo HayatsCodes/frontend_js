@@ -20,10 +20,10 @@
     }
 
     &__row {
-        position: relative;
     }
 
     &__nav {
+        position: relative;
         display: inline-block;
         border-top: .5px solid $color-grey-dark;
         padding-top: 1rem;
