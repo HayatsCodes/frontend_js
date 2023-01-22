@@ -739,35 +739,6 @@ body {
     margin-left: 2rem;
   }
 }
-.footer__five-star {
-  position: absolute;
-  margin-left: 0;
-  margin-bottom: 5rem;
-  text-align: center;
-  font-size: 1.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.footer__five-star p {
-  margin-top: 0;
-  text-transform: uppercase;
-  transition: all 0.5s;
-}
-.footer__star {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background-color: #7ed56f;
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  transition: all 0.5s;
-}
-.footer__star:hover {
-  transform: skewX(-15deg) scale(1.2);
-}
-.footer__star:hover ~ p {
-  transform: skewX(15deg) scale(1.05);
-  color: #fff;
-}
 
 .header {
   height: 95vh;
