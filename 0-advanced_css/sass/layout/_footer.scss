@@ -7,6 +7,9 @@
         width: 100%;
         background-color: $color-black;
         // margin-top: -15rem;
+        @include respond(tab-port) {
+            position: relative;
+        }
     }
 
 
@@ -20,7 +23,9 @@
     }
 
     &__row {
-        @include respond(tab)
+        @include respond(tab-port) {
+            position: absolute;
+        }
     }
 
     &__nav {
