@@ -691,7 +691,7 @@ body {
   text-align: center;
 }
 .footer__logo {
-  margin-top: 10rem !important;
+  margin-top: 5rem;
   translate: -50%, 0;
 }
 @media (max-width: 56.25em) {
