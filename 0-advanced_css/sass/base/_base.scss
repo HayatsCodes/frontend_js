@@ -28,6 +28,7 @@ body {
 
    @include respond(tab-port) {
     max-width: 100vw;
+    ove
     padding: 0;
     margin: 0;
    }
