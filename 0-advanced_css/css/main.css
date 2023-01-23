@@ -683,15 +683,18 @@ body {
   filter: blur(3px) brightness(80%);
 }
 
-.footer {
+.footer__container {
   width: 100%;
   background-color: #000;
 }
-.footer__container {
+.footer__logo-box {
   text-align: center;
 }
+.footer source {
+  margin-top: 10rem !important;
+}
 .footer__logo {
-  margin-top: 10rem;
+  translate: -50%, 0;
 }
 @media (max-width: 56.25em) {
   .footer__row {

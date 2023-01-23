@@ -2,20 +2,26 @@
     // padding: 15rem 0;
     // height: 100vh;
     // margin-bottom: 0;
-    width: 100%;
-    background-color: $color-black;
-    // margin-top: -15rem;
+    
 
     &__container {
-        text-align: center;
+        width: 100%;
+        background-color: $color-black;
+        // margin-top: -15rem;
+        
     }
 
 
     &__logo-box {
+        text-align: center;
+    }
+
+    source {
+        margin-top: 10rem !important;
     }
 
     &__logo {
-        margin-top: 10rem
+        translate: -50%, 0;
     }
 
     &__row {
