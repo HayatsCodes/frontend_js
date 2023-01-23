@@ -692,7 +692,6 @@ body {
 }
 .footer__logo {
   margin-top: 10rem;
-  translate: -50%, 0;
 }
 @media (max-width: 56.25em) {
   .footer__row {
