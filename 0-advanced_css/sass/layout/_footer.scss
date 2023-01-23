@@ -2,23 +2,21 @@
     // padding: 15rem 0;
     // height: 100vh;
     // margin-bottom: 0;
-    @include respond(tab-port) {
-    }
+    width: 100%;
+    background-color: $color-black;
+    // margin-top: -15rem;
 
     &__container {
-        width: 100%;
-        background-color: $color-black;
-        // margin-top: -15rem;
-        
+        text-align: center;
     }
 
 
     &__logo-box {
-        text-align: center;
+
     }
 
     &__logo {
-        margin-top: 10rem !important;
+        margin-top: 10rem;
         translate: -50%, 0;
     }
 
