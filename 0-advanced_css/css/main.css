@@ -74,6 +74,7 @@ body {
 }
 @media (max-width: 56.25em) {
   body {
+    max-width: 100vw;
     padding: 0;
     margin: 0;
   }
