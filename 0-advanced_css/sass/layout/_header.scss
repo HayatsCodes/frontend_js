@@ -11,7 +11,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
     }
 
-    @media (min-resolution: 192dpi) and ()
+    @media (min-resolution: 192dpi) and (min-width: 600px) and (max-width: 1999)
 
     &__logo-box {
         position: absolute;

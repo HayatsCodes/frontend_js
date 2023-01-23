@@ -1,9 +1,9 @@
-/* Error: Expected expression.
+/* Error: expected "{".
  *    ,
- * 14 |     @media (min-resolution: 192dpi) and ()
- *    |                                          ^
+ * 14 |     @media (min-resolution: 192dpi) and (min-width: 600px) and (max-width: 1999)
+ *    |                                                                                 ^
  *    '
- *   sass\layout\_header.scss 14:42  @import
+ *   sass\layout\_header.scss 14:81  @import
  *   sass\main.scss 20:9             root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a    \2577 \a 14 \2502      @media (min-resolution: 192dpi) and ()\d\a    \2502                                           ^\a    \2575 \a   sass\\layout\\_header.scss 14:42  @import\a   sass\\main.scss 20:9             root stylesheet";
+  content: 'Error: expected "{".\a    \2577 \a 14 \2502      @media (min-resolution: 192dpi) and (min-width: 600px) and (max-width: 1999)\d\a    \2502                                                                                  ^\a    \2575 \a   sass\\layout\\_header.scss 14:81  @import\a   sass\\main.scss 20:9             root stylesheet';
 }
