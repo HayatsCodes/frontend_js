@@ -690,9 +690,6 @@ body {
 .footer__logo-box {
   text-align: center;
 }
-.footer source {
-  margin-top: 10rem !important;
-}
 .footer__logo {
   translate: -50%, 0;
 }
