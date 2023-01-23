@@ -742,7 +742,7 @@ body {
 }
 @media (max-width: 56.25em) {
   .footer__paragraph {
-    width: 100%;
+    max-width: 80%;
     text-align: center;
     margin-top: 0;
     transform: translateX(11%);
