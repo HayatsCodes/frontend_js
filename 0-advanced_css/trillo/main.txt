@@ -9,7 +9,7 @@ The container that its display is set to flex e.g display: flex;
 Flex Items:
 The children elements in flex container
 
-Main Axis:
+Main Axis (justify):
 The direction which the flex items are laid out.
 
 Cross Axis:
