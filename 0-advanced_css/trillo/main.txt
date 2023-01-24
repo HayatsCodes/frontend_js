@@ -4,4 +4,4 @@ Main FlexBox Concepts
 
 Flex container:
 The container that its display is set to flex e.g display: flex;
-    It can also be set to 
+    It can also be set to inline-flex, so that its children is 
