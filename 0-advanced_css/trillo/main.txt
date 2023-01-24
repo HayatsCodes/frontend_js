@@ -13,4 +13,7 @@ Main Axis:
 The direction which the flex items are laid out.
 
 Cross Axis:
-The direction perpendicular to the main axis 
+The direction perpendicular to the main axis
+
+
+
