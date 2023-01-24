@@ -18,5 +18,5 @@ The direction perpendicular to the main axis
 ==========================
 Flex Container Properties
 ===========================
-
+Flex-direction: row |
 
