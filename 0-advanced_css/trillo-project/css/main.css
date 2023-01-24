@@ -1,18 +1,46 @@
-/* Error: expected "{".
- *    ,
- * 18 |     Grey dark 1: #333;
- *    |                      ^
- *    '
- *   sass\_base.scss 18:22  @import
- *   sass\main.scss 1:9     root stylesheet */
+/*
+COLORS
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 18 \2502      Grey dark 1: #333;\d\a    \2502                       ^\a    \2575 \a   sass\\_base.scss 18:22  @import\a   sass\\main.scss 1:9     root stylesheet';
+
+
+*/
+::root {
+  --color-primary: #eb2f64;
+  --color-primary-light: #FF3366;
+  --color-primary-dark: #BA265D;
+  --grey-light-1: #faf9f9;
+  --grey-light-2: #f4f2f2;
+  --grey-light-3: #f0eeee;
+  --grey-light-4: #ccc;
+  --grey-dark-1: #333;
+  --grey-dark-2: #777;
+  --grey-dark-3: #999;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-image: linear-gradient(to right bottom, #eb2f64, #BA265D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=main.css.map */
