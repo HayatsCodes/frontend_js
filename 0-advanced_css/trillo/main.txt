@@ -21,4 +21,5 @@ Flex Container Properties
 Flex-direction: row | row-reverse | column | column-reverse
 Flex-wrap: nowrap | wrap | wrap-reverse
 justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
-align-items
+align-items: stretch | flex-start | flex-end | center | baseline
+align-content:
