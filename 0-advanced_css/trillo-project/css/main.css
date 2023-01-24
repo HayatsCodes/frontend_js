@@ -15,6 +15,10 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
+::root {
+  --color-primary: #eb2f64;
+}
+
 * {
   margin: 0;
   padding: 0;
