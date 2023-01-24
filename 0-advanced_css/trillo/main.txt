@@ -9,10 +9,10 @@ The container that its display is set to flex e.g display: flex;
 Flex Items:
 The children elements in flex container
 
-Main Axis (justify):
+Main Axis (justify-content):
 The direction which the flex items are laid out.
 
-Cross Axis:
+Cross Axis (align-items):
 The direction perpendicular to the main axis
 
 ==========================
