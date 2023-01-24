@@ -40,5 +40,6 @@ body {
     line-height: 1.6;
     background-image: linear-gradient(to right bottom, #eb2f64 , #BA265D);
     background-size: cover;
-
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
