@@ -1,18 +1,41 @@
-/* Error: expected "{".
- *    ,
- * 39 |     font
- *    |         ^
- *    '
- *   sass\_base.scss 39:9  @import
- *   sass\main.scss 1:9    root stylesheet */
+/*
+COLORS
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 39 \2502      font\d\a    \2502          ^\a    \2575 \a   sass\\_base.scss 39:9  @import\a   sass\\main.scss 1:9    root stylesheet';
+Primary: #eb2f64
+Primary light: #FF3366
+Primary dark: #BA265D
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+
+*/
+* {
+  margin: 0;
+  padding: 0;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background: linear-gradient();
+}
+
+/*# sourceMappingURL=main.css.map */
