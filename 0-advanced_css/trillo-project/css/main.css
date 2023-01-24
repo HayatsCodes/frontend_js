@@ -1,37 +1,18 @@
-/*
-COLORS
+/* Error: Expected expression.
+ *    ,
+ * 32 |     font-size: ;
+ *    |                ^
+ *    '
+ *   sass\_base.scss 32:16  @import
+ *   sass\main.scss 1:9     root stylesheet */
 
-Primary: #eb2f64
-Primary light: #FF3366
-Primary dark: #BA265D
-
-Grey light 1: #faf9f9
-Grey light 2: #f4f2f2
-Grey light 3: #f0eeee
-Grey light 4: #ccc
-
-Grey dark 1: #333
-Grey dark 2: #777
-Grey dark 3: #999
-
-*/
-* {
-  margin: 0;
-  padding: 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a    \2577 \a 32 \2502      font-size: ;\d\a    \2502                 ^\a    \2575 \a   sass\\_base.scss 32:16  @import\a   sass\\main.scss 1:9     root stylesheet";
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #eb2f64;
-}
-
-/*# sourceMappingURL=main.css.map */
