@@ -1,9 +1,9 @@
 /* Error: expected "{".
  *    ,
- * 14 |     Grey light 2: #f4f2f2;
- *    |                          ^
+ * 18 |     Grey dark 1: #333;
+ *    |                      ^
  *    '
- *   sass\_base.scss 14:26  @import
+ *   sass\_base.scss 18:22  @import
  *   sass\main.scss 1:9     root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 14 \2502      Grey light 2: #f4f2f2;\d\a    \2502                           ^\a    \2575 \a   sass\\_base.scss 14:26  @import\a   sass\\main.scss 1:9     root stylesheet';
+  content: 'Error: expected "{".\a    \2577 \a 18 \2502      Grey dark 1: #333;\d\a    \2502                       ^\a    \2575 \a   sass\\_base.scss 18:22  @import\a   sass\\main.scss 1:9     root stylesheet';
 }
