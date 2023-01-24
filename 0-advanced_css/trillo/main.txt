@@ -2,4 +2,5 @@
 Main FlexBox Concepts
 =========================
 
-F
+Flex container:
+The container that its display is set to flex e.g display: flex;
