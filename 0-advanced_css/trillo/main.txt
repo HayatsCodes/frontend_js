@@ -10,3 +10,6 @@ Flex Items:
 The children elements in flex container
 
 Main Axis:
+The direction which the flex items are laid out.
+
+
