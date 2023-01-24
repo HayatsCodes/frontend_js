@@ -19,4 +19,5 @@ The direction perpendicular to the main axis
 Flex Container Properties
 ===========================
 Flex-direction: row | row-reverse | column | column-reverse
-
+Flex-wrap: nowrap | wrap | wrap-reverse
+justify-content
