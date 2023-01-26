@@ -19,7 +19,9 @@
 .sidebar {
     background-color: #333;
 
-    flex: 0 0 18%; // Flex-grow:
+    flex: 0 0 18%; 
+    // Flex-grow: it won't grow to the amount of space available
+    // Flex-shrink: 
 }
 
 .hotel-view {
