@@ -1,41 +1,18 @@
-::root {
-  --color-primary: #eb2f64;
-  --color-primary-light: #FF3366;
-  --color-primary-dark: #BA265D;
-  --color-grey-light-1: #faf9f9;
-  --color-grey-light-2: #f4f2f2;
-  --color-grey-light-3: #f0eeee;
-  --color-grey-light-4: #ccc;
-  --color-grey-dark-1: #333;
-  --color-grey-dark-2: #777;
-  --color-grey-dark-3: #999;
-}
+/* Error: Expected expression.
+ *   ,
+ * 2 |     max-width: ;
+ *   |                ^
+ *   '
+ *   sass\_layout.scss 2:16  @import
+ *   sass\main.scss 3:9      root stylesheet */
 
-* {
-  margin: 0;
-  padding: 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a   \2577 \a 2 \2502      max-width: ;\d\a   \2502                 ^\a   \2575 \a   sass\\_layout.scss 2:16  @import\a   sass\\main.scss 3:9      root stylesheet";
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  color: var(--color-grey-dark-2);
-  background-image: linear-gradient(to right bottom, #eb2f64, #BA265D);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-
-/*# sourceMappingURL=main.css.map */
