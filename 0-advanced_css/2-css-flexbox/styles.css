@@ -19,21 +19,25 @@
   }
 
   .one {
-    flex
+    flex: auto;
   }
 
   .two {
+    flex: auto;
   }
 
   .three {
+    flex: auto;
 
   }
 
   .four {
+    flex: auto;
 
   }
 
   .five {
+    flex: auto;
 
   }
 
