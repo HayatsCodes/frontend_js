@@ -64,7 +64,9 @@
             /* place-content (shorthand) :   "    "      "           "  "  both axis above*/
         
         /* Flexbox alignment: for aligning flex items*/
-            /*  */
+            /* align-self: aligns a single item on the cross axis */
+            /* align-items: aligns all of the items as a group on the cross axis */
+
 
 
 
