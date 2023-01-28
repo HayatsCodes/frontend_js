@@ -4,10 +4,13 @@
     height: 50vh;
     display: flex;
     /* flex-direction: column; */
+
     flex-wrap: wrap;
     /* flex-flow property is a shorthand for both
     flex-direction and flex-wrap properties*/
     /* flex-flow: row wrap; */
+    
+    flex-basis: 0;
   }
 
   .container > div {
@@ -16,7 +19,6 @@
     margin-left: 2px;
   }
 
-  
 
 
   /* Notes */
