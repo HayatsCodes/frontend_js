@@ -19,11 +19,11 @@
   }
 
   .one {
-    flex: 1;
+    flex: 1 1 auto;
   }
 
   .two {
-    flex: 2 1 0;
+    flex: 2 1 auto;
   }
 
   .three {
