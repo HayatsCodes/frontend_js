@@ -20,16 +20,17 @@
 
   .one {
     flex: 1 1 auto;
-    orde
+    order: 1;
   }
 
   .two {
     flex: 2 1 auto;
+    order: 2;
   }
 
   .three {
     flex: 3 1 auto;
-
+    order: 4;
   }
 
   .four {
