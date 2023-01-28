@@ -60,7 +60,8 @@
     
         /* Flexbox alignment: are properties for space distribution */
             /* justify-content: for space distribution on the main-axis */
-            /* alig */
+            /* align-content:   "    "      "           "  "  cross-axis */
+            /* place-content:   "    "      "           "  "  cross-axis */
 
 
 
