@@ -5,7 +5,8 @@
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
-    /* flex-flow property is a shorthand for both   */
+    /* flex-flow property is a shorthand for both
+    flex-direction and flex-wrap properties*/
   }
 
   .container > div {
@@ -17,5 +18,5 @@
 
   /* Notes */
 
-  /* Flexbox is one dimensional because one can only control
-  flexbox containers in one axis (i.e row or column/ main-axis or cross axis)*/
+  /* Flexbox is one dimensional because one can only 
+    control flexbox containers in one axis (i.e row or column/ main-axis or cross axis)*/
