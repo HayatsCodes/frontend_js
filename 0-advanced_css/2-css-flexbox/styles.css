@@ -8,5 +8,7 @@
   }
 
   .container > div {
+    border: 1px xolid black;
+    padding: 5px;
     margin-left: 2px;
   }
