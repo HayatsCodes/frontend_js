@@ -1,6 +1,7 @@
 .container {
     background-color: aqua;
-    width: 50%;
-    height: 50%;
+    width: 50vw;
+    height: 50vh;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+  }
