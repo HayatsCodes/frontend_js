@@ -10,13 +10,32 @@
     flex-direction and flex-wrap properties*/
     /* flex-flow: row wrap; */
     
-    flex-basis: 0;
   }
 
   .container > div {
     border: 1px solid black;
     padding: 5px;
     margin-left: 2px;
+  }
+
+  .one {
+
+  }
+
+  .two {
+    
+  }
+
+  .three {
+
+  }
+
+  .four {
+
+  }
+
+  .five {
+
   }
 
 
