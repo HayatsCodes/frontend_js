@@ -20,11 +20,11 @@
 
   .one {
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 0;
   }
 
   .two {
-    
+    flex-shrink: 1;
   }
 
   .three {
