@@ -20,26 +20,25 @@
 
   .one {
     width: 25%;
-    padding: 10px;
-    flex: auto;
+    flex: 1;
   }
 
   .two {
-    flex: auto;
+    flex: 1;
   }
 
   .three {
-    flex: auto;
+    flex: 1;
 
   }
 
   .four {
-    flex: auto;
+    flex: 1;
 
   }
 
   .five {
-    flex: auto;
+    flex: 1;
 
   }
 
