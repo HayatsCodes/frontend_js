@@ -19,7 +19,8 @@
   }
 
   .one {
-    
+    width: 25%;
+    padding: 10px;
     flex: auto;
   }
 
