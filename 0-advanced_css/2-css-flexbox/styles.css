@@ -52,4 +52,4 @@
   /* Flexbox is one dimensional because one can only 
     control flexbox containers in one axis (i.e row or column/ main-axis or cross axis)*/
 
-/* the lower the order number the higher it is in the layout */
+/* Order: the lower the order number the higher it is in the layout */
