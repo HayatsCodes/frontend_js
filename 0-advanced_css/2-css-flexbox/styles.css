@@ -58,10 +58,12 @@
 
         /* Order: the lower the order number the higher it is in the layout */
     
-        /* Flexbox alignment: are properties for space distribution */
+        /* Flexbox space distribution: are properties for space distribution */
             /* justify-content: for space distribution on the main-axis */
             /* align-content:   "    "      "           "  "  cross-axis */
             /* place-content (shorthand) :   "    "      "           "  "  both axis above*/
+        
+        /* Flex box */
 
 
 
