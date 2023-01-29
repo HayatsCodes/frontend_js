@@ -1,11 +1,12 @@
 .container {
+    box-sizing: border-box;
     width: 70vw;
     height: 50vh;
     background-color: aquamarine;
     display: grid;
     border: 1px solid black;
     grid-template-columns: 5em 100px 30%;
-    grid-template-rows: 35vh auto;
+    grid-template-rows: 25vh 25vh;
     gap: 10px;
 }
 
