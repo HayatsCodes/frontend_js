@@ -30,3 +30,4 @@
         /* min-content: it makes a track as narrow as the longest word */
         /* max-content: it will be wide enough to contain all the content. */
         /* fit-content(): it will be wide enough for the contents until it reaches the length passed to the function i.e fit-content(7rem) */
+        
