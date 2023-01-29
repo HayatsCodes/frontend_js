@@ -10,7 +10,7 @@
     flex-direction and flex-wrap properties*/
     /* flex-flow: row wrap; */
     
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .container > div {
