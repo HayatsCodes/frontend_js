@@ -1,5 +1,6 @@
 .container {
     width: 70vw;
+    background-color: aquamarine;
     display: grid;
     border: 1px solid black;
     grid-template-columns: 5em 100px 30%;
