@@ -4,7 +4,7 @@
     background-color: aquamarine;
     display: grid;
     border: 1px solid black;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 200px repeat(2, 1fr 2fr) 200px;;
     grid-template-rows: 25vh auto;
     gap: 1rem;
 }
