@@ -26,4 +26,6 @@
     /* Gaps: a gutter between tracks. it acts like a regular track but item can not be placed in it */
     /* Grid container: an element that has display: grid; property set */
     /* Grid item: the direct children of the grid container */
-    /*  */
+    /* intrinsic sizing keywords: */
+        /* min-content: it makes a track as narrow as the longest word */
+        /*  */
