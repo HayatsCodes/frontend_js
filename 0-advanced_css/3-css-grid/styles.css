@@ -4,6 +4,7 @@
     background-color: aquamarine;
     display: grid;
     border: 1px solid black;
+    
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-template-rows: 200px auto;
     /* gap: .5rem; */
