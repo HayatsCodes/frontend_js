@@ -28,4 +28,5 @@
     /* Grid item: the direct children of the grid container */
     /* intrinsic sizing keywords: */
         /* min-content: it makes a track as narrow as the longest word */
+        /* max-content: it will be wide enough to contain all the content. */
         /*  */
