@@ -1,5 +1,7 @@
 .container {
+    width: 70vw;
     display: grid;
+    border: 1px solid black;
     grid-template-columns: 5em 100px 30%;
     grid-template-rows: 200px auto;
     gap: 10px;
