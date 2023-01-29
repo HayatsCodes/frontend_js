@@ -8,4 +8,5 @@
     /* Grid cell: the smallest space on a grid */
     /* Grid araea: combination of 2 or more grid cells */
     /* Gaps: a gutter between tracks. it acts like a regular track but item can not be placed in it */
-    /* Grid container: a container  */
+    /* Grid container: an element that has display: grid; property set */
+    /* Grid item: the direct children of the grid container */
