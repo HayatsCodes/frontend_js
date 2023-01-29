@@ -10,8 +10,9 @@
     flex-direction and flex-wrap properties*/
     /* flex-flow: row wrap; */
     
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center;
+    align-content: center; */
+    place-content: center;
 
   }
 
