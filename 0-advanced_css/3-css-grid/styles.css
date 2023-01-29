@@ -5,7 +5,7 @@
     display: grid;
     border: 1px solid black;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fill, auto);
+    grid-template-rows: 200px auto;
     gap: 1rem;
 }
 
