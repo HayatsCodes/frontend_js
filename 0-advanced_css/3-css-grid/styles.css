@@ -4,7 +4,7 @@
     background-color: aquamarine;
     display: grid;
     border: 1px solid black;
-    grid-template-columns: 30vw 30vw minmax(auto, 1fr);
+    grid-template-columns: repe;
     grid-template-rows: 25vh auto;
     gap: 1rem;
 }
