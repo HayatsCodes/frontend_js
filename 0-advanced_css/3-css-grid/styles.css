@@ -8,6 +8,7 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: 200px auto;
     /* gap: .5rem; */
+    grid-
 }
 
 .item {
