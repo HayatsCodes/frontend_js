@@ -9,7 +9,7 @@
     grid-template-rows: 200px auto;
     gap: 1rem 2rem;
     grid-template-areas: 
-    "sidebar col-1 col-2"
+    "sidebar col-2 col-2"
     "sidebar col-3"
     "sidebar col-4"
     "sidebar col-5 col-5 col-6"
@@ -27,7 +27,7 @@
 }
 
 .item-2 {
-    grid-area: col-1;
+    grid-area: col-2;
 }
 
 .item-3 {
@@ -35,12 +35,16 @@
 }
 
 .item-4 {
-    
+    grid-area: col-3;
 }
 
 .item-5 {
     /* grid-column-end: span 2; */
     grid-area: col-5;
+}
+
+.item-6 {
+
 }
 
 /* Notes */
