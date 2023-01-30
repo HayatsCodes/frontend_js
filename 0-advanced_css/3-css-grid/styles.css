@@ -1,33 +1,39 @@
 .container {
+  box-sizing: border-box;
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 
-    
-    border: 1px solid black;
-    width: 90%;
-    min-height: 50vh;
-    background-color: aquamarine;
-    display: grid;
-    /* grid-auto-flow: column; */
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: 200px auto;
-    gap: 1rem 2rem;
-    /* grid-template-areas: 
+  background: rgba(114, 186, 94, 0.05);
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+
+  border: 1px solid black;
+  width: 90%;
+  min-height: 50vh;
+  display: grid;
+  /* grid-auto-flow: column; */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 200px auto;
+  gap: 1rem 2rem;
+  /* grid-template-areas: 
     "sidebar col-1 col-2"
     "sidebar col-3 col-3"
     "sidebar col-4 col-5"
     "sidebar col-6 col-6"
     ; */
-    /* padding: 2rem; */
-    justify-content: start;
+  /* padding: 2rem; */
+  justify-content: start;
 }
 
 .item {
-     border: 1px solid gray;
-     padding: 5px;
+  border: 1px solid gray;
+  padding: 5px;
 }
 
 .item-1 {
-    grid-row-end: span 2;
-    /* grid-area: sidebar; */
+  grid-row-end: span 2;
+  /* grid-area: sidebar; */
 }
 
 /* .item-2 {
@@ -43,8 +49,8 @@
 } */
 
 .item-5 {
-    grid-column-end: span 2;
-    /* grid-area: col-5; */
+  grid-column-end: span 2;
+  /* grid-area: col-5; */
 }
 
 /* .item-6 {
@@ -54,17 +60,17 @@
 /* Notes */
 
 /* Grid is a 2-dimensional layout system */
-    /* Grid lines: vertical and horizontal lines found in a grid */
-    /* Grid tracks: the space between 2 grid lines */
-        /* column-track: space betwwwn two column lines */
-        /* row-track: space between two row lines */
-    /* Grid cell: the smallest space on a grid */
-    /* Grid araea: combination of 2 or more grid cells */
-    /* Gaps: a gutter between tracks. it acts like a regular track but item can not be placed in it */
-    /* Grid container: an element that has display: grid; property set */
-    /* Grid item: the direct children of the grid container */
-    /* intrinsic sizing keywords: */
-        /* min-content: it makes a track as narrow as the longest word */
-        /* max-content: it will be wide enough to contain all the content. */
-        /* fit-content(): it will be wide enough for the contents until it reaches the length passed to the function i.e fit-content(7rem) */
-    /* min-max() function: used to set the minimum and maximum size of a track*/
+/* Grid lines: vertical and horizontal lines found in a grid */
+/* Grid tracks: the space between 2 grid lines */
+/* column-track: space betwwwn two column lines */
+/* row-track: space between two row lines */
+/* Grid cell: the smallest space on a grid */
+/* Grid araea: combination of 2 or more grid cells */
+/* Gaps: a gutter between tracks. it acts like a regular track but item can not be placed in it */
+/* Grid container: an element that has display: grid; property set */
+/* Grid item: the direct children of the grid container */
+/* intrinsic sizing keywords: */
+/* min-content: it makes a track as narrow as the longest word */
+/* max-content: it will be wide enough to contain all the content. */
+/* fit-content(): it will be wide enough for the contents until it reaches the length passed to the function i.e fit-content(7rem) */
+/* min-max() function: used to set the minimum and maximum size of a track*/
