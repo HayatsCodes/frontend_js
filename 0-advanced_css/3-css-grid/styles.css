@@ -23,7 +23,7 @@
     "sidebar col-6 col-6"
     ; */
   /* padding: 2rem; */
-  justify-items: center;
+  justify-items: end;
 }
 
 .item {
