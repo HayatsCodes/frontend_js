@@ -10,9 +10,9 @@
     gap: 1rem 2rem;
     grid-template-areas: 
     "sidebar col-1 col-2"
-    "sidebar col-3"
-    "sidebar col-4 "
-    "sidebar col-5 col-5"
+    "sidebar col-3 col-4"
+    "sidebar col-5 col-6"
+    "sidebar col-7"
     ;
 }
 
