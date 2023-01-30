@@ -27,7 +27,7 @@
 }
 
 .item-2 {
-    
+    grid-area: col-1;
 }
 
 .item-5 {
