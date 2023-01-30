@@ -1,6 +1,6 @@
 .container {
     border: 1px solid black;
-    width: 80vw;
+    width: 100%;
     min-height: 500px;
     background-color: aquamarine;
     display: grid;
