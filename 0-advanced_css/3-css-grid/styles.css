@@ -1,11 +1,11 @@
 .container {
     border: 1px solid black;
     width: 80vw;
-    min-height: 50vh;
+    min-height: 500px;
     background-color: aquamarine;
     display: grid;
     /* grid-auto-flow: column; */
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-template-rows: 200px auto;
     gap: 1rem 2rem;
     /* grid-template-areas: 
@@ -14,8 +14,8 @@
     "sidebar col-4 col-5"
     "sidebar col-6 col-6"
     ; */
-    padding: 2rem;
-    /* justify-content: start; */
+    /* padding: 2rem; */
+    justify-content: center;
 }
 
 .item {
