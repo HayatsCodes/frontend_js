@@ -23,11 +23,16 @@
 
 .item-1 {
     /* grid-row-end: span 2; */
-    grid-area: ;
+    grid-area: sidebar;
+}
+
+.item-2 {
+    
 }
 
 .item-5 {
     /* grid-column-end: span 2; */
+    grid-area: col-5;
 }
 
 /* Notes */
