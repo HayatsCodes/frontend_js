@@ -51,6 +51,7 @@
 
 .item-5 {
   grid-column-end: span 2;
+  justify-self: start;
   /* grid-area: col-5; */
 }
 
