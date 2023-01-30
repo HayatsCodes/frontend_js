@@ -43,7 +43,7 @@
 }
 
 .item-6 {
-    
+    grid-area: col-6;
 }
 
 /* Notes */
