@@ -9,7 +9,8 @@
     grid-template-rows: 200px auto;
     gap: 1rem 2rem;
     grid-template-areas: 
-    "header header"
+    "header col-1"
+    "sidebar content"
     "sidebar content"
     ;
 }
