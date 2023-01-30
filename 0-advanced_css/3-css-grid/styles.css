@@ -12,8 +12,10 @@
     "sidebar col-1 col-2"
     "sidebar col-3 col-3"
     "sidebar col-4 col-5"
-    "sidebar col-6 col-6" */
-    ;
+    "sidebar col-6 col-6"
+    ; */
+    padding: ;
+    justify-content: center;
 }
 
 .item {
