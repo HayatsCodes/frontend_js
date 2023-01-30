@@ -24,7 +24,7 @@
     ; */
   /* padding: 2rem; */
   justify-items: end;
-  justify-content: center;
+  align-items: center;
 }
 
 .item {
