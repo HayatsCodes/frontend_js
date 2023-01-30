@@ -8,11 +8,11 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: 200px auto;
     gap: 1rem 2rem;
-    grid-template-areas: 
+    /* grid-template-areas: 
     "sidebar col-1 col-2"
     "sidebar col-3 col-3"
     "sidebar col-4 col-5"
-    "sidebar col-6 "
+    "sidebar col-6 col-6" */
     ;
 }
 
@@ -22,11 +22,11 @@
 }
 
 .item-1 {
-    /* grid-row-end: span 2; */
-    grid-area: sidebar;
+    grid-row-end: span 2;
+    /* grid-area: sidebar; */
 }
 
-.item-2 {
+/* .item-2 {
     grid-area: col-1;
 }
 
@@ -36,16 +36,16 @@
 
 .item-4 {
     grid-area: col-3;
-}
+} */
 
 .item-5 {
     /* grid-column-end: span 2; */
     grid-area: col-5;
 }
 
-.item-6 {
+/* .item-6 {
     grid-area: col-6;
-}
+} */
 
 /* Notes */
 
