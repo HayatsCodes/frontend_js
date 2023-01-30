@@ -39,8 +39,8 @@
 } */
 
 .item-5 {
-    /* grid-column-end: span 2; */
-    grid-area: col-5;
+    grid-column-end: span 2;
+    /* grid-area: col-5; */
 }
 
 /* .item-6 {
