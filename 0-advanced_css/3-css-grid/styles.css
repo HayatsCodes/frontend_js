@@ -8,7 +8,10 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: 200px auto;
     gap: 1rem 2rem;
-    gri
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    ;
 }
 
 .item {
@@ -17,11 +20,11 @@
 }
 
 .item-1 {
-    grid-row-end: span 2;
+    /* grid-row-end: span 2; */
 }
 
 .item-5 {
-    grid-column-end: span 2;
+    /* grid-column-end: span 2; */
 }
 
 /* Notes */
